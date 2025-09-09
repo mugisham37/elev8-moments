@@ -1,0 +1,446 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Accueil",
+      "about": "À propos",
+      "services": "Nos Services",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "cta": {
+      "consultation": "Réserver une Consultation",
+      "freeConsultation": "Réserver une Consultation Gratuite",
+      "learnMore": "En Savoir Plus sur Nos Services"
+    },
+    "footer": {
+      "rights": "Tous droits réservés",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "description": "Elev8 Media est une agence créative dédiée au marketing numérique et à la production de podcasts, construite pour élever la voix, la stratégie et l'impact de votre marque.",
+      "quickLinks": "Liens Rapides",
+      "ourServices": "Nos Services",
+      "socialMedia": "Gestion des Médias Sociaux",
+      "contentCreation": "Création de Contenu",
+      "podcastProduction": "Production de Podcast",
+      "contactUs": "Contactez-Nous",
+      "address": "Kigali, Rwanda",
+      "email": "info@elev8rwanda.com",
+      "phone": "+250 788 123 456",
+      "businessHours": "HEURES D'OUVERTURE",
+      "weekdayHours": "Lundi - Vendredi: 9h - 17h",
+      "saturdayHours": "Samedi: 10h - 14h",
+      "sundayClosed": "Dimanche: Fermé"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Élever les marques et créer des",
+      "subtitle": "Marketing sur les réseaux sociaux, production de podcasts, planification d'événements et services de cadeaux",
+      "storytelling": "expériences mémorables",
+      "bookFreeCall": "Réserver une consultation gratuite",
+      "featuredService": "Service en vedette",
+      "strategicBrand": "Développement stratégique de marque",
+      "premiumServices": "Services Premium",
+      "brandStory": "Notre histoire de marque",
+      "closeModal": "Fermer la fenêtre",
+      "altText": "Services Elev8 Rwanda"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Des solutions complètes pour aider votre marque à se démarquer",
+      "expertise": "Notre Expertise",
+      "mediaServices": "Services Elev8 Media",
+      "viewAll": "Voir Tout",
+      "premiumServices": "Nos Services Premium",
+      "discoverServices": "Découvrez nos services spécialisés conçus pour élever la présence de votre marque et créer des expériences mémorables",
+      "altText": {
+        "digitalMarketing": "Marketing Numérique",
+        "podcastProduction": "Production de Podcasts",
+        "communications": "Conseil en Communications"
+      },
+      "srOnly": {
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "linkedin": "LinkedIn"
+      },
+      "digitalMarketing": {
+        "title": "Marketing Numérique",
+        "description": "Nous aidons les marques à construire une présence en ligne organique et fiable grâce à un contenu stratégique, un engagement constant et une croissance centrée sur la communauté."
+      },
+      "podcastProduction": {
+        "title": "Production de Podcasts",
+        "description": "Nous soutenons les organisations à impact dans l'utilisation de podcasts comme plateforme supplémentaire pour présenter leur travail, susciter des conversations et atteindre de nouveaux publics."
+      },
+      "communications": {
+        "title": "Conseil en Communications",
+        "description": "Nous conseillons les marques sur la façon d'améliorer leur messagerie sur toutes les plateformes, des médias sociaux aux sites web pour une communication plus claire et plus efficace."
+      },
+      "learnMore": "En Savoir Plus",
+      "bookConsultation": "Réserver une Consultation"
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi Nous Choisir",
+      "subtitle": "Nous offrons des résultats exceptionnels grâce à notre approche unique",
+      "heading": "Élevez Votre Marque avec Notre Expertise",
+      "helpText": "Voici comment nous vous aidons :",
+      "features": {
+        "planSmart": {
+          "title": "Nous planifions intelligemment.",
+          "description": "Chaque marque a besoin de plus que du contenu — elle a besoin d'une stratégie."
+        },
+        "createIntentionally": {
+          "title": "Nous créons intentionnellement.",
+          "description": "Des visuels à la voix, tout ce que nous créons s'aligne sur vos objectifs."
+        },
+        "measureMatters": {
+          "title": "Nous mesurons ce qui compte.",
+          "description": "Avec des rapports clairs et des insights, vous saurez toujours ce qui fonctionne."
+        },
+        "growCommunities": {
+          "title": "Nous développons des communautés.",
+          "description": "Au-delà des abonnés, nous nous concentrons sur l'engagement réel et les audiences fidèles."
+        }
+      },
+      "ctaText": "Élevons Votre Marque Ensemble"
+    },
+    "testimonials": {
+      "title": "Ce que Disent Nos Clients",
+      "subtitle": "Écoutez les marques que nous avons aidées à s'élever",
+      "testimonialLabel": "Témoignages",
+      "testimonials": {
+        "abdullah": {
+          "name": "Abdullah Hakizimana",
+          "position": "PDG et Fondateur",
+          "company": "Mr. Endowed Clothing",
+          "quote": "Elev8 Media a joué un rôle déterminant dans la gestion de notre communauté. Ils gèrent les demandes des clients et les messages directs avec facilité, assurant toujours une communication rapide et réfléchie. Au-delà de cela, leurs idées de campagne nous ont aidés à rester connectés avec notre public, et leurs stratégies d'engagement ont maintenu la présence forte de notre marque. Leur contribution aux idées de contenu a été inestimable pour maintenir la voix de Mr. Endowed, et ils ont été une partie irremplaçable de notre croissance."
+        },
+        "memory": {
+          "name": "Memory",
+          "position": "Responsable de la Sensibilisation",
+          "company": "E3 International",
+          "quote": "Travailler avec Elev8 Media sur notre conférence sur le cancer a été un véritable changement de donne. Ils ont construit notre présence sur les médias sociaux à partir de zéro, créant du contenu engageant et dirigeant nos efforts de sensibilisation de manières que nous n'avions pas pensé possibles. Leur campagne pour amener des prestataires de soins de santé à l'événement a été incroyablement réussie, et les rapports bihebdomadaires qu'ils ont fournis nous ont permis de suivre les progrès et de nous adapter rapidement. Nous avons été ravis des résultats, et l'engagement en ligne de l'événement était la preuve de son dévouement et de son expertise."
+        },
+        "eugene": {
+          "name": "Eugene Ishimwe",
+          "position": "Directeur Général",
+          "company": "MA Africa",
+          "quote": "Le travail d'Elev8 Media sur des événements comme Kigali Kulture Konnect et Tour du Rwanda a été une bouffée d'air frais. Leurs stratégies de campagne ont donné vie à nos promotions d'événements, et leur gestion de nos canaux de médias sociaux a maintenu le public engagé et excité. Leur capacité à stimuler l'engagement et même à gérer les ventes de billets en ligne était exceptionnelle. Elev8 Media est une organisation exceptionnelle qui sait comment transformer les idées en action, et nous n'aurions pas pu demander de meilleurs résultats."
+        }
+      },
+      "altText": "Témoignage client",
+      "rating": "Évaluation"
+    },
+    "blog": {
+      "title": "Dernières Actualités de Notre Blog",
+      "subtitle": "Perspectives et mises à jour de notre équipe",
+      "readMore": "Lire Plus"
+    },
+    "cta": {
+      "title": "Prêt à Élever Votre Marque?",
+      "subtitle": "Travaillons ensemble pour créer des expériences exceptionnelles"
+    },
+    "newsletter": {
+      "title": "Abonnez-vous à notre newsletter",
+      "subtitle": "Restez informé de nos dernières actualités et perspectives",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'abonner"
+    },
+    "team": {
+      "title": "Rencontrez Notre Équipe",
+      "subtitle": "Les personnes talentueuses derrière le succès d'Elev8 Media",
+      "members": {
+        "sandra": {
+          "name": "Sandra Mushambokazi",
+          "position": "Fondatrice et Directrice Créative",
+          "bio": "Supervise la stratégie, l'exécution créative et la livraison aux clients, s'assurant que chaque projet s'aligne sur des objectifs clairs et une messagerie de marque forte.",
+          "instagram": "http://instagram.com/sandra_umushambokazi/",
+          "linkedin": "https://www.linkedin.com/in/sandra-mushambokazi/"
+        },
+        "moustapha": {
+          "name": "Moustapha Iradukunda",
+          "position": "Responsable Technique",
+          "bio": "Développeur Fullstack",
+          "instagram": "https://www.instagram.com/mousty__i/",
+          "linkedin": "https://www.linkedin.com/in/mousty/"
+        },
+        "moses": {
+          "name": "Moses Mugisha",
+          "position": "Développeur Fullstack",
+          "bio": "Un résolveur de problèmes polyvalent qui fait le pont entre l'esthétique front-end et la fonctionnalité back-end, donnant vie aux produits numériques grâce au code, à la créativité et à l'expertise technique.",
+          "instagram": "https://www.instagram.com/ngoniayididi/",
+          "linkedin": "https://www.linkedin.com/in/mugishamoses/"
+        },
+        "teta": {
+          "name": "Teta Angle",
+          "position": "Assistante d'Affaires",
+          "bio": "Assistante d'affaires efficace et proactive dédiée à la rationalisation des opérations et à l'anticipation des besoins avant qu'ils ne surviennent."
+        },
+        "eloi": {
+          "name": "Rwamitari Frank Eloi",
+          "position": "Photographe et vidéaste basé à Dubaï"
+        },
+        "mbabazi": {
+          "name": "MBABAZI Roger Dieu Merci",
+          "position": "Photographe et vidéaste basé au Rwanda"
+        }
+      },
+      "altText": "Photo de membre de l'équipe",
+      "ariaLabels": {
+        "instagram": "Visiter le profil Instagram",
+        "linkedin": "Visiter le profil LinkedIn"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À propos d'Elev8 Rwanda",
+      "subtitle": "Élever les marques et créer des expériences mémorables au Rwanda et au-delà"
+    },
+    "mission": {
+      "title": "Notre Mission et Vision",
+      "vision": "Devenir une agence créative de premier plan connue pour élever des voix significatives, transformer des marques axées sur un objectif et produire des histoires numériques percutantes à travers l'Afrique et au-delà.",
+      "mission": "Donner aux marques les moyens d'agir grâce à un marketing numérique stratégique et à la production de podcasts qui favorisent un engagement significatif, construisent des communautés fidèles et stimulent une croissance mesurable."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": {
+        "purpose": {
+          "title": "L'Objectif Avant les Tendances",
+          "description": "Nous créons avec intention. Chaque stratégie et chaque contenu est aligné sur la mission de la marque, pas seulement sur ce qui est tendance."
+        },
+        "clarity": {
+          "title": "Clarté dans la Communication",
+          "description": "Nous croyons en une messagerie honnête, simple et efficace, tant dans notre façon de travailler que dans la façon dont nous aidons les marques à se présenter en ligne."
+        },
+        "community": {
+          "title": "Croissance Centrée sur la Communauté",
+          "description": "Nous construisons plus que des suiveurs — nous aidons les marques à développer des communautés loyales et engagées qui durent au-delà des algorithmes."
+        },
+        "excellence": {
+          "title": "Excellence dans l'Exécution",
+          "description": "De la conception à la livraison, nous maintenons un standard élevé pour tout ce que nous produisons. Nous valorisons la précision, la cohérence et la qualité."
+        },
+        "impact": {
+          "title": "Impact Plutôt que Battage",
+          "description": "Nous privilégions les résultats qui comptent — engagement, visibilité, connexion — plutôt que les métriques de vanité et le bruit à court terme."
+        },
+        "collaboration": {
+          "title": "Collaboration d'Abord",
+          "description": "Nous travaillons en étroite collaboration avec nos clients, traitant chaque projet comme un partenariat basé sur la confiance, la transparence et des objectifs partagés."
+        }
+      }
+    },
+    "story": {
+      "title": "Notre Histoire de Marque",
+      "content": [
+        "Elev8 Media a été créé pour aider les marques à se démarquer dans le bruit numérique avec une stratégie claire, une narration intelligente et une exécution cohérente.",
+        "Nous avons observé un schéma. Les marques avaient de grandes idées, des missions puissantes ou des produits de qualité, mais manquaient de systèmes de communication pour se développer en ligne. Trop souvent, elles publiaient sans objectif, créaient du contenu sans connexion, ou simplement ne se montraient pas du tout.",
+        "Elev8 Media existe pour résoudre ce problème. Grâce à une stratégie de marque, du contenu, la production de podcasts et des conseils en communication, nous aidons les marques axées sur un objectif à développer leur visibilité, à croître avec intention et à se connecter de manière significative avec leur public.",
+        "Nous ne sommes pas là pour suivre les tendances, nous sommes là pour construire des marques qui durent."
+      ]
+    },
+    "founder": {
+      "title": "Rencontrez la Fondatrice",
+      "content": [
+        "Sandra Mushambokazi est une stratège numérique, directrice créative et entrepreneure qui a transformé une passion personnelle en une agence axée sur un objectif. Son parcours dans le marketing numérique a commencé il y a quatre ans alors qu'elle travaillait comme responsable des ventes, où elle s'est naturellement tournée vers la création de contenu et l'engagement du public.",
+        "Ce qui a commencé comme un intérêt secondaire s'est rapidement transformé en conseil pour les startups, et finalement, la fondation d'Elev8 Media, une agence construite pour aider les marques à se développer grâce à la stratégie, la narration et une présence numérique cohérente. Au cours des deux dernières années, Sandra a collaboré avec des clients de diverses industries, fournissant des solutions sur mesure en marketing numérique et production de podcasts.",
+        "Avec une solide base en communication et gestion de projet, elle dirige Elev8 Media en mettant l'accent sur la clarté, l'exécution et l'impact. Son objectif est simple : aider les marques à se développer avec intention et à se présenter de manière significative dans l'espace numérique."
+      ],
+      "connect": "Connectez-vous sur LinkedIn"
+    },
+    "portfolio": {
+      "title": "Notre Portfolio",
+      "subtitle": "Une vitrine de nos travaux récents et projets clients réussis"
+    },
+    "gallery": {
+      "title": "Notre Galerie",
+      "subtitle": "Travail créatif depuis le terrain",
+      "description": "Travail capturé par notre photographe et vidéaste interne, servant maintenant des clients à Dubaï"
+    },
+    "cta": {
+      "title": "Prêt à Élever Votre Marque?",
+      "subtitle": "Travaillons ensemble pour créer des expériences exceptionnelles et des stratégies marketing puissantes"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services que nous offrons.",
+      "subtitle": "Prêt à vous démarquer dans le paysage numérique? Créons ensemble quelque chose d'exceptionnel."
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Des solutions complètes pour aider votre marque à se démarquer dans le paysage numérique.",
+      "digital_marketing": {
+        "title": "MARKETING NUMÉRIQUE",
+        "description": "Solutions complètes de marketing numérique pour élever la présence en ligne et l'engagement de votre marque.",
+        "features": [
+          "Audit et stratégie des comptes de médias sociaux",
+          "Calendrier de contenu",
+          "Création de contenu",
+          "Optimisation SEO",
+          "Gestion des publicités",
+          "Gestion de la communauté et des comptes",
+          "Gestion de campagne",
+          "Rapports et analyses"
+        ]
+      },
+      "podcast_production": {
+        "title": "PRODUCTION DE PODCASTS",
+        "description": "Services de production de podcasts de bout en bout pour vous aider à partager votre expertise et à vous connecter avec votre public.",
+        "features": [
+          "Idéation et stratégie",
+          "Production audio et vidéo",
+          "Gestion des hôtes/invités",
+          "Réutilisation du contenu (reels)",
+          "Graphiques d'épisodes",
+          "Publication/distribution sur les canaux",
+          "Rapports et analyses"
+        ]
+      },
+      "communications": {
+        "title": "CONSEIL EN COMMUNICATIONS",
+        "description": "Axé sur l'image de marque, la voix et la messagerie externe pour assurer une communication cohérente et percutante.",
+        "features": [
+          "Audit de la voix de la marque et développement du ton",
+          "Cadre de messagerie (mission, valeurs, slogan, bios)",
+          "Rédaction de l'histoire de la marque et développement de la page À propos",
+          "Stratégie de messagerie sur les médias sociaux",
+          "Planification du contenu du site web et conseil en rédaction",
+          "Stratégie de messagerie de campagne et support narratif",
+          "Kit de presse et développement de contenu prêt pour les médias",
+          "Ton et raffinement du contenu pour le marketing par e-mail",
+          "Façonnage des messages pour les présentations / pitch decks",
+          "Boîtes à outils de messagerie de marque pour la cohérence des clients"
+        ]
+      },
+      "includes": "Les Services Incluent:"
+    },
+    "process": {
+      "title": "Notre Processus",
+      "subtitle": "Comment Nous Travaillons",
+      "description": "Notre processus est simple, stratégique et conçu pour fournir des résultats qui s'alignent sur les objectifs de votre marque.",
+      "steps": {
+        "discovery": {
+          "title": "Découverte et Intégration",
+          "description": "Nous commençons par comprendre votre marque, vos objectifs et votre public. Nous rassemblons les actifs clés, alignons les attentes et établissons les bases d'une collaboration fluide et réussie."
+        },
+        "audit": {
+          "title": "Audit et Développement de Stratégie",
+          "description": "Nous examinons vos plateformes et performances actuelles, puis développons une stratégie sur mesure—qu'il s'agisse de planification de contenu, de direction de campagne ou d'affinement de la communication."
+        },
+        "execution": {
+          "title": "Exécution et Livraison de Contenu",
+          "description": "Nous déployons du contenu, des campagnes ou des épisodes de podcast basés sur la stratégie approuvée. Des visuels au texte, tout est créé intentionnellement pour engager et développer votre audience."
+        },
+        "reporting": {
+          "title": "Rapports et Optimisation",
+          "description": "À la fin de chaque mois, nous partageons des rapports clairs mettant en évidence les victoires, les métriques de croissance et les leçons. Nous utilisons les données pour affiner l'approche et rendre votre marque encore plus forte."
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Trouvez des réponses aux questions courantes sur nos services et comment nous pouvons aider votre marque à se développer.",
+      "questions": {
+        "services": {
+          "question": "Quels services Elev8 Media offre-t-il?",
+          "answer": "Nous sommes spécialisés dans le marketing numérique, la production de podcasts et le conseil en communications. De la création de contenu et la gestion des médias sociaux à la stratégie complète de podcast et le support de messagerie de marque, nous aidons les marques à se développer avec clarté et cohérence."
+        },
+        "clients": {
+          "question": "Travaillez-vous avec des clients en dehors du Rwanda?",
+          "answer": "Oui. Bien que nous soyons basés au Rwanda, nous opérons également à Dubaï par l'intermédiaire de notre partenaire de contenu. Nous soutenons les clients à distance avec la stratégie et l'exécution, et capturons du contenu sur le terrain aux EAU selon les besoins."
+        },
+        "packages": {
+          "question": "Puis-je réserver un service ou ai-je besoin d'un forfait complet?",
+          "answer": "Vous pouvez réserver des services individuels ou demander un forfait personnalisé en fonction de vos besoins. Que vous ayez besoin d'un audit ponctuel, d'une gestion continue du contenu ou d'une production de podcast, nous adapterons notre soutien à vos objectifs."
+        },
+        "results": {
+          "question": "Comment mesurez-vous les résultats?",
+          "answer": "Nous suivons des métriques clés comme l'engagement, la portée, la croissance de l'audience et la performance du contenu. Pour la plupart des clients, nous fournissons des rapports mensuels et des vérifications régulières de stratégie pour nous assurer que nous progressons vers des résultats mesurables."
+        },
+        "client_types": {
+          "question": "Avec quels types de clients travaillez-vous habituellement?",
+          "answer": "Nous travaillons avec des marques axées sur un objectif, y compris des ONG, des prestataires de services, des créatifs, des coachs et des petites entreprises. Si vous tenez à vous présenter en ligne avec stratégie et intention, nous sommes un bon choix."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à Amplifier Votre Marque?",
+      "subtitle": "Travaillons ensemble pour créer une présence numérique puissante pour votre marque."
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Notre Blog",
+      "subtitle": "Perspectives, conseils et histoires de réussite du monde du marketing, des événements et des cadeaux."
+    },
+    "readMore": "Lire Plus",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "newsletter": {
+      "title": "Abonnez-vous à Notre Newsletter",
+      "subtitle": "Restez informé de nos derniers articles, conseils et perspectives de l'industrie livrés directement dans votre boîte de réception.",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'abonner"
+    },
+    "post": {
+      "backToAll": "Retour à Tous les Articles",
+      "relatedPosts": "Articles Connexes"
+    },
+    "preview": {
+      "label": "Notre Blog",
+      "title": "Dernières Perspectives",
+      "subtitle": "Restez informé des dernières tendances, conseils et histoires de réussite de notre blog.",
+      "viewAll": "Voir Tous les Articles"
+    },
+    "postNotFound": "Article Non Trouvé | Elev8 Rwanda"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Entrez en contact avec notre équipe pour discuter de la façon dont nous pouvons aider à élever votre marque."
+    },
+    "form": {
+      "title": "Entrez en Contact",
+      "subtitle": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dès que possible.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Numéro de Téléphone",
+      "service": "Service d'Intérêt",
+      "selectService": "Sélectionnez un service",
+      "socialMedia": "Gestion des Médias Sociaux",
+      "contentCreation": "Création de Contenu",
+      "podcast": "Production de Podcast",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet ou de votre demande...",
+      "submit": "Soumettre"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "subtitle": "Vous pouvez également nous contacter directement en utilisant les informations de contact ci-dessous.",
+      "address": {
+        "title": "Adresse",
+        "value": "Kigali, Rwanda"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@elev8rwanda.com"
+      },
+      "phone": {
+        "title": "Téléphone",
+        "value": "+250 788 123 456"
+      },
+      "followUs": "Suivez-Nous",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}
