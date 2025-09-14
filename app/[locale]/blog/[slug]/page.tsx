@@ -1,56 +1,57 @@
-import type { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
-import { notFound } from "next/navigation"
-import { ArrowLeft } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import BlogContent from "@/components/blog-content"
-import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/blog-data"
-import { getDictionary } from "@/lib/dictionary"
-import { Locale } from "@/types/i18n"
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import BlogContent from "@/components/blog-content";
+import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/blog-data";
+import { getDictionary } from "@/lib/dictionary";
+import { Locale } from "@/types/i18n";
 
 type Props = {
   params: {
-    locale: Locale
-    slug: string
-  }
-}
+    locale: Locale;
+    slug: string;
+  };
+};
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getBlogPostBySlug(params.slug)
+  const { slug } = await params;
+  const post = getBlogPostBySlug(slug);
 
   if (!post) {
     return {
       title: "Post Not Found | Elev8 Rwanda",
-    }
+    };
   }
 
   return {
     title: `${post.title} | Elev8 Rwanda Blog`,
     description: post.excerpt,
-  }
+  };
 }
 
 export default async function BlogPostPage({ params }: Props) {
-  const { locale, slug } = params
-  const dict = await getDictionary(locale)
-  const post = getBlogPostBySlug(slug)
+  const { locale, slug } = await params;
+  const dict = await getDictionary(locale);
+  const post = getBlogPostBySlug(slug);
 
   if (!post) {
-    notFound()
+    notFound();
   }
 
   const publishedDate = new Date(post.publishedAt).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
-  })
+  });
 
   // Get other posts for related posts section
-  const allPosts = getAllBlogPosts()
+  const allPosts = getAllBlogPosts();
   const relatedPosts = allPosts
-    .filter(relatedPost => relatedPost.id !== post.id)
-    .slice(0, 3)
+    .filter((relatedPost) => relatedPost.id !== post.id)
+    .slice(0, 3);
 
   return (
     <>
@@ -58,13 +59,20 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <div className="mb-6">
-              <Button asChild variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button
+                asChild
+                variant="outline"
+                className="text-white border-white hover:bg-white/10"
+              >
                 <Link href={`/${locale}/blog`} className="flex items-center">
-                  <ArrowLeft className="mr-2 h-4 w-4" /> {dict.blog?.post?.backToAll || "Back to All Posts"}
+                  <ArrowLeft className="mr-2 h-4 w-4" />{" "}
+                  {dict.blog?.post?.backToAll || "Back to All Posts"}
                 </Link>
               </Button>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              {post.title}
+            </h1>
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="flex items-center">
                 <span>{post.author || "Elev8 Rwanda"}</span>
@@ -117,7 +125,9 @@ export default async function BlogPostPage({ params }: Props) {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">{relatedPost.title}</h3>
+                  <h3 className="text-xl font-bold mb-2">
+                    {relatedPost.title}
+                  </h3>
                   <p className="text-muted-foreground mb-4 line-clamp-2">
                     {relatedPost.excerpt}
                   </p>
@@ -134,5 +144,5 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </section>
     </>
-  )
+  );
 }

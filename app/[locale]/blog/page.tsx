@@ -8,23 +8,26 @@ import { getDictionary } from "@/lib/dictionary";
 import { Locale } from "@/types/i18n";
 
 type Props = {
-  params: { locale: Locale }
-}
+  params: { locale: Locale };
+};
 
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const dict = await getDictionary(locale);
-  
+
   return {
     title: `${dict.blog?.hero?.title || "Blog"} | Elev8 Rwanda`,
-    description: dict.blog?.hero?.subtitle || 
+    description:
+      dict.blog?.hero?.subtitle ||
       "Insights, tips, and success stories from the world of marketing, events, and gifting.",
   };
 }
 
-export default async function BlogPage({ params: { locale } }: Props) {
+export default async function BlogPage({ params }: Props) {
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const posts = getAllBlogPosts();
-  
+
   return (
     <>
       <section className="bg-burgundy py-16 md:py-24 text-white">
@@ -34,7 +37,7 @@ export default async function BlogPage({ params: { locale } }: Props) {
               {dict.blog?.hero?.title || "Our Blog"}
             </h1>
             <p className="text-lg md:text-xl mb-6">
-              {dict.blog?.hero?.subtitle || 
+              {dict.blog?.hero?.subtitle ||
                 "Insights, tips, and success stories from the world of marketing, events, and gifting."}
             </p>
           </div>
@@ -45,7 +48,9 @@ export default async function BlogPage({ params: { locale } }: Props) {
         <div className="container">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post) => {
-              const publishedDate = new Date(post.publishedAt).toLocaleDateString("en-US", {
+              const publishedDate = new Date(
+                post.publishedAt
+              ).toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",
@@ -76,7 +81,8 @@ export default async function BlogPage({ params: { locale } }: Props) {
                       href={`/${locale}/blog/${post.slug}`}
                       className="text-dark-red font-medium hover:underline flex items-center"
                     >
-                      {dict.blog?.readMore || "Read More"} <ArrowRight className="ml-1 h-4 w-4" />
+                      {dict.blog?.readMore || "Read More"}{" "}
+                      <ArrowRight className="ml-1 h-4 w-4" />
                     </Link>
                   </div>
                 </div>
@@ -112,13 +118,15 @@ export default async function BlogPage({ params: { locale } }: Props) {
               {dict.blog?.newsletter?.title || "Subscribe to Our Newsletter"}
             </h2>
             <p className="mb-8">
-              {dict.blog?.newsletter?.subtitle || 
+              {dict.blog?.newsletter?.subtitle ||
                 "Stay updated with our latest articles, tips, and industry insights delivered directly to your inbox."}
             </p>
             <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
               <input
                 type="email"
-                placeholder={dict.blog?.newsletter?.placeholder || "Your email address"}
+                placeholder={
+                  dict.blog?.newsletter?.placeholder || "Your email address"
+                }
                 className="flex-1 px-4 py-3 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-dark-red"
                 required
               />

@@ -9,10 +9,11 @@ import { getDictionary } from "@/lib/dictionary";
 import { Locale } from "@/types/i18n";
 
 export default async function ContactPage({
-  params: { locale }
+  params,
 }: {
-  params: { locale: Locale }
+  params: { locale: Locale };
 }) {
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const formType = "media"; // Default form type
 
@@ -21,7 +22,9 @@ export default async function ContactPage({
       <section className="bg-burgundy py-16 md:py-24 text-white">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">{dict.contact?.hero.title}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              {dict.contact?.hero.title}
+            </h1>
             <p className="text-lg md:text-xl mb-6">
               {dict.contact?.hero.subtitle}
             </p>
@@ -33,7 +36,9 @@ export default async function ContactPage({
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">{dict.contact?.form.title}</h2>
+              <h2 className="text-3xl font-bold mb-6">
+                {dict.contact?.form.title}
+              </h2>
               <p className="text-muted-foreground mb-8">
                 {dict.contact?.form.subtitle}
               </p>
@@ -65,11 +70,15 @@ export default async function ContactPage({
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="first-name">{dict.contact?.form.firstName}</Label>
+                      <Label htmlFor="first-name">
+                        {dict.contact?.form.firstName}
+                      </Label>
                       <Input id="first-name" placeholder="John" required />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="last-name">{dict.contact?.form.lastName}</Label>
+                      <Label htmlFor="last-name">
+                        {dict.contact?.form.lastName}
+                      </Label>
                       <Input id="last-name" placeholder="Doe" required />
                     </div>
                   </div>
@@ -95,7 +104,9 @@ export default async function ContactPage({
 
                   {formType === "media" && (
                     <div className="space-y-2">
-                      <Label htmlFor="media-service">{dict.contact?.form.service}</Label>
+                      <Label htmlFor="media-service">
+                        {dict.contact?.form.service}
+                      </Label>
                       <select
                         id="media-service"
                         title={dict.contact?.form.selectService}
@@ -118,7 +129,9 @@ export default async function ContactPage({
                   )}
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">{dict.contact?.form.message}</Label>
+                    <Label htmlFor="message">
+                      {dict.contact?.form.message}
+                    </Label>
                     <Textarea
                       id="message"
                       placeholder={dict.contact?.form.messagePlaceholder}
@@ -138,7 +151,9 @@ export default async function ContactPage({
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold mb-6">{dict.contact?.info.title}</h2>
+              <h2 className="text-3xl font-bold mb-6">
+                {dict.contact?.info.title}
+              </h2>
               <p className="text-muted-foreground mb-8">
                 {dict.contact?.info.subtitle}
               </p>
@@ -147,15 +162,21 @@ export default async function ContactPage({
                 <div className="flex items-start">
                   <MapPin className="h-6 w-6 text-dark-red mr-4 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-lg">{dict.contact?.info.address.title}</h3>
-                    <p className="text-muted-foreground">{dict.contact?.info.address.value}</p>
+                    <h3 className="font-semibold text-lg">
+                      {dict.contact?.info.address.title}
+                    </h3>
+                    <p className="text-muted-foreground">
+                      {dict.contact?.info.address.value}
+                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-dark-red mr-4 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-lg">{dict.contact?.info.email.title}</h3>
+                    <h3 className="font-semibold text-lg">
+                      {dict.contact?.info.email.title}
+                    </h3>
                     <p className="text-muted-foreground">
                       {dict.contact?.info.email.value}
                     </p>
@@ -165,14 +186,20 @@ export default async function ContactPage({
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-dark-red mr-4 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-lg">{dict.contact?.info.phone.title}</h3>
-                    <p className="text-muted-foreground">{dict.contact?.info.phone.value}</p>
+                    <h3 className="font-semibold text-lg">
+                      {dict.contact?.info.phone.title}
+                    </h3>
+                    <p className="text-muted-foreground">
+                      {dict.contact?.info.phone.value}
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-12">
-                <h3 className="font-semibold text-lg mb-4">{dict.contact?.info.followUs}</h3>
+                <h3 className="font-semibold text-lg mb-4">
+                  {dict.contact?.info.followUs}
+                </h3>
                 <div className="flex space-x-4">
                   <a
                     href="#"
@@ -200,7 +227,9 @@ export default async function ContactPage({
                       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                     </svg>
-                    <span className="sr-only">{dict.contact?.info.instagram}</span>
+                    <span className="sr-only">
+                      {dict.contact?.info.instagram}
+                    </span>
                   </a>
                   <a
                     href="#"
@@ -243,7 +272,9 @@ export default async function ContactPage({
                       <rect x="2" y="9" width="4" height="12"></rect>
                       <circle cx="4" cy="4" r="2"></circle>
                     </svg>
-                    <span className="sr-only">{dict.contact?.info.linkedin}</span>
+                    <span className="sr-only">
+                      {dict.contact?.info.linkedin}
+                    </span>
                   </a>
                 </div>
               </div>
