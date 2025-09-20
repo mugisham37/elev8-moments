@@ -25,13 +25,13 @@ export default async function Home({ params }: Props) {
 
   // Ensure all required properties are present for HeroSection
   const heroDict = {
-    title: dict.home.hero.title || "Elevating brands and creating memorable",
+    title: dict.home.hero.title || "Celebrate Life with Intention",
     subtitle:
       dict.home.hero.subtitle ||
-      "Social Media Marketing, Podcast Production, Event Planning & Gifting Services",
-    storytelling: dict.home.hero.storytelling || "experiences",
-    bookFreeCall: dict.home.hero.bookFreeCall || "Book a Free Consultation",
-    featuredService: dict.home.hero.featuredService || "Featured Service",
+      "We design unique events, experiences, and gifts that bring people together, create lasting memories, and contribute to the Visit Rwanda initiative.",
+    storytelling: dict.home.hero.storytelling || "",
+    bookFreeCall: dict.home.hero.bookFreeCall || "Book Your Experience",
+    featuredService: dict.home.hero.featuredService || "Explore Our Signature Events",
     strategicBrand:
       dict.home.hero.strategicBrand || "Strategic Brand Development",
     premiumServices: dict.home.hero.premiumServices || "Premium Services",

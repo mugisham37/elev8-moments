@@ -102,7 +102,7 @@ export default function Header({ dict }: HeaderProps) {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <LanguageSwitcher dict={dict.languageSwitcher} />
+          <LanguageSwitcher dict={dict.languageSwitcher || { label: "Language", en: "English", fr: "Français", ar: "العربية" }} />
           <ThemeToggle />
           <Button
             variant="ghost"
@@ -203,7 +203,7 @@ export default function Header({ dict }: HeaderProps) {
               {dict.common.navigation.contact}
             </Link>
             <div className="flex items-center gap-2 mt-2">
-              <LanguageSwitcher dict={dict.languageSwitcher} className="w-full" />
+              <LanguageSwitcher dict={dict.languageSwitcher || { label: "Language", en: "English", fr: "Français", ar: "العربية" }} className="w-full" />
             </div>
             <Button asChild className="mt-2">
               <Link href={`/${pathname.split('/')[1] || ''}/contact`} onClick={() => setIsMenuOpen(false)}>

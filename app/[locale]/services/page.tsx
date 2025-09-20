@@ -38,66 +38,58 @@ export default async function ServicesPage({ params }: Props) {
     // Continue with default data if Sanity fetch fails
   }
 
-  // Get services from dictionary or fallback to default
-  const servicesDict = dict.services?.services;
-
   // Default services if not available from Sanity or dictionary
   const services: Service[] = (mediaData?.services as Service[]) || [
     {
       _id: "default1",
-      title: servicesDict?.digital_marketing?.title || "DIGITAL MARKETING",
+      title: "🌸 CURATED EVENTS & EXPERIENCES",
       description:
-        servicesDict?.digital_marketing?.description ||
-        "Comprehensive digital marketing solutions to elevate your brand's online presence and engagement.",
-      features: servicesDict?.digital_marketing?.features || [
-        "Social media accounts audit & strategy",
-        "Content calendar",
-        "Content creation",
-        "SEO optimization",
-        "Ads management",
-        "Community & accounts management",
-        "Campaign management",
-        "Reporting & analytics",
+        "We create intentional spaces where people connect, heal, and celebrate. From floral design workshops like Bloom & Bond to creative gatherings like Paint a Shirt, our events are soulful, playful, and memorable.",
+      features: [
+        "Floral arrangement workshops",
+        "Creative painting experiences",
+        "Wellness and healing retreats",
+        "Community bonding events",
+        "Cultural and artistic gatherings",
+        "Intimate celebration planning",
+        "Workshop facilitation",
+        "Event photography & memories",
       ],
-      icon: "bar-chart",
-      slug: { current: "digital-marketing" },
+      icon: "calendar",
+      slug: { current: "curated-events" },
     },
     {
       _id: "default2",
-      title: servicesDict?.podcast_production?.title || "PODCAST PRODUCTION",
+      title: "🎁 THOUGHTFUL GIFTING",
       description:
-        servicesDict?.podcast_production?.description ||
-        "End-to-end podcast production services to help you share your expertise and connect with your audience.",
-      features: servicesDict?.podcast_production?.features || [
-        "Ideation & strategy",
-        "Audio & video production",
-        "Host/guest management",
-        "Repurpose content (reels)",
-        "Episode graphics",
-        "Posting/distribution on channels",
-        "Reporting & analytics",
+        "We craft elegant gifting solutions for individuals and corporates, designed to celebrate moments that matter with style and intention.",
+      features: [
+        "Custom gift curation",
+        "Corporate holiday packages",
+        "Special occasion gifts",
+        "Branded gift solutions",
+        "Elegant packaging design",
+        "Personal gift consultation",
+        "Seasonal gift collections",
+        "Gift delivery services",
       ],
-      icon: "mic",
-      slug: { current: "podcast-production" },
+      icon: "gift",
+      slug: { current: "thoughtful-gifting" },
     },
     {
       _id: "default3",
-      title:
-        servicesDict?.communications?.title || "COMMUNICATIONS CONSULTANCY",
+      title: "🌍 VISIT RWANDA EXPERIENCES",
       description:
-        servicesDict?.communications?.description ||
-        "Focused on brand image, voice, and external messaging to ensure consistent and impactful communication.",
-      features: servicesDict?.communications?.features || [
-        "Brand voice audit & tone of voice development",
-        "Messaging framework (mission, values, tagline, bios)",
-        "Brand story writing & About page development",
-        "Social media messaging strategy",
-        "Website content planning & copy consulting",
-        "Campaign messaging strategy & narrative support",
-        "Press kit & media-ready content development",
-        "Email marketing tone & content refinement",
-        "Presentation / pitch deck message shaping",
-        "Branded messaging toolkits for client consistency",
+        "Our events aren't just for locals — they're part of Rwanda's growing tourism story. We curate cultural, creative, and bonding experiences for visitors looking to explore Kigali beyond the ordinary.",
+      features: [
+        "Cultural immersion workshops",
+        "Creative tourism activities",
+        "Local artisan collaborations",
+        "Kigali exploration experiences",
+        "Tourist-friendly events",
+        "Cultural storytelling sessions",
+        "Photography experiences",
+        "Local community connections",
       ],
       icon: "message-square",
       slug: { current: "communications-consultancy" },

@@ -20,33 +20,26 @@ interface TestimonialsSectionProps {
 
 export default function TestimonialsSection({ testimonials, dict }: TestimonialsSectionProps) {
   // If we have dictionary data, use it to create testimonials
-  const ourTestimonials = dict?.testimonials ? 
+  // Using type assertion to handle the mismatch between types and runtime structure
+  const dictAny = dict as any;
+  const ourTestimonials = dictAny?.testimonials ? 
     [
       {
         _id: "1",
-        name: dict.testimonials.abdullah.name,
-        position: dict.testimonials.abdullah.position,
-        company: dict.testimonials.abdullah.company,
-        quote: dict.testimonials.abdullah.quote,
+        name: dictAny.testimonials.participant?.name || "Event Participant",
+        position: dictAny.testimonials.participant?.position || "",
+        company: dictAny.testimonials.participant?.company || "",
+        quote: dictAny.testimonials.participant?.quote || "Bloom & Bond was unlike anything I've ever attended. Beautiful, intentional, and so healing.",
         image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
         rating: 5,
       },
       {
         _id: "2",
-        name: dict.testimonials.memory.name,
-        position: dict.testimonials.memory.position,
-        company: dict.testimonials.memory.company,
-        quote: dict.testimonials.memory.quote,
+        name: dictAny.testimonials.corporate?.name || "Corporate Client",
+        position: dictAny.testimonials.corporate?.position || "",
+        company: dictAny.testimonials.corporate?.company || "",
+        quote: dictAny.testimonials.corporate?.quote || "Elev8 Moments made our corporate gifting stress-free and unforgettable. The packaging alone was an experience!",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1974&auto=format&fit=crop",
-        rating: 5,
-      },
-      {
-        _id: "3",
-        name: dict.testimonials.eugene.name,
-        position: dict.testimonials.eugene.position,
-        company: dict.testimonials.eugene.company,
-        quote: dict.testimonials.eugene.quote,
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
         rating: 5,
       },
     ] :
@@ -54,32 +47,20 @@ export default function TestimonialsSection({ testimonials, dict }: Testimonials
     [
       {
         _id: "1",
-        name: "Abdullah Hakizimana",
-        position: "CEO and Founder",
-        company: "Mr. Endowed Clothing",
-        quote:
-          "Elev8 Media has been instrumental in managing our community. They handle customer inquiries and DMs with ease, always ensuring prompt and thoughtful communication. Beyond that, their campaign ideas have helped us stay connected with our audience, and their engagement strategies have kept our brand's presence strong. Their input on content ideas has been invaluable in maintaining the voice of Mr. Endowed, and they have been an irreplaceable part of our growth.",
+        name: "Event Participant",
+        position: "",
+        company: "",
+        quote: "Bloom & Bond was unlike anything I've ever attended. Beautiful, intentional, and so healing.",
         image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
         rating: 5,
       },
       {
         _id: "2",
-        name: "Memory",
-        position: "Head of Outreach",
-        company: "E3 International",
-        quote:
-          "Working with Elev8 Media on our cancer conference was an absolute game-changer. They built our social media presence from the ground up, creating engaging content and driving our outreach efforts in ways we hadn't thought possible. Their campaign to bring healthcare providers to the event was incredibly successful, and the bi-weekly reports they provided allowed us to track progress and adapt quickly. We were thrilled with the results, and the event's online engagement was proof of her dedication and expertise.",
+        name: "Corporate Client",
+        position: "",
+        company: "",
+        quote: "Elev8 Moments made our corporate gifting stress-free and unforgettable. The packaging alone was an experience!",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1974&auto=format&fit=crop",
-        rating: 5,
-      },
-      {
-        _id: "3",
-        name: "Eugene Ishimwe",
-        position: "Managing Director",
-        company: "MA Africa",
-        quote:
-          "Elev8 Media's work on events like Kigali Kulture Konnect and Tour du Rwanda was a breath of fresh air. Their campaign strategies brought our event promotions to life, and Their management of our social media channels kept the audience engaged and excited. Their ability to drive engagement and even manage ticket sales online was outstanding. Elev8 Media is an exceptional organisation who knows how to turn ideas into action, and we couldn't have asked for better results.",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
         rating: 5,
       },
     ];

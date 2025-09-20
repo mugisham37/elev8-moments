@@ -65,15 +65,24 @@ export default function LanguageSwitcher({ dict, className }: LanguageSwitcherPr
 
   // Get language name based on locale
   const getLanguageName = (locale: Locale) => {
+    if (!dict) {
+      switch (locale) {
+        case 'en': return 'English'
+        case 'fr': return 'Français'
+        case 'ar': return 'العربية'
+        default: return 'English'
+      }
+    }
+    
     switch (locale) {
       case 'en':
-        return dict.en
+        return dict.en || 'English'
       case 'fr':
-        return dict.fr
+        return dict.fr || 'Français'
       case 'ar':
-        return dict.ar
+        return dict.ar || 'العربية'
       default:
-        return dict.en
+        return dict.en || 'English'
     }
   }
 

@@ -21,9 +21,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Elev8 Rwanda | Media & Moments",
+  title: "Elev8 Moments | Celebrate Life with Intention",
   description:
-    "Elev8 Rwanda - Social Media Marketing, Podcast Production, Event Planning & Gifting Services",
+    "Elev8 Moments - Curated Events, Thoughtful Gifting & Visit Rwanda Experiences. We design unique events and gifts that bring people together and create lasting memories.",
 };
 
 export default async function LocaleLayout({

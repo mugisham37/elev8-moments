@@ -21,46 +21,46 @@ export default async function AboutPage({ params }: Props) {
   // Default portfolio items
   const defaultPortfolioItems = [
     {
-      title: "Portfolio",
-      description: "Mr. Endowed",
+      title: "Experience",
+      description: "Bloom & Bond",
       image: "/Portifolio 1.jpg",
       content:
-        "Mr. Endowed is a bold, stylish fashion brand focused on making a statement with its designs. Their packages involve managing community engagement, handling direct messages (DMs), and running campaigns to ensure a strong connection between the brand and its customers. We also contribute content ideas and work to boost engagement, helping to maintain a loyal and interactive online presence for the brand.",
+        "Floral arrangement & connection workshop for women. A beautiful, intentional experience that brings together creativity and healing through the art of flower arranging while fostering meaningful connections among participants.",
     },
     {
-      title: "Portfolio",
-      description: "Rashid Lumunye — Content Creator & Educator",
+      title: "Experience",
+      description: "Paint a Shirt (upcoming)",
       image: "/Portifolio 2.jpg",
       content:
-        "Rashid Lumunye, a Dubai-based creator known for storytelling and global impact, worked directly with our founder to streamline operations and community management. Our support helped him stay consistent across platforms while deepening engagement with his growing audience.",
+        "Creative, fun, and expressive event where participants paint inspirational T-shirts to take home. This upcoming experience combines artistic expression with personal reflection, allowing guests to create wearable art that carries meaning.",
     },
     {
-      title: "Portfolio",
-      description: "E3 International — Healthcare Conference",
+      title: "Experience",
+      description: "Retreats & Intimate Gatherings",
       image: "/Portifolio 3.jpg",
       content:
-        "We launched and managed E3's digital presence for their cancer conference, including Twitter and Instagram setup, targeted campaigns, and structured content planning. Our performance tracking and strategy optimization ensured high visibility and strong healthcare professional turnout.",
+        "Events designed around healing, creativity, and soulful connection. Our retreats provide a space for participants to step away from daily routines and engage in activities that promote wellness, creativity, and community bonding.",
     },
     {
-      title: "Portfolio",
-      description: "MA Africa — Event Management",
+      title: "Experience",
+      description: "Corporate & Holiday Gifting",
       image: "/Portifolio 4.jpg",
       content:
-        "For large-scale events like Kigali Kulture Konnect and Tour du Rwanda, we managed digital engagement, content creation, and campaign copywriting. Our strategy helped increase event visibility, drive ticket sales, and build real-time online interaction.",
+        "Customized gift solutions for clients and staff (e.g., Women's Day, Valentine's Day). We create thoughtful, elegant gifting packages that help businesses celebrate important moments and show appreciation with style and intention.",
     },
     {
-      title: "Portfolio",
-      description: "Elev8 Moments — Gifting & Campaign Strategy",
+      title: "Experience",
+      description: "Visit Rwanda Cultural Activities",
       image: "/Portifolio 5.jpg",
       content:
-        "We developed Elev8 Moments' brand voice and led several creative campaigns, including a high-performing Valentine's Day skit. The campaign sparked strong emotional response, boosted engagement, and significantly increased gift orders.",
+        "Cultural, creative, and bonding experiences for visitors looking to explore Kigali beyond the ordinary. These activities contribute to Rwanda's growing tourism story by offering soulful, authentic experiences that connect visitors with local culture.",
     },
     {
-      title: "Portfolio",
-      description: "Digital Marketing",
+      title: "Experience",
+      description: "Creative Workshops & Community Events",
       image: "/Portifolio 6.jpg",
       content:
-        "We developed Elev8 Moments' brand voice and led several creative campaigns, including a high-performing Valentine's Day skit. The campaign sparked strong emotional response, boosted engagement, and significantly increased gift orders.",
+        "Intentional spaces where people connect, heal, and celebrate through various creative activities. From art workshops to community gatherings, these events are designed to be soulful, playful, and memorable for all participants.",
     },
   ];
 
@@ -153,7 +153,7 @@ export default async function AboutPage({ params }: Props) {
               <div className="space-y-6">
                 <p className="text-muted-foreground">
                   {
-                    "Elev8 Media is a results-driven creative agency specializing in digital marketing and podcast production. We partner with brands to craft impactful content, build strategic digital roadmaps, and tell stories that resonate. Whether it's growing your online presence through social media and SEO or launching a full-service podcast, we help you connect with the audiences that matter most with clarity, creativity, and purpose."
+                    "Elev8 Moments is a lifestyle and events brand that curates intentional experiences and gifts. We bring people together through creativity, celebration, and meaningful connection — whether in intimate gatherings, community events, or curated gifting."
                   }
                 </p>
                 <div>
@@ -174,8 +174,8 @@ export default async function AboutPage({ params }: Props) {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl flex items-center justify-center">
               <Image
-                src="/elev8-media-logo.png"
-                alt="Elev8 Media Logo"
+                src="/elev8-moments-logo-black.png"
+                alt="Elev8 Moments Logo"
                 width={600}
                 height={600}
                 className="w-full h-full object-contain"
