@@ -15,6 +15,7 @@
   --font-inter: var(--font-inter);
   --font-allura: var(--font-allura);
   --font-dancing: var(--font-dancing);
+  --font-cormorant: var(--font-cormorant);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -122,4 +123,8 @@ om Font Utilities */
 
 .font-dancing {
   font-family: var(--font-dancing), cursive;
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant), serif;
 }
