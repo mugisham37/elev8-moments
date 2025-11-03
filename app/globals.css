@@ -14,6 +14,7 @@
   --font-montserrat: var(--font-montserrat);
   --font-inter: var(--font-inter);
   --font-allura: var(--font-allura);
+  --font-dancing: var(--font-dancing);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -117,4 +118,8 @@ om Font Utilities */
 
 .font-allura {
   font-family: var(--font-allura), cursive;
+}
+
+.font-dancing {
+  font-family: var(--font-dancing), cursive;
 }

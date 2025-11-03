@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Allura, Playfair_Display } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing_Script } from "next/font/google";
 import "./globals.css";
 import TopNav from "@/app/components/Header";
 import Navbar from "@/app/components/navigation/Navbar";
@@ -33,8 +33,20 @@ const playfair = Playfair_Display({
   display: 'swap',
 });
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
+
+const dancingScript = Dancing_Script({
+  subsets: ['latin'],
+  variable: '--font-dancing',
+  display: 'swap',
+});
+
 // Export fonts for use in components
-export { inter, allura, playfair };
+export { inter, allura, playfair, montserrat, dancingScript };
 
 export const metadata: Metadata = {
   title: "Glam Haus Design Co.",
@@ -49,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} ${montserrat.variable} ${dancingScript.variable} antialiased`}
       >
         <TopNav />
         <Navbar />
