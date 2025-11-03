@@ -12,6 +12,8 @@
   --font-mono: var(--font-geist-mono);
   --font-playfair: var(--font-playfair);
   --font-montserrat: var(--font-montserrat);
+  --font-inter: var(--font-inter);
+  --font-allura: var(--font-allura);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -107,4 +109,12 @@ om Font Utilities */
 
 .font-montserrat {
   font-family: var(--font-montserrat), sans-serif;
+}/*
+ Welcome Section Font Utilities */
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-allura {
+  font-family: var(--font-allura), cursive;
 }
