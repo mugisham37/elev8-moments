@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing
 import "./globals.css";
 import TopNav from "@/app/components/Header";
 import Navbar from "@/app/components/navigation/Navbar";
+import Footer from "@/app/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -75,6 +76,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

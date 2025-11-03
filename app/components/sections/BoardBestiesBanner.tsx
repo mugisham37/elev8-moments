@@ -10,7 +10,7 @@ export default function BoardBestiesBanner() {
         <div className="w-full md:w-[37%] shrink-0">
           <div className="relative border-10 border-white shadow-[0_4px_12px_rgba(0,0,0,0.08)]">
             <Image
-              src="https://images.unsplash.com/photo-1571197119282-7c4d9e7c8b8a?w=600&h=450&fit=crop&crop=center"
+              src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=450&fit=crop&crop=center"
               alt="Colorful charcuterie board with fruits, cheeses, and meats"
               width={600}
               height={450}
