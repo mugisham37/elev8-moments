@@ -16,6 +16,7 @@
   --font-allura: var(--font-allura);
   --font-dancing: var(--font-dancing);
   --font-cormorant: var(--font-cormorant);
+  --font-crimson: var(--font-crimson);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -127,4 +128,8 @@ om Font Utilities */
 
 .font-cormorant {
   font-family: var(--font-cormorant), serif;
+}
+
+.font-crimson {
+  font-family: var(--font-crimson), serif;
 }
