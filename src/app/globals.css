@@ -399,3 +399,98 @@ html {
     font-size: 14px;
   }
 }
+/* Main Na
+vigation Component Styles */
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 40px;
+  background-color: #2B2B2B;
+  position: relative;
+}
+
+.social-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.social-icon:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 4px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 1.2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-link:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 4px;
+}
+
+/* Responsive Design for Main Navigation */
+@media (max-width: 1199px) {
+  .nav-menu {
+    gap: 32px;
+  }
+  
+  .main-navigation {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-navigation {
+    padding: 0 16px;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  /* Mobile menu would be implemented here with hamburger icon */
+}

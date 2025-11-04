@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing_Script, Cormorant_Garamond, Crimson_Text } from "next/font/google";
 import "./globals.css";
 import { TopNav } from "@/components/Layout/navigation/TopNav";
-import Navbar from "@/components/Layout/navigation/Navbar";
+import { MainNavigation } from "@/components/Layout/navigation/MainNav";
 import Footer from "@/components/Layout/Footer";
 
 const geistSans = Geist({
@@ -79,7 +79,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} ${montserrat.variable} ${dancingScript.variable} ${cormorantGaramond.variable} ${crimsonText.variable} antialiased`}
       >
         <TopNav />
-        <Navbar />
+        <MainNavigation />
         <main>
           {children}
         </main>
