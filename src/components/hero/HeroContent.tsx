@@ -1,4 +1,4 @@
-import Button from '../ui/Button'
+import { Button } from '../ui/Button'
 
 export default function HeroContent() {
   return (
@@ -19,7 +19,9 @@ export default function HeroContent() {
       </p>
       
       {/* Call to Action Button */}
-      <Button />
+      <Button variant="outline" className="w-fit text-white border-white hover:bg-white hover:text-black">
+        VIEW OUR SERVICES
+      </Button>
     </div>
   )
 }

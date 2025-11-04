@@ -1,0 +1,34 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Haus",
+    "Glam",
+    "charcuterie",
+    "grazing",
+    "Embla",
+    "cmdk",
+    "vaul",
+    "nums",
+    "elev",
+    "Elev",
+    "Mugisha",
+    "Mustapha",
+    "Mbabazi",
+    "Portifolio",
+    "Codding",
+    "tailwindcss",
+    "intellisense",
+    "destructive",
+    "inset",
+    "radix",
+    "lucide",
+    "recharts"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".git/**",
+    "dist/**",
+    "build/**"
+  ]
+}
