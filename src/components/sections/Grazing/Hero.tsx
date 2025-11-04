@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ImageWithFallback } from '../../imageWithFallBack/ImageWithFallback';
 
 export default function Hero() {
