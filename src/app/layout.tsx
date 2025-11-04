@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing_Script, Cormorant_Garamond, Crimson_Text } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing_Script, Cormorant_Garamond, Crimson_Text, Pinyon_Script } from "next/font/google";
 import "./globals.css";
 import { TopNav } from "@/components/Layout/navigation/TopNav";
 import { MainNavigation } from "@/components/Layout/navigation/MainNav";
@@ -60,8 +60,15 @@ const crimsonText = Crimson_Text({
   display: 'swap',
 });
 
+const pinyonScript = Pinyon_Script({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-pinyon',
+  display: 'swap',
+});
+
 // Export fonts for use in components
-export { inter, allura, playfair, montserrat, dancingScript, cormorantGaramond, crimsonText };
+export { inter, allura, playfair, montserrat, dancingScript, cormorantGaramond, crimsonText, pinyonScript };
 
 export const metadata: Metadata = {
   title: "Glam Haus Design Co.",
@@ -76,7 +83,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} ${montserrat.variable} ${dancingScript.variable} ${cormorantGaramond.variable} ${crimsonText.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} ${montserrat.variable} ${dancingScript.variable} ${cormorantGaramond.variable} ${crimsonText.variable} ${pinyonScript.variable} antialiased`}
       >
         <TopNav />
         <MainNavigation />

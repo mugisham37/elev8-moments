@@ -83,7 +83,7 @@ export default function EventSetup() {
               margin: '0'
             }}
           >
-            Our dedicated team specializes in event setup and décor, ensuring every aspect is perfectly executed. From the initial planning stages to the final touches, we work closely with you to bring your ideas to fruition. We'll transform any venue into a glamorous backdrop that captures the essence of your event, creating an atmosphere that leaves a lasting impression.
+            Our dedicated team specializes in event setup and décor, ensuring every aspect is perfectly executed. From the initial planning stages to the final touches, we work closely with you to bring your ideas to fruition. We&apos;ll transform any venue into a glamorous backdrop that captures the essence of your event, creating an atmosphere that leaves a lasting impression.
           </p>
           
         </header>
@@ -94,7 +94,7 @@ export default function EventSetup() {
           role="list"
         >
           {images.map((image, index) => (
-            <figure key={index} role="listitem" className="flex-shrink-0 md:w-full md:max-w-[350px]">
+            <figure key={index} role="listitem" className="shrink-0 md:w-full md:max-w-[350px]">
               <ImageWithFallback
                 src={image.src}
                 alt={image.alt}

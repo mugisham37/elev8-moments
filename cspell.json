@@ -24,7 +24,19 @@
     "radix",
     "lucide",
     "recharts",
-    "chiavari"
+    "chiavari",
+    "Boho",
+    "décor",
+    "Tablescape",
+    "tablescapes",
+    "TABLESCAPES",
+    "allura",
+    "playfair",
+    "montserrat",
+    "cormorant",
+    "crimson",
+    "pinyon",
+    "geist"
   ],
   "ignorePaths": [
     "node_modules/**",

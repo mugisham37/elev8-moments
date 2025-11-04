@@ -1,4 +1,7 @@
+"use client";
+
 import { FloralLogo } from "./components/FloralLogo";
+import Image from "next/image";
 
 export default function FloralSection() {
   const handleQuoteRequest = () => {
@@ -28,13 +31,6 @@ export default function FloralSection() {
 
   return (
     <>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Montserrat:wght@300;400&display=swap"
-        rel="stylesheet"
-      />
-
       <section
         className="flex min-h-[680px] w-screen flex-col items-center justify-start bg-[#1a1a1a] px-20 py-15"
         role="banner"
@@ -47,19 +43,13 @@ export default function FloralSection() {
 
             {/* Content */}
             <div className="flex max-w-[720px] flex-col items-start">
-              <h2
-                className="mb-6 text-[14px] font-normal uppercase leading-relaxed tracking-[3px] text-[#e5e5e5]"
-                style={{ fontFamily: "'Montserrat', sans-serif" }}
-              >
+              <h2 className="mb-6 text-[14px] font-normal uppercase leading-relaxed tracking-[3px] text-[#e5e5e5] font-montserrat">
                 ELEVATE YOUR SPACE. ONE BLOOM AT A TIME.
               </h2>
-              <p
-                className="m-0 max-w-[680px] text-[16px] font-light leading-7 tracking-[0.3px] text-[#d0d0d0]"
-                style={{ fontFamily: "'Montserrat', sans-serif" }}
-              >
+              <p className="m-0 max-w-[680px] text-[16px] font-light leading-7 tracking-[0.3px] text-[#d0d0d0] font-montserrat">
                 Welcome to a world where blossoms tell a story! At Glam Haus
                 Design Co. we specialize in crafting stunning floral
-                arrangements perfect for any occasion. Whether you're
+                arrangements perfect for any occasion. Whether you&apos;re
                 celebrating a wedding, hosting a glamorous event, or simply
                 wanting to brighten your space, our exquisite designs are
                 tailored to bring joy and beauty to your life.
@@ -71,11 +61,13 @@ export default function FloralSection() {
           <div className="mb-12 flex w-full flex-row items-center justify-center gap-6">
             {images.map((image) => (
               <figure key={image.id} className="m-0">
-                <img
+                <Image
                   src={image.src}
                   alt={image.alt}
-                  className={`${image.className} block object-cover transition-all duration-[400ms] ease-in-out hover:scale-105 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.5)] hover:cursor-pointer`}
-                  loading="eager"
+                  width={image.id === 2 ? 220 : 315}
+                  height={image.id === 2 ? 260 : 305}
+                  className={`${image.className} block object-cover transition-all duration-400 ease-in-out hover:scale-105 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.5)] hover:cursor-pointer`}
+                  priority
                 />
               </figure>
             ))}
@@ -87,8 +79,7 @@ export default function FloralSection() {
               type="button"
               onClick={handleQuoteRequest}
               aria-label="Request a quote for floral arrangements"
-              className="min-w-[240px] cursor-pointer rounded-none border border-[#505050] bg-transparent px-12 py-4 text-[14px] font-normal uppercase tracking-[2.5px] text-white shadow-[0px_2px_8px_rgba(0,0,0,0.3)] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.02] hover:border-[#808080] hover:bg-white/10 hover:shadow-[0px_4px_12px_rgba(0,0,0,0.4)] active:scale-[0.98] active:bg-white/15 active:transition-all active:duration-150 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-transparent"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
+              className="min-w-[240px] cursor-pointer rounded-none border border-[#505050] bg-transparent px-12 py-4 text-[14px] font-normal uppercase tracking-[2.5px] text-white shadow-[0px_2px_8px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.02] hover:border-[#808080] hover:bg-white/10 hover:shadow-[0px_4px_12px_rgba(0,0,0,0.4)] active:scale-[0.98] active:bg-white/15 active:transition-all active:duration-150 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-transparent font-montserrat"
             >
               REQUEST A QUOTE
             </button>
