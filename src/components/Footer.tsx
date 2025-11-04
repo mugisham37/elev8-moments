@@ -1,4 +1,4 @@
-import { montserrat } from '../layout';
+import { montserrat } from '../../src/app/layout';
 
 export default function Footer() {
   return (

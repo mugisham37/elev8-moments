@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { inter, playfair } from '@/app/layout';
+import { inter, playfair } from '@/src/app/layout';
 import Button from '../../ui/Button/Button';
 import styles from './FruitSpecialtyBoards.module.css';
 

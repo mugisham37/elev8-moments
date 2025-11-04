@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { inter } from '@/app/layout';
+import { inter } from '@/src/app/layout';
 import styles from './Button.module.css';
 
 interface ButtonProps {

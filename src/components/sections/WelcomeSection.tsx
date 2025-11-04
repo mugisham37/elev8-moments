@@ -1,4 +1,4 @@
-import { inter, allura, playfair } from '@/app/layout';
+import { inter, allura, playfair } from '@/src/app/layout';
 
 /**
  * Welcome Section Component for Glam Haus

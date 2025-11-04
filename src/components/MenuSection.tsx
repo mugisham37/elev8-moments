@@ -1,4 +1,4 @@
-import { playfair, montserrat } from '../layout';
+import { playfair, montserrat } from '../../src/app/layout';
 
 export default function MenuSection() {
   const menuItemsColumn1 = ['HOME', 'ABOUT', 'CONTACT'];
