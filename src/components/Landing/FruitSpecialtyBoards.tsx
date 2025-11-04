@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { inter, playfair } from '@/app/layout';
-import Button from '../ui/Button/Button';
+import { Button } from '@/components/ui/Button';
 
 /**
  * Fruit & Specialty Boards Section Component
@@ -45,7 +45,7 @@ export default function FruitSpecialtyBoards() {
             event, we&apos;ve got the perfect board to elevate your celebration!
           </p>
           
-          <Button href="/boards">VIEW MORE</Button>
+          <Button variant="primary" href="/boards">VIEW MORE</Button>
         </div>
       </div>
     </section>

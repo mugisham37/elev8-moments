@@ -1,4 +1,4 @@
-import HeroSection from '@/components/Landing/Hero/HeroSection'
+import HeroSection from '@/components/Landing/Hero'
 import WelcomeSection from '@/components/Landing/WelcomeSection'
 import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards'
 import Marquee from '@/components/Landing/Marquee'
