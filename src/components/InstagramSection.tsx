@@ -1,4 +1,4 @@
-import { dancingScript, playfair } from '../../src/app/layout';
+import { dancingScript, playfair } from '@/app/layout';
 import Image from 'next/image';
 
 export default function InstagramSection() {

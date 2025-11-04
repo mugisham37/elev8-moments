@@ -4,7 +4,7 @@ import Image from 'next/image';
 const offerings = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1615557382865-78f6f3bdc1e0?w=240&h=150&fit=crop",
+    image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=240&h=150&fit=crop&crop=center",
     alt: "Traditional charcuterie board with flowers and assorted items",
     titleLine1: "TRADITIONAL",
     titleLine2: "BOARDS + BOXES",

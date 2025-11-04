@@ -1,11 +1,11 @@
-import HeroSection from '../../app/components/hero/HeroSection'
-import WelcomeSection from '../../app/components/sections/WelcomeSection'
-import FruitSpecialtyBoards from '../../app/components/sections/FruitSpecialtyBoards'
-import Marquee from '../../app/components/ui/Marquee'
-import BoardBestiesBanner from '../../app/components/sections/BoardBestiesBanner'
-import TestimonialsSection from '../../app/components/testimonials/TestimonialsSection'
-import InstagramSection from '../../app/components/InstagramSection'
-import MenuSection from '../../app/components/MenuSection'
+import HeroSection from '@/components/hero/HeroSection'
+import WelcomeSection from '@/components/sections/WelcomeSection'
+import FruitSpecialtyBoards from '@/components/sections/FruitSpecialtyBoards'
+import Marquee from '@/components/ui/Marquee'
+import BoardBestiesBanner from '@/components/sections/BoardBestiesBanner'
+import TestimonialsSection from '@/components/testimonials/TestimonialsSection'
+import InstagramSection from '@/components/InstagramSection'
+import MenuSection from '@/components/MenuSection'
 
 export default function Home() {
   return (

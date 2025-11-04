@@ -1,4 +1,4 @@
-import { inter, allura, playfair } from '@/src/app/layout';
+import { inter, allura, playfair } from '@/app/layout';
 
 /**
  * Welcome Section Component for Glam Haus
@@ -16,7 +16,7 @@ export default function WelcomeSection() {
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 lg:px-12 py-20 md:py-[100px] lg:py-[120px] pb-[100px] md:pb-[120px] lg:pb-[140px] flex flex-col items-center justify-center text-center">
         
         {/* Main Heading - Script Font */}
-        <h1 className={`${allura.className} text-[48px] md:text-[64px] lg:text-[80px] font-normal text-white tracking-[0.03em] leading-[1.25] mb-7`}>
+        <h1 className={`${allura.className} text-[48px] md:text-[64px] lg:text-[80px] font-normal text-white tracking-[0.03em] leading-tight mb-7`}>
           Welcome to Glam Haus
         </h1>
         

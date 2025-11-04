@@ -1,4 +1,4 @@
-import { playfair } from '@/src/app/layout';
+import { playfair } from '@/app/layout';
 import styles from './Marquee.module.css';
 
 interface MarqueeProps {

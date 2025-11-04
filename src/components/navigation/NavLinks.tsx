@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
-import { NAV_LINKS } from '@/app/constants/navigation';
+import { NAV_LINKS } from '@/constants/navigation';
 
 export default function NavLinks() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
