@@ -1,5 +1,4 @@
 import { playfair } from '@/app/layout';
-import styles from './Marquee.module.css';
 
 interface MarqueeProps {
   text: string;
@@ -23,18 +22,18 @@ export default function Marquee({
   direction = 'left',
   className = ''
 }: MarqueeProps) {
-  const animationName = direction === 'left' ? styles.scrollLeft : styles.scrollRight;
+  const animationName = direction === 'left' ? 'marquee-scroll-left' : 'marquee-scroll-right';
   
   return (
-    <div className={`${styles.marquee} ${className}`}>
+    <div className={`marquee ${className}`}>
       <div 
-        className={`${playfair.className} ${styles.content} ${animationName}`}
+        className={`${playfair.className} marquee-content ${animationName}`}
         style={{ animationDuration: `${speed}s` }}
       >
-        <span className={styles.text}>{text}</span>
-        <span className={styles.text}>{text}</span>
-        <span className={styles.text}>{text}</span>
-        <span className={styles.text}>{text}</span>
+        <span className="marquee-text">{text}</span>
+        <span className="marquee-text">{text}</span>
+        <span className="marquee-text">{text}</span>
+        <span className="marquee-text">{text}</span>
       </div>
     </div>
   );

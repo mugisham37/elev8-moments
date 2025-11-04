@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { inter } from '@/app/layout';
-import styles from './Button.module.css';
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -26,7 +25,7 @@ export default function Button({
   variant = 'primary',
   className = ''
 }: ButtonProps) {
-  const buttonClasses = `${inter.className} ${styles.button} ${styles[variant]} ${className}`;
+  const buttonClasses = `${inter.className} button button-${variant} ${className}`;
   
   if (href) {
     return (

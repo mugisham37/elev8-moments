@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { inter, playfair } from '@/app/layout';
-import Button from '../../ui/Button/Button';
-import styles from './FruitSpecialtyBoards.module.css';
+import Button from '../ui/Button/Button';
 
 /**
  * Fruit & Specialty Boards Section Component
@@ -14,11 +13,11 @@ import styles from './FruitSpecialtyBoards.module.css';
  */
 export default function FruitSpecialtyBoards() {
   return (
-    <section className={styles.section}>
-      <div className={styles.container}>
+    <section className="fruit-boards-section">
+      <div className="fruit-boards-container">
         {/* Left Column - Circular Image */}
-        <div className={styles.imageColumn}>
-          <div className={styles.imageWrapper}>
+        <div className="fruit-boards-image-column">
+          <div className="fruit-boards-image-wrapper">
             <Image
               src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Beautifully arranged fruit and specialty board with fresh berries, flowers, and exotic fruits"
@@ -26,19 +25,19 @@ export default function FruitSpecialtyBoards() {
               height={650}
               priority
               quality={90}
-              className={styles.image}
+              className="fruit-boards-image"
             />
           </div>
         </div>
         
         {/* Right Column - Text Content */}
-        <div className={styles.contentColumn}>
-          <h2 className={`${playfair.className} ${styles.heading}`}>
+        <div className="fruit-boards-content-column">
+          <h2 className={`${playfair.className} fruit-boards-heading`}>
             FRUIT &<br />
             SPECIALTY BOARDS
           </h2>
           
-          <p className={`${inter.className} ${styles.description}`}>
+          <p className={`${inter.className} fruit-boards-description`}>
             Treat your guests to our beautifully arranged fruit and specialty 
             boards, perfect for any occasion! Each board is thoughtfully curated 
             to offer a vibrant mix of fresh fruits and unique ingredients that 

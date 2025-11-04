@@ -399,6 +399,51 @@ html {
     font-size: 14px;
   }
 }
+
+/* Button Component Styles */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 19px 55px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.button-primary:hover {
+  background-color: #2B2B2B;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.button-secondary:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/* Button Responsive Design */
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+    padding: 16px 40px;
+    font-size: 13px;
+  }
+}
 /* Main Na
 vigation Component Styles */
 .main-navigation {
@@ -493,4 +538,199 @@ vigation Component Styles */
   }
   
   /* Mobile menu would be implemented here with hamburger icon */
+}
+/* F
+ruit & Specialty Boards Section Styles */
+.fruit-boards-section {
+  background-color: #F5F0EB;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.fruit-boards-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+}
+
+/* Left Column - Image */
+.fruit-boards-image-column {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fruit-boards-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.fruit-boards-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right Column - Content */
+.fruit-boards-content-column {
+  width: 40%;
+  padding-left: 70px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fruit-boards-heading {
+  font-size: 68px;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: #1A1A1A;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.fruit-boards-heading em {
+  font-style: italic;
+}
+
+.fruit-boards-description {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #4A4A4A;
+  margin-bottom: 36px;
+  max-width: 600px;
+}
+
+/* Fruit Boards Responsive Design */
+@media (max-width: 1024px) {
+  .fruit-boards-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .fruit-boards-image-column {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .fruit-boards-content-column {
+    width: 100%;
+    padding: 0 40px;
+    align-items: center;
+  }
+  
+  .fruit-boards-heading {
+    font-size: 52px;
+  }
+  
+  .fruit-boards-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fruit-boards-section {
+    padding: 40px 0;
+  }
+  
+  .fruit-boards-content-column {
+    padding: 0 24px;
+  }
+  
+  .fruit-boards-heading {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  
+  .fruit-boards-description {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  
+  .fruit-boards-image-wrapper {
+    max-width: 100%;
+  }
+}
+
+/* Marquee Component Styles */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #F5F0EB;
+  padding: 24px 0;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  font-size: 44px;
+  font-weight: 300;
+  color: #1A1A1A;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.marquee-text {
+  margin-right: 100px;
+}
+
+.marquee-text::after {
+  content: " - ";
+  margin: 0 50px;
+}
+
+/* Marquee Animation Keyframes */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.marquee-scroll-left {
+  animation: scrollLeft linear infinite;
+}
+
+.marquee-scroll-right {
+  animation: scrollRight linear infinite;
+}
+
+/* Marquee Responsive Design */
+@media (max-width: 768px) {
+  .marquee-content {
+    font-size: 28px;
+  }
+  
+  .marquee-text {
+    margin-right: 60px;
+  }
+  
+  .marquee-text::after {
+    margin: 0 30px;
+  }
 }

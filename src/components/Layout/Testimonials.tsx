@@ -1,5 +1,5 @@
 
-import { ImageWithFallback } from '../../imageWithFallBack/ImageWithFallback';
+import { ImageWithFallback } from '../imageWithFallBack/ImageWithFallback';
 
 export default function Testimonials() {
   return (

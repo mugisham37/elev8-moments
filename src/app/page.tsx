@@ -1,9 +1,9 @@
 import HeroSection from '@/components/Landing/Hero/HeroSection'
 import WelcomeSection from '@/components/Landing/WelcomeSection'
-import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards/FruitSpecialtyBoards'
+import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards'
 import Marquee from '@/components/Landing/Marquee'
 import BoardBestiesBanner from '@/components/Landing/BoardBestiesBanner'
-import TestimonialsSection from '@/components/Landing/testimonials/TestimonialsSection'
+import TestimonialsSection from '@/components/Layout/Testimonials'
 
 export default function Home() {
   return (

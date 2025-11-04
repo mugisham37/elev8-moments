@@ -1,6 +1,6 @@
-import HeroSection from '@/components/Routes/About/HeroSection';
-import CharcuterieOfferings from '@/components/Routes/About/CharcuterieOfferings';
-import LoveNotesSection from '@/components/Landing/testimonials/LoveNotesSection';
+import HeroSection from '@/components/Routes/about/HeroSection';
+import CharcuterieOfferings from '@/components/Routes/about/CharcuterieOfferings';
+import LoveNotesSection from '@/components/Routes/about/LoveNotesSection';
 
 export default function AboutPage() {
   return (
