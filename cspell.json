@@ -23,7 +23,8 @@
     "inset",
     "radix",
     "lucide",
-    "recharts"
+    "recharts",
+    "chiavari"
   ],
   "ignorePaths": [
     "node_modules/**",
