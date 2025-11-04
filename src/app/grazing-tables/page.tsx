@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from '../../components/sections/Grazing/Hero';
-import GlamHausGrazing from '../../components/sections/Grazing/GlamHausGrazing';
-import BoardsAndBoxes from '../../components/sections/Grazing/BoardsAndBoxes';
-import Testimonials from '../../components/sections/Grazing/Testimonials';
+import Hero from '../../components/Layout/Grazing/Hero';
+import GlamHausGrazing from '../../components/Layout/Grazing/GlamHausGrazing';
+import BoardsAndBoxes from '../../components/Layout/Grazing/BoardsAndBoxes';
+import Testimonials from '../../components/Layout/Grazing/Testimonials';
 
 export default function App() {
   return (

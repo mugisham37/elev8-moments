@@ -13,6 +13,8 @@ export default function Testimonials() {
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1567729769245-b6b7dfcf506f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyY3V0ZXJpZSUyMGJvYXJkJTIwY29sb3JmdWx8ZW58MXx8fHwxNzYyMjYwOTExfDA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Colorful charcuterie board with assorted meats, cheeses, fruits, and garnishes arranged in circular pattern"
+            width={280}
+            height={280}
             className="w-full h-full object-cover"
             loading="eager"
           />
@@ -53,6 +55,8 @@ export default function Testimonials() {
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1743895046508-49fe949198ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmF6aW5nJTIwYm9hcmQlMjBmbG93ZXJzJTIwdmlicmFudHxlbnwxfHx8fDE3NjIyNjA5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Vibrant charcuterie board featuring cured meats, artisanal cheeses, fresh berries, and edible flowers"
+            width={280}
+            height={280}
             className="w-full h-full object-cover"
             loading="eager"
           />

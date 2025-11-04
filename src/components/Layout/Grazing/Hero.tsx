@@ -9,18 +9,24 @@ export default function Hero() {
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1633981744930-15bb79ca2c41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyY3V0ZXJpZSUyMGNoZWVzZSUyMGJvYXJkfGVufDF8fHx8MTc2MjI1ODM4MHww&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Gourmet charcuterie board with grapes and cheese"
+        width={240}
+        height={150}
         className="absolute top-0 left-0 w-[240px] h-[150px] object-cover z-1"
       />
       
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1738596680872-00c626e6fbfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmF6aW5nJTIwdGFibGUlMjBhZXJpYWx8ZW58MXx8fHwxNzYyMjU4MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Colorful grazing table with fruits, meats, and flowers"
+        width={240}
+        height={340}
         className="absolute top-[168px] left-0 w-[240px] h-[340px] object-cover z-1"
       />
       
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1710528184650-fc75ae862c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGJlcnJpZXMlMjBzdHJhd2JlcnJpZXN8ZW58MXx8fHwxNzYyMjM4MTM2fDA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Fresh strawberries and blueberries on wooden board"
+        width={240}
+        height={200}
         className="absolute bottom-[70px] left-0 w-[240px] h-[200px] object-cover z-1"
         loading="lazy"
       />
@@ -28,18 +34,24 @@ export default function Hero() {
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1761110429384-0678d7015545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcHBldGl6ZXIlMjBwbGF0dGVyfGVufDF8fHx8MTc2MjE3MTcxNHww&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Elegant appetizer platter with decorative presentation"
+        width={560}
+        height={150}
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[560px] h-[150px] object-cover z-1"
       />
       
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1555744038-d0bf77748106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBkZXNzZXJ0c3xlbnwxfHx8fDE3NjIxOTQxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Artisan chocolate desserts and treats"
+        width={360}
+        height={330}
         className="absolute top-0 right-0 w-[360px] h-[330px] object-cover z-1"
       />
       
       <ImageWithFallback
         src="https://images.unsplash.com/photo-1659991689791-db84493f8544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGVlc2UlMjBncmFwZXN8ZW58MXx8fHwxNzYyMjU4MzgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Cheese board with green grapes and gourmet selections"
+        width={360}
+        height={350}
         className="absolute bottom-[70px] right-0 w-[360px] h-[350px] object-cover z-1"
       />
       

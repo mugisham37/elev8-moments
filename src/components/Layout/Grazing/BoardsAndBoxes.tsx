@@ -33,6 +33,8 @@ export default function BoardsAndBoxes() {
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1567729769245-b6b7dfcf506f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyY3V0ZXJpZSUyMGJvYXJkJTIwY29sb3JmdWwlMjBmbG93ZXJzfGVufDF8fHx8MTc2MjI2MDA5NHww&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Colorful traditional charcuterie board with flowers, berries, cheese, and gourmet treats"
+            width={254}
+            height={160}
             className="w-[254px] h-[160px] object-cover shrink-0 transition-all duration-300 group-hover:brightness-110"
             loading="eager"
           />
@@ -75,6 +77,8 @@ export default function BoardsAndBoxes() {
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1695229735020-e4fec302d52e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcnVpdCUyMGNoYXJjdXRlcmllJTIwYm9hcmQlMjBhcnRpc3RpY3xlbnwxfHx8fDE3NjIyNjAwOTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Artfully arranged custom charcuterie board with vibrant fruits and flowers"
+            width={254}
+            height={160}
             className="w-[254px] h-[160px] object-cover shrink-0 transition-all duration-300 group-hover:brightness-110"
             loading="eager"
           />

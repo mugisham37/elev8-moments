@@ -113,6 +113,8 @@ export default function App() {
                 <ImageWithFallback
                   src={image.url}
                   alt={image.alt}
+                  width={300}
+                  height={300}
                   className="w-full aspect-square object-cover cursor-pointer transition-transform duration-300 hover:scale-105 hover:brightness-95"
                 />
               </a>

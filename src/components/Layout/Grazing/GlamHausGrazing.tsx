@@ -11,6 +11,8 @@ export default function GlamHausGrazing() {
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1653559251018-f59d60ab3223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmF6aW5nJTIwYm9hcmQlMjBjaGFyY3V0ZXJpZXxlbnwxfHx8fDE3NjIyNTkzMDN8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Luxurious grazing board with artisanal cheeses, fresh fruits, charcuterie, and gourmet accompaniments elegantly displayed on rustic wooden table"
+            width={412}
+            height={532}
             className="w-full h-full object-cover"
             loading="eager"
           />
