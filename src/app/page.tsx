@@ -1,9 +1,9 @@
-import HeroSection from '@/components/sections/hero/HeroSection'
-import WelcomeSection from '@/components/sections/WelcomeSection'
-import FruitSpecialtyBoards from '@/components/sections/FruitSpecialtyBoards'
-import Marquee from '@/components/ui/Marquee'
-import BoardBestiesBanner from '@/components/sections/BoardBestiesBanner'
-import TestimonialsSection from '@/components/sections/testimonials/TestimonialsSection'
+import HeroSection from '@/components/Landing/Hero/HeroSection'
+import WelcomeSection from '@/components/Landing/WelcomeSection'
+import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards/FruitSpecialtyBoards'
+import Marquee from '@/components/Landing/Marquee'
+import BoardBestiesBanner from '@/components/Landing/BoardBestiesBanner'
+import TestimonialsSection from '@/components/Landing/testimonials/TestimonialsSection'
 
 export default function Home() {
   return (

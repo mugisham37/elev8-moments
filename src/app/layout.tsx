@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Allura, Playfair_Display, Montserrat, Dancing_Script, Cormorant_Garamond, Crimson_Text } from "next/font/google";
 import "./globals.css";
-import { TopNav } from "@/components/Layout/navigation/TopNav";
-import { MainNavigation } from "@/components/Layout/navigation/MainNav";
+import { TopNav } from "@/components/Layout/Navigation/TopNav";
+import { MainNavigation } from "@/components/Layout/Navigation/MainNav";
 import Footer from "@/components/Layout/Footer";
 
 const geistSans = Geist({
