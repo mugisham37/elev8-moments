@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:wght@400&family=Montserrat:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -181,8 +181,9 @@
 
 html {
   font-size: var(--font-size);
-}/* Glam
- Haus Navigation Component Styles */
+}
+
+/* Glam Haus Navigation Component Styles */
 .glam-haus-header {
   display: flex;
   justify-content: space-between;
@@ -444,8 +445,7 @@ html {
     font-size: 13px;
   }
 }
-/* Main Na
-vigation Component Styles */
+/* Main Navigation Component Styles */
 .main-navigation {
   display: flex;
   justify-content: space-between;
@@ -539,8 +539,7 @@ vigation Component Styles */
   
   /* Mobile menu would be implemented here with hamburger icon */
 }
-/* F
-ruit & Specialty Boards Section Styles */
+/* Fruit & Specialty Boards Section Styles */
 .fruit-boards-section {
   background-color: #F5F0EB;
   width: 100%;
