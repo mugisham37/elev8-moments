@@ -38,9 +38,6 @@ export function MainNavigation({ className = '' }: MainNavigationProps) {
         <Link href="/" className="nav-link">
           HOME
         </Link>
-        <Link href="/boards-boxes" className="nav-link">
-          BOARDS + BOXES
-        </Link>
         <Link href="/grazing-tables" className="nav-link">
           GRAZING TABLES
         </Link>

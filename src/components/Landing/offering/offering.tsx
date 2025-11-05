@@ -40,18 +40,26 @@ export default function Offering() {
           
           {/* Bottom Images Grid - Positioned absolutely on desktop, normal flow on mobile */}
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:pl-[120px] lg:gap-6 lg:pb-0">
-            <ImageWithFallback 
-              src="https://images.unsplash.com/photo-1760322327927-eeb834067f25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZXN0aXZlJTIwY2hhcmN1dGVyaWUlMjBib2FyZCUyMGhvbGlkYXl8ZW58MXx8fHwxNzYyMzMyMzkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Festive holiday charcuterie board with crackers, cheeses, berries, and seasonal decorations on round wooden board"
-              className="w-full h-[340px] object-cover block"
-              loading="lazy"
-            />
-            <ImageWithFallback 
-              src="https://images.unsplash.com/photo-1677946923587-7f13ff919ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWxhbWklMjByb3NlJTIwY2hhcmN1dGVyaWUlMjBib2FyZHxlbnwxfHx8fDE3NjIzMzIzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Artfully arranged charcuterie featuring folded salami roses, aged cheeses, fresh fruit, and edible flowers"
-              className="w-full h-[340px] object-cover block"
-              loading="lazy"
-            />
+            <div className="relative w-full h-[340px]">
+              <ImageWithFallback 
+                src="https://images.unsplash.com/photo-1760322327927-eeb834067f25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZXN0aXZlJTIwY2hhcmN1dGVyaWUlMjBib2FyZCUyMGhvbGlkYXl8ZW58MXx8fHwxNzYyMzMyMzkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Festive holiday charcuterie board with crackers, cheeses, berries, and seasonal decorations on round wooden board"
+                fill
+                className="object-cover"
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              />
+            </div>
+            <div className="relative w-full h-[340px]">
+              <ImageWithFallback 
+                src="https://images.unsplash.com/photo-1677946923587-7f13ff919ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWxhbWklMjByb3NlJTIwY2hhcmN1dGVyaWUlMjBib2FyZHxlbnwxfHx8fDE3NjIzMzIzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Artfully arranged charcuterie featuring folded salami roses, aged cheeses, fresh fruit, and edible flowers"
+                fill
+                className="object-cover"
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              />
+            </div>
           </div>
         </div>
         
@@ -60,8 +68,10 @@ export default function Offering() {
           <ImageWithFallback 
             src="https://images.unsplash.com/photo-1679057658314-ca403aa4ea44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjaGFyY3V0ZXJpZSUyMGJvYXJkJTIwZmxvd2VycyUyMHN0cmF3YmVycmllc3xlbnwxfHx8fDE3NjIzMzIzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Luxurious charcuterie board featuring fresh strawberries, grapes, artisan cheeses, cured meats, and vibrant flowers arranged on wooden serving board"
-            className="w-full h-full object-cover object-center"
+            fill
+            className="object-cover object-center"
             loading="eager"
+            sizes="(max-width: 1024px) 100vw, 60vw"
           />
         </div>
       </div>

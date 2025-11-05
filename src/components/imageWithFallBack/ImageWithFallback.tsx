@@ -44,6 +44,13 @@ export function ImageWithFallback({
     setDidError(true)
   }
 
+  // Auto-detect if we should use fill based on whether dimensions are provided
+  const shouldUseFill = fill || (!width && !height)
+  
+  // Provide default dimensions if not using fill and no dimensions specified
+  const finalWidth = shouldUseFill ? undefined : (width || 1080)
+  const finalHeight = shouldUseFill ? undefined : (height || 720)
+
   if (didError) {
     return (
       <div
@@ -56,7 +63,7 @@ export function ImageWithFallback({
             src={ERROR_IMG_SRC} 
             alt="Error loading image" 
             data-original-url={src}
-            style={{ width: width || 'auto', height: height || 'auto' }}
+            style={{ width: finalWidth || 'auto', height: finalHeight || 'auto' }}
           />
         </div>
       </div>
@@ -67,11 +74,11 @@ export function ImageWithFallback({
     <Image
       src={src}
       alt={alt}
-      width={width}
-      height={height}
+      width={finalWidth}
+      height={finalHeight}
       className={className}
       style={style}
-      fill={fill}
+      fill={shouldUseFill}
       sizes={sizes}
       priority={priority}
       quality={quality}
