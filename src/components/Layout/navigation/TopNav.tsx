@@ -38,7 +38,7 @@ export const TopNav: React.FC<TopNavProps> = ({ className = '' }) => {
           <div className="w-full h-px bg-[#1E1E1E] mt-2"></div>
         </div>
         
-        <div className="absolute right-0 top-11 text-center">
+        <div className="absolute right-[-120px] top-11 text-center">
           <p className="text-[20px] font-normal text-[#1E1E1E] font-['Noiretblanc'] mb-4">
             Looking for the perfect gift for someone special?
           </p>

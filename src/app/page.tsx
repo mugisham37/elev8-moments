@@ -4,7 +4,7 @@ import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards'
 import Marquee from '@/components/Landing/Marquee'
 import BoardBestiesBanner from '@/components/Landing/BoardBestiesBanner'
 import TestimonialsSection from '@/components/Layout/Testimonials'
-import Offering from '@/components/Landing/offering/offering'
+import Offering from '@/components/Landing/offering'
 
 export default function Home() {
   return (
