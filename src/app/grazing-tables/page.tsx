@@ -1,15 +1,18 @@
-import Hero from '../../components/Routes/Grazing/Hero';
-import GlamHausGrazing from '../../components/Routes/Grazing/GlamHausGrazing';
-import BoardsAndBoxes from '../../components/Routes/Grazing/BoardsAndBoxes';
+
 import Testimonials from '../../components/Layout/Testimonials';
+import GrazingTablesHero from '../../components/Routes/Grazing/GrazingTablesHero';
+import GrazingDetails from '../../components/Routes/Grazing/GrazingDetails';
+import GalleryShowcase from '../../components/Routes/Grazing/GalleryShowcase';
+import BoardsBoxesGrid from '../../components/Routes/Grazing/BoardsBoxesGrid';
 
 export default function App() {
   return (
     <>
-      <Hero />
-      <GlamHausGrazing />
-      <BoardsAndBoxes />
-      <Testimonials />
+    <GrazingTablesHero/>
+    <GrazingDetails/>
+    <GalleryShowcase/>
+    <BoardsBoxesGrid/>
+    <Testimonials />
     </>
   );
 }
