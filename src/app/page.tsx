@@ -4,9 +4,8 @@ import FruitSpecialtyBoards from '@/components/Landing/FruitSpecialtyBoards'
 import EventDesign from '@/components/Landing/EventDesign'
 import TestimonialsSection from '@/components/Layout/Testimonials'
 import CharcuterieOfferings from '@/components/Landing/CharcuterieOfferings'
-import Gallery1 from '@/components/Landing/Gallery1'
+import Gallery from '@/components/Layout/Gallery'
 import BoardBestiesCTA from '@/components/Landing/BoardBestiesCTA'
-import Gallery2 from '@/components/Landing/Gallery2'
 
 export default function Home() {
   return (
@@ -14,11 +13,11 @@ export default function Home() {
       <HeroSection />
       <WelcomeSection />
       <CharcuterieOfferings/>
-      <Gallery1/>
+      <Gallery/>
       <FruitSpecialtyBoards />
       <EventDesign/>
-      <Gallery2/>
       <BoardBestiesCTA/>
+      <Gallery/>
       <TestimonialsSection />
     </div>
   );

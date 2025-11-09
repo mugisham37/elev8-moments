@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Gallery1() {
+export default function Gallery() {
   return (
     <>
     <section className="bg-[#f9f2ec] py-16">

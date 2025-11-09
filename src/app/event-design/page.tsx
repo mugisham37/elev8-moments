@@ -1,15 +1,19 @@
 import Hero from '@/components/Routes/Events/Hero';
 import EventSetup from '@/components/Routes/Events/EventSetup';
-import FloralSection from '@/components/Routes/Events/FloralSection';
-import StunningTables from '@/components/Routes/Events/StunningTables';
+import FloralDesign from '@/components/Routes/Events/FloralDesign';
+import { Tablescapes } from '@/components/Routes/Events/Tablescapes';
+import SeasonalDecor from '@/components/Routes/Events/SeasonalDecor';
+import Gallery from '@/components/Layout/Gallery';
 
 export default function App() {
   return (
     <>
     <Hero />
     <EventSetup />
-    <StunningTables/>
-    <FloralSection/>
+    <Tablescapes/>
+    <FloralDesign/>
+    <SeasonalDecor/>
+    <Gallery/>
     </>
   );
 }
