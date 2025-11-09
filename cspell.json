@@ -37,7 +37,9 @@
     "crimson",
     "pinyon",
     "geist",
-    "Noiretblanc"
+    "Noiretblanc",
+    "Ordernow",
+    "Besties"
   ],
   "ignorePaths": [
     "node_modules/**",
