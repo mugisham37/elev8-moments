@@ -1,49 +1,59 @@
 import React from 'react';
 
-interface NavigationProps {
+interface TopNavProps {
   className?: string;
 }
 
-export function TopNav({ className = '' }: NavigationProps) {
+export const TopNav: React.FC<TopNavProps> = ({ className = '' }) => {
   return (
-    <header 
-      className={`glam-haus-header ${className}`}
-      role="banner"
-    >
-      {/* Left Section */}
-      <nav className="glam-haus-section glam-haus-section--left">
-        <p className="glam-haus-question">Need event design?</p>
+    <div className={`relative h-[165px] bg-[#F9F2EC] border-b border-[#636363] ${className}`}>
+      <div className="max-w-[1200px] mx-auto h-full relative px-4">
         <a 
-          href="/services" 
-          className="glam-haus-cta"
-          aria-label="View our event design services"
+          href="#" 
+          className="absolute left-1/2 top-[42px] -translate-x-1/2 no-underline"
         >
-          VIEW OUR DESIGN SERVICES
+          <h1 className="text-[43px] font-normal text-[#1E1E1E] text-center uppercase font-['Noiretblanc']">
+            GLAM HAUS DESIGN CO.
+          </h1>
         </a>
-      </nav>
-      
-      {/* Center Section */}
-      <div className="glam-haus-section glam-haus-section--center">
-        <h1 className="glam-haus-brand">GLAM HAUS DESIGN CO.</h1>
-        <div className="glam-haus-underline" role="presentation" aria-hidden="true" />
-        <p className="glam-haus-tagline">
-          Charcuterie Boards + Grazing Tables + Event Design
-        </p>
+        
+        <div className="absolute left-0 top-[53px] text-center">
+          <p className="text-[20px] font-normal text-[#1E1E1E] font-['Noiretblanc'] mb-4">
+            Need event design?
+          </p>
+          <a 
+            href="#" 
+            className="inline-block text-[11px] font-bold text-[#1E1E1E] uppercase tracking-[2.2px] font-['Raleway'] no-underline"
+          >
+            view our design services
+          </a>
+        </div>
+        
+        <div className="absolute left-[306px] top-[5px] w-px h-[154px] bg-[#636363]"></div>
+        
+        <div className="absolute left-1/2 top-[101px] -translate-x-1/2 w-[453px]">
+          <h2 className="text-[17px] font-normal text-[#1E1E1E] text-center font-['Raleway']">
+            Charcuterie Boards + Grazing Tables + Event Design
+          </h2>
+          <div className="w-full h-px bg-[#1E1E1E] mt-2"></div>
+        </div>
+        
+        <div className="absolute right-0 top-11 text-center">
+          <p className="text-[20px] font-normal text-[#1E1E1E] font-['Noiretblanc'] mb-4">
+            Looking for the perfect gift for someone special?
+          </p>
+          <a 
+            href="#" 
+            className="inline-block text-[11px] font-bold text-[#1E1E1E] uppercase tracking-[2.2px] font-['Raleway'] no-underline"
+          >
+            view our BOXES
+          </a>
+        </div>
+        
+        <div className="absolute right-[307px] top-[5px] w-px h-[154px] bg-[#636363]"></div>
       </div>
-      
-      {/* Right Section */}
-      <nav className="glam-haus-section glam-haus-section--right">
-        <p className="glam-haus-question">
-          Looking for the perfect gift<br />for someone special?
-        </p>
-        <a 
-          href="/boxes" 
-          className="glam-haus-cta"
-          aria-label="View our gift boxes"
-        >
-          VIEW OUR BOXES
-        </a>
-      </nav>
-    </header>
+    </div>
   );
-}
+};
+
+export default TopNav;

@@ -36,7 +36,8 @@
     "cormorant",
     "crimson",
     "pinyon",
-    "geist"
+    "geist",
+    "Noiretblanc"
   ],
   "ignorePaths": [
     "node_modules/**",
