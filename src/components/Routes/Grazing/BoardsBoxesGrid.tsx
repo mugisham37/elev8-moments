@@ -5,10 +5,8 @@ export default function BoardsBoxesGrid() {
   <section className="bg-[#1e1e1e] py-20">
                 <div className="max-w-[1200px] mx-auto px-4">
                     <div className="text-center mb-16">
-                        <p className="text-[60px] leading-24 text-[#f9f2ec] mb-4" style={{ fontFamily: 'Strings' }}>Check
-                            Out Our</p>
-                        <h2 className="text-[55px] leading-[88px] text-[#f9f2ec]" style={{ fontFamily: 'Noiretblanc' }}>BOARDS +
-                            BOXES</h2>
+                        <p className="text-[60px] leading-24 text-[#f9f2ec] mb-4" style={{ fontFamily: 'Strings' }}>Explore Our</p>
+                        <h2 className="text-[55px] leading-[88px] text-[#f9f2ec]" style={{ fontFamily: 'Noiretblanc' }}>SIGNATURE EXPERIENCES</h2>
                         <div className="w-[315px] h-px bg-[#f9f2ec] mx-auto"></div>
                     </div>
                     <div className="grid grid-cols-3 gap-8">
@@ -17,7 +15,7 @@ export default function BoardsBoxesGrid() {
                                 src="https://static.showit.co/400/ek_yOtCCRrCwzZcX3B8hrA/shared/img_0802.jpg" width={248} height={157} /><a
                                 href="#" className="flex items-center gap-2 mb-4 hover:opacity-70"><span
                                     className="text-[18px] leading-[19.8px] tracking-[1.8px] text-[#f9f2ec] font-medium"
-                                    style={{ fontFamily: 'Montserrat' }}>TRADITIONAL<br />BOARDS + BOXES</span><svg
+                                    style={{ fontFamily: 'Montserrat' }}>CREATIVE<br />WORKSHOPS</span><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                     strokeLinejoin="round" className="lucide lucide-chevron-right w-8 h-24 text-[#f9f2ec]"
@@ -26,8 +24,7 @@ export default function BoardsBoxesGrid() {
                                 </svg></a>
                             <div className="w-full h-px bg-[#f9f2ec] mb-4"></div>
                             <p className="text-[16px] leading-[27.2px] text-[#f9f2ec] text-center"
-                                style={{ fontFamily: 'Raleway' }}>Our traditional boards include an assortment of cheeses,
-                                meats, spreads/dips, crackers, fruit (dried &amp; fresh), nuts, sweet treats, etc.</p>
+                                style={{ fontFamily: 'Raleway' }}>Our creative workshops include hands-on activities like Bloom &amp; Bond floral design, Paint a Shirt expressive art, and other soulful, interactive experiences.</p>
                         </div>
                         <div className="flex flex-col items-center"><Image alt="Custom Board"
                                 className="w-[248px] h-[157px] object-cover mb-6"
@@ -35,7 +32,7 @@ export default function BoardsBoxesGrid() {
                                 style={{ objectPosition: '40% 40%' }} width={248} height={157} /><a href="#"
                                 className="flex items-center gap-2 mb-4 hover:opacity-70"><span
                                     className="text-[18px] leading-[19.8px] tracking-[1.8px] text-[#f9f2ec] font-medium"
-                                    style={{ fontFamily: 'Montserrat' }}>CUSTOM &amp; SPECIALTY<br />BOARDS + BOXES</span><svg
+                                    style={{ fontFamily: 'Montserrat' }}>HEALING & BONDING<br />RETREATS</span><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                     strokeLinejoin="round" className="lucide lucide-chevron-right w-8 h-24 text-[#f9f2ec]"
@@ -44,8 +41,7 @@ export default function BoardsBoxesGrid() {
                                 </svg></a>
                             <div className="w-full h-px bg-[#f9f2ec] mb-4"></div>
                             <p className="text-[16px] leading-[27.2px] text-[#f9f2ec] text-center"
-                                style={{ fontFamily: 'Raleway' }}>Our custom charcuterie boards are thoughtfully curated to
-                                suit your unique style and occasion.</p>
+                                style={{ fontFamily: 'Raleway' }}>Our healing retreats are thoughtfully designed to suit your community&apos;s unique needs and intentions.</p>
                         </div>
                         <div className="flex flex-col items-center"><Image alt="Men's Board"
                                 className="w-[248px] h-[157px] object-cover mb-6"
@@ -53,7 +49,7 @@ export default function BoardsBoxesGrid() {
                                 style={{ objectPosition: '60% 60%' }} width={248} height={157} /><a href="#"
                                 className="flex items-center gap-2 mb-4 hover:opacity-70"><span
                                     className="text-[18px] leading-[19.8px] tracking-[1.8px] text-[#f9f2ec] font-medium"
-                                    style={{ fontFamily: 'Montserrat' }}>MANLY<br />BOARDS + BOXES</span><svg
+                                    style={{ fontFamily: 'Montserrat' }}>CORPORATE<br />TEAM EXPERIENCES</span><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                     strokeLinejoin="round" className="lucide lucide-chevron-right w-8 h-24 text-[#f9f2ec]"
@@ -62,8 +58,7 @@ export default function BoardsBoxesGrid() {
                                 </svg></a>
                             <div className="w-full h-px bg-[#f9f2ec] mb-4"></div>
                             <p className="text-[16px] leading-[27.2px] text-[#f9f2ec] text-center"
-                                style={{ fontFamily: 'Raleway' }}>Curated for hearty appetites, featuring a robust selection
-                                of meats, cheeses, pickled items, candied bacon, stuffed peppers, and optional add-ons.
+                                style={{ fontFamily: 'Raleway' }}>Curated for professional teams, featuring engaging creative activities, bonding experiences, meaningful workshops, inspiring sessions, and customizable add-ons.
                             </p>
                         </div>
                     </div>
@@ -73,7 +68,7 @@ export default function BoardsBoxesGrid() {
                                 src="https://static.showit.co/400/OKtA2rtNySGQIGp01FMk_g/shared/img_5588.jpg" width={248} height={157} /><a
                                 href="#" className="flex items-center gap-2 mb-4 hover:opacity-70"><span
                                     className="text-[18px] leading-[19.8px] tracking-[1.8px] text-[#f9f2ec] font-medium"
-                                    style={{ fontFamily: 'Montserrat' }}>HOLIDAY BOARDS</span><svg
+                                    style={{ fontFamily: 'Montserrat' }}>VISIT RWANDA<br />TOURISM PACKAGES</span><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                     strokeLinejoin="round" className="lucide lucide-chevron-right w-8 h-24 text-[#f9f2ec]"
@@ -82,15 +77,13 @@ export default function BoardsBoxesGrid() {
                                 </svg></a>
                             <div className="w-full h-px bg-[#f9f2ec] mb-4"></div>
                             <p className="text-[16px] leading-[27.2px] text-[#f9f2ec] text-center"
-                                style={{ fontFamily: 'Raleway' }}>The perfect centerpiece for festive entertaining, offering
-                                a delightful selection of meats, cheeses, and seasonal flavors to elevate any holiday
-                                gathering.</p>
+                                style={{ fontFamily: 'Raleway' }}>The perfect introduction to Kigali culture, offering a curated selection of workshops, creative activities, and cultural experiences to elevate any visitor&apos;s journey.</p>
                         </div>
                     </div>
                     <div className="text-center mt-12"><a href="#"
                             className="inline-block border border-[#f9f2ec] px-8 py-4 hover:bg-[#f9f2ec] hover:text-[#1e1e1e] transition-colors"><span
                                 className="text-[14px] leading-[30.8px] tracking-[1.4px] text-[#f9f2ec] uppercase"
-                                style={{ fontFamily: 'Raleway' }}>ORDER NOW</span></a></div>
+                                style={{ fontFamily: 'Raleway' }}>BOOK NOW</span></a></div>
                 </div>
             </section>
   );

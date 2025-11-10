@@ -6,8 +6,8 @@ export default function CharcuterieOfferings() {
     <section className="w-full bg-[#f9f2ec] py-16">
                 <div className="max-w-[1200px] mx-auto px-4">
                     <div className="text-center mb-12">
-                        <p className="font-['Strings'] text-[60px] leading-tight text-[#1e1e1e] mb-4">Glam Haus</p>
-                        <p className="font-['Noiretblanc'] text-[55px] leading-tight text-[#1e1e1e]">CHARCUTERIE OFFERINGS
+                        <p className="font-['Strings'] text-[60px] leading-tight text-[#1e1e1e] mb-4">Elev8 Moments</p>
+                        <p className="font-['Noiretblanc'] text-[55px] leading-tight text-[#1e1e1e]">SIGNATURE OFFERINGS
                         </p>
                         <div className="border-t border-[#1e1e1e] w-[189px] mx-auto mt-4"></div>
                     </div>
@@ -18,11 +18,9 @@ export default function CharcuterieOfferings() {
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
-                                    TRADITIONAL BOARDS + BOXES</h3>
+                                    CURATED EVENTS + WORKSHOPS</h3>
                             </a>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">Our
-                                traditional boards include an assortment of cheeses, meats, spreads/dips, crackers,
-                                fruit (dried &amp; fresh), nuts, sweet treats, etc.</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">Our curated events include creative workshops like Bloom &amp; Bond floral design, Paint a Shirt experiences, soulful retreats, healing gatherings, and community celebrations.</p>
                             <div className="border-t border-[#1e1e1e]"></div><a href="#"
                                 className="inline-flex items-center mt-4 text-[#1e1e1e] hover:opacity-70 transition-opacity"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
@@ -40,11 +38,9 @@ export default function CharcuterieOfferings() {
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
-                                    BRUNCH-STYLE BOARDS + BOXES</h3>
+                                    CORPORATE & HOLIDAY GIFTING</h3>
                             </a>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">
-                                Discover our brunch-inspired charcuterie boards, thoughtfully prepared with a selection
-                                of light, brunch-friendly meats and cheeses.</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">Discover our elegant gifting solutions, thoughtfully designed with customized packages perfect for Women&apos;s Day, Valentine&apos;s Day, and year-round corporate appreciation.</p>
                             <div className="border-t border-[#1e1e1e]"></div><a href="#"
                                 className="inline-flex items-center mt-4 text-[#1e1e1e] hover:opacity-70 transition-opacity"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
@@ -62,11 +58,9 @@ export default function CharcuterieOfferings() {
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
-                                    MANLY BOARDS + BOXES</h3>
+                                    VISIT RWANDA EXPERIENCES</h3>
                             </a>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">
-                                Curated for hearty appetites, featuring a robust selection of meats, cheeses, pickled
-                                items, candied bacon, stuffed peppers, and optional add-ons.</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">Curated for visitors and locals alike, featuring cultural workshops, creative activities, bonding experiences, soulful gatherings, and customizable add-ons.</p>
                             <div className="border-t border-[#1e1e1e]"></div><a href="#"
                                 className="inline-flex items-center mt-4 text-[#1e1e1e] hover:opacity-70 transition-opacity"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
@@ -83,11 +77,9 @@ export default function CharcuterieOfferings() {
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
-                                    HOLIDAY BOARDS</h3>
+                                    INTIMATE RETREATS</h3>
                             </a>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">The
-                                perfect centerpiece for festive entertaining, offering a delightful selection of meats,
-                                cheeses, and seasonal flavors to elevate any holiday gathering.</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mb-4">The perfect setting for meaningful connection, offering thoughtfully curated activities, healing spaces, and intentional moments to elevate any intimate gathering.</p>
                             <div className="border-t border-[#1e1e1e]"></div><a href="#"
                                 className="inline-flex items-center mt-4 text-[#1e1e1e] hover:opacity-70 transition-opacity"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
@@ -98,8 +90,7 @@ export default function CharcuterieOfferings() {
                         </div>
                     </div>
                     <div className="text-center mt-12"><a href="#"
-                            className="inline-block border border-[#1e1e1e] px-8 py-4 font-['Raleway'] text-[14px] uppercase tracking-[1.4px] text-[#1e1e1e] hover:bg-[#1e1e1e] hover:text-[#f9f2ec] transition-colors">PLACE
-                            AN ORDER</a></div>
+                            className="inline-block border border-[#1e1e1e] px-8 py-4 font-['Raleway'] text-[14px] uppercase tracking-[1.4px] text-[#1e1e1e] hover:bg-[#1e1e1e] hover:text-[#f9f2ec] transition-colors">BOOK YOUR EXPERIENCE</a></div>
                 </div>
             </section>
   );

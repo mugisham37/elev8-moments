@@ -16,21 +16,15 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className="text-[#F9F2EC]">
-                            <p className="text-[50px] font-[Strings] leading-tight mb-4 text-[#CFDAc7]">Glam Haus</p>
+                            <p className="text-[50px] font-[Strings] leading-tight mb-4 text-[#CFDAc7]">Elev8 Moments</p>
                             <div className="flex items-center gap-2 mb-4">
-                                <h1 className="text-[56px] font-[Noiretblanc] leading-tight">ELF KITS</h1>
+                                <h1 className="text-[56px] font-[Noiretblanc] leading-tight">GIFTING</h1>
                             </div>
                             <div className="w-8 h-px bg-[#F9F2EC] mb-4"></div>
-                            <p className="text-[15px] font-[Raleway] tracking-[1.6px] leading-tight mb-6 uppercase">BECAUSE
-                                YOUR ELF NEEDS MORE THAN JUST A SHELF THIS YEAR!</p>
-                            <p className="text-[16px] font-[Raleway] leading-relaxed mb-8">Imagine your littles waking up to
-                                a new holiday-themed surprise each morning—craft snowflakes, bake festive cookies, or
-                                embark on a scavenger hunt for hidden treasures! At Glam Haus, we offer a 12-day kit
-                                that is perfect for a quick burst of festive fun, while our 24-day kit transforms the
-                                entire month into a magical celebration leading all the way up to Christmas!</p><a
+                            <p className="text-[15px] font-[Raleway] tracking-[1.6px] leading-tight mb-6 uppercase">BECAUSE EVERY MOMENT DESERVES MORE THAN JUST A GIFT!</p>
+                            <p className="text-[16px] font-[Raleway] leading-relaxed mb-8">Imagine your team or loved ones opening a thoughtfully curated gift—elegant packaging, meaningful contents, or personalized touches that create lasting impressions! At Elev8 Moments, we offer corporate packages that are perfect for employee appreciation and client recognition, while our personal gift options transform any occasion into a memorable celebration throughout the entire year!</p><a
                                 href="#"
-                                className="inline-block border border-[#F9F2EC] px-8 py-3 text-[14px] font-[Raleway] uppercase tracking-[1.4px] hover:bg-[#F9F2EC] hover:text-[#314F39] transition-colors">ORDER
-                                YOUR KIT!</a>
+                                className="inline-block border border-[#F9F2EC] px-8 py-3 text-[14px] font-[Raleway] uppercase tracking-[1.4px] hover:bg-[#F9F2EC] hover:text-[#314F39] transition-colors">REQUEST A QUOTE!</a>
                         </div>
                     </div>
                 </div>

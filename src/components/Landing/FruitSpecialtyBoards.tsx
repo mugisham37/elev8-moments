@@ -18,20 +18,14 @@ export default function FruitSpecialtyBoards() {
                         <div><img alt="Fruit boards" className="w-full h-auto rounded-br-[366px] shadow-lg"
                             src="https://picsum.photos/700/500" /></div>
                         <div>
-                            <h3 className="text-[49px] font-['Noiretblanc'] leading-tight mb-6">FRUIT &amp; SPECIALTY BOARDS
+                            <h3 className="text-[49px] font-['Noiretblanc'] leading-tight mb-6">VISIT RWANDA EXPERIENCES
                             </h3>
-                            <p className="text-[16px] font-['Raleway'] leading-relaxed mb-8">Treat your guests to our
-                                beautifully arranged fruit and specialty boards, perfect for any occasion! Each board is
-                                thoughtfully curated to offer a vibrant mix of fresh fruits and unique ingredients that
-                                will impress and delight. Whether it&apos;s a casual gathering or a grand event, we&apos;ve got
-                                the perfect board to elevate your celebration!</p><a href="#"
-                                    className="inline-block bg-[#1e1e1e] text-white px-8 py-4 text-[14px] font-['Raleway'] tracking-[1.4px] uppercase hover:opacity-80 transition-opacity">VIEW
-                                MORE</a>
+                            <p className="text-[16px] font-['Raleway'] leading-relaxed mb-8">Treat your guests to our beautifully curated cultural and creative experiences, perfect for any visit! Each experience is thoughtfully designed to offer a vibrant mix of local culture and unique activities that will impress and delight. Whether it&apos;s a creative workshop or a bonding retreat, we&apos;ve got the perfect experience to elevate your Kigali journey!</p><a href="#"
+                                    className="inline-block bg-[#1e1e1e] text-white px-8 py-4 text-[14px] font-['Raleway'] tracking-[1.4px] uppercase hover:opacity-80 transition-opacity">LEARN MORE</a>
                         </div>
                     </div>
                     <div className="mt-8 border border-black">
-                        <p className="text-[27px] font-['Noiretblanc'] text-center py-4">Glam Haus Design Co. - Glam Haus
-                            Design Co. - Glam Haus Design Co.</p>
+                        <p className="text-[27px] font-['Noiretblanc'] text-center py-4">Elev8 Moments - Elev8 Moments - Elev8 Moments</p>
                     </div>
                     <div className="mt-8 flex justify-center gap-4"><img alt="Sample 1"
                         className="h-[201px] object-cover rounded" src="https://picsum.photos/250/200" /><img

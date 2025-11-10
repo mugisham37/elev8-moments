@@ -10,13 +10,8 @@ export default function EventDesign
                             <h3 className="text-[50px] font-['Noiretblanc'] uppercase leading-tight mb-4">EVENT DESIGN</h3>
                             <p
                                 className="text-[16px] font-['Montserrat'] font-medium tracking-[1.6px] uppercase leading-relaxed mb-6">
-                                IMAGINE WALKING INTO A BEAUTIFULLY DESIGNED SPACE, WHERE THE AMBIANCE IS PERFECTLY
-                                TAILORED TO YOUR CELEBRATION</p>
-                            <p className="text-[16px] font-['Raleway'] leading-relaxed mb-8">At Glam Haus, our passion for
-                                event design shines through in every detail, from seasonal holiday décor to stunning
-                                tablescapes, ensuring your event is nothing short of spectacular. Whether you&apos;re hosting
-                                an intimate gathering, a lavish wedding, or a festive holiday party, we are here to
-                                bring your vision to life with our creative flair and meticulous attention to detail.
+                                IMAGINE STEPPING INTO AN INTENTIONALLY CURATED SPACE, WHERE EVERY DETAIL IS PERFECTLY DESIGNED FOR CONNECTION AND JOY</p>
+                            <p className="text-[16px] font-['Raleway'] leading-relaxed mb-8">At Elev8 Moments, our passion for event design shines through in every detail, from creative workshops to soulful retreats, ensuring your experience is nothing short of memorable. Whether you&apos;re hosting an intimate gathering, a corporate celebration, or a meaningful community event, we are here to bring your vision to life with intentionality and meticulous attention to detail.
                             </p><a href="#"
                                 className="inline-block bg-[#1e1e1e] text-white px-8 py-4 text-[14px] font-['Raleway'] tracking-[1.4px] uppercase hover:opacity-80 transition-opacity">Learn
                                 more</a>

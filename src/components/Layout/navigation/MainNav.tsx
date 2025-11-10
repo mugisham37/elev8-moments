@@ -39,13 +39,13 @@ export function MainNavigation({ className = '' }: MainNavigationProps) {
           HOME
         </Link>
         <Link href="/grazing-tables" className="nav-link">
-          GRAZING TABLES
+          EXPERIENCES
         </Link>
         <Link href="/event-design" className="nav-link">
           EVENT DESIGN
         </Link>
         <Link href="/elf-kits" className="nav-link">
-          ELF KITS
+          GIFTING
         </Link>
         <Link href="/about" className="nav-link">
           ABOUT

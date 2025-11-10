@@ -6,12 +6,8 @@ export const SeasonalDecor = () => {
                 <div className="max-w-[1200px] mx-auto h-full relative px-4 flex items-center">
                     <div className="flex-1 text-right pr-12">
                         <h2 className="text-[56px] font-normal text-[#F9F2EC] font-['Noiretblanc'] leading-tight mb-6">
-                            SEASONAL &amp;<br />HOLIDAY DECOR</h2>
-                        <p className="text-[16px] text-[#F9F2EC] font-['Raleway'] leading-relaxed">Embrace the magic of each
-                            season with our enchanting holiday décor! From cozy autumn gatherings adorned with vibrant
-                            leaves and pumpkins to glamorous winter wonderlands draped in twinkling lights and evergreen
-                            accents, we create settings that capture the essence of the season. Our designs are infused
-                            with warmth and charm, ensuring your guests feel welcomed and inspired.</p>
+                            VISIT RWANDA &amp;<br />TOURISM EXPERIENCES</h2>
+                        <p className="text-[16px] text-[#F9F2EC] font-['Raleway'] leading-relaxed">Embrace the culture of Kigali with our enchanting tourism experiences! From creative workshops featuring local artisans and cultural activities to soulful gatherings celebrating Rwanda&apos;s vibrant spirit and community connection, we create experiences that capture the essence of this destination. Our events are infused with intention and meaning, ensuring your visit feels memorable and inspiring.</p>
                     </div>
                     <div className="flex-1 flex items-center justify-center gap-8">
                         <div className="relative">

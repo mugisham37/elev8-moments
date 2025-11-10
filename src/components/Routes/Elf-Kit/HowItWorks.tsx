@@ -22,9 +22,7 @@ export function HowItWorks() {
                         <div>
                             <h2 className="text-[#1E1E1E] text-[56px] font-[Noiretblanc] leading-tight mb-4">HOW IT WORKS
                             </h2>
-                            <p className="text-[#1E1E1E] text-[15px] font-[Raleway] uppercase leading-relaxed mb-6">Take the
-                                "what is my elf going to do tonight" question off your holiday to-do list with our
-                                convenient KITS!</p>
+                            <p className="text-[#1E1E1E] text-[15px] font-[Raleway] uppercase leading-relaxed mb-6">Take the &quot;what should we gift this time&quot; question off your busy to-do list with our curated PACKAGES!</p>
                             <div className="space-y-6">
                                 <div className="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -33,9 +31,7 @@ export function HowItWorks() {
                                         aria-hidden="true">
                                         <path d="m9 18 6-6-6-6"></path>
                                     </svg>
-                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Each kit comes
-                                        with a personalized hello and goodbye letter that will be customized to your
-                                        family whether you have a new or returning elf or elves.</p>
+                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Each package comes with personalized branding and custom messaging that will be tailored to your company whether you&apos;re gifting to staff, clients, or special partners.</p>
                                 </div>
                                 <div className="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -44,10 +40,7 @@ export function HowItWorks() {
                                         aria-hidden="true">
                                         <path d="m9 18 6-6-6-6"></path>
                                     </svg>
-                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Each day's
-                                        theme will come individually bagged and contain instructions for set-up and
-                                        props. Just unpack that day's materials, follow directions, and you're all set
-                                        for the night.</p>
+                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Each gift&apos;s contents will come beautifully packaged and include thoughtful details for presentation and impact. Just receive your curated package, review the presentation, and you&apos;re all set for gifting.</p>
                                 </div>
                                 <div className="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -56,12 +49,10 @@ export function HowItWorks() {
                                         aria-hidden="true">
                                         <path d="m9 18 6-6-6-6"></path>
                                     </svg>
-                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Our kits
-                                        accommodate one elf and activities for up to 2 children with themes that are
-                                        suitable for ages 2-12</p>
+                                    <p className="text-[#1E1E1E] text-[16px] font-[Raleway] leading-relaxed">Our packages accommodate various occasions from Women&apos;s Day to holidays with options that are suitable for all professional settings</p>
                                 </div>
                             </div>
-                            <p className="text-[#1E1E1E] text-[10px] font-[Raleway] mt-6">*Elf Not Included</p>
+                            <p className="text-[#1E1E1E] text-[10px] font-[Raleway] mt-6">*Custom Branding Available</p>
                         </div>
                     </div>
                 </div>

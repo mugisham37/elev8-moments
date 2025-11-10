@@ -9,12 +9,8 @@ export default function Hero() {
                 <div className="max-w-[1200px] mx-auto h-full relative px-4 flex items-center">
                     <div className="flex-1 text-right pr-12">
                         <h1 className="text-[56px] font-normal text-[#1E1E1E] font-['Noiretblanc'] mb-4">EVENT DESIGN</h1>
-                        <p className="text-[15px] text-[#1E1E1E] font-['Raleway'] tracking-[1.6px] mb-6 uppercase">YOUR
-                            DREAM EVENT...DESIGNED TO PERFECTION</p>
-                        <p className="text-[16px] text-black font-['Raleway'] leading-relaxed mb-8">Imagine walking into a
-                            space that&apos;s beautifully designed just for your celebration. Whether you&apos;re hosting a cozy
-                            get-together, a grand wedding, or a fun holiday party, we&apos;re here to turn your ideas into
-                            something magical with our creativity and attention to detail.</p><a href="#"
+                        <p className="text-[15px] text-[#1E1E1E] font-['Raleway'] tracking-[1.6px] mb-6 uppercase">YOUR DREAM EXPERIENCE...DESIGNED WITH INTENTION</p>
+                        <p className="text-[16px] text-black font-['Raleway'] leading-relaxed mb-8">Imagine stepping into a space that&apos;s intentionally curated just for your gathering. Whether you&apos;re hosting a soulful retreat, a creative workshop, or a meaningful community celebration, we&apos;re here to turn your vision into something memorable with our creativity and attention to detail.</p><a href="#"
                             className="inline-block px-8 py-4 border border-[#1E1E1E] text-[14px] text-[#1E1E1E] uppercase tracking-[1.4px] font-['Raleway'] hover:bg-[#1E1E1E] hover:text-[#F9F2EC] transition-colors no-underline">CONTACT
                             US</a>
                     </div>

@@ -137,14 +137,14 @@ export default function Footer() {
                   className="block text-[13px] leading-[23.4px] tracking-[1.4px] text-[#222222] uppercase hover:opacity-70"
                   style={{ fontFamily: 'Montserrat' }}
                 >
-                  BOARDS + BOXES
+                  EXPERIENCES
                 </a>
                 <a 
                   href="#"
                   className="block text-[13px] leading-[23.4px] tracking-[1.4px] text-[#222222] uppercase hover:opacity-70"
                   style={{ fontFamily: 'Montserrat' }}
                 >
-                  GRAZING TABLES
+                  GIFTING SOLUTIONS
                 </a>
                 <a 
                   href="#"
@@ -160,7 +160,7 @@ export default function Footer() {
                 className="text-[45px] leading-[40.6px] text-[#000000]" 
                 style={{ fontFamily: 'Noiretblanc' }}
               >
-                Glam<br />Haus<br />Design Co.
+                Elev8<br />Moments
               </p>
             </div>
             <div className="border-l border-[#000000] pl-8 flex flex-col justify-between">
@@ -169,7 +169,7 @@ export default function Footer() {
                   className="text-[30px] leading-[27px] text-[#1e1e1e] mb-6"
                   style={{ fontFamily: 'Noiretblanc' }}
                 >
-                  Perfect for gifting or hosting any occasion!
+                  Perfect for celebrating or gifting any occasion!
                 </p>
               </div>
               <a 
@@ -180,7 +180,7 @@ export default function Footer() {
                   className="text-[13px] leading-[23.4px] tracking-[1.4px] text-[#f9f2ec] uppercase"
                   style={{ fontFamily: 'Raleway' }}
                 >
-                  place an order
+                  book an experience
                 </span>
               </a>
             </div>
@@ -201,7 +201,7 @@ export default function Footer() {
               className="text-[9px] leading-[12.6px] text-[#1e1e1e] mb-1" 
               style={{ fontFamily: 'Montserrat' }}
             >
-              GLAM HAUS DESIGN CO 2024 | ALL RIGHTS RESERVED
+              ELEV8 MOMENTS 2024 | ALL RIGHTS RESERVED
             </p>
             <a 
               href="#"

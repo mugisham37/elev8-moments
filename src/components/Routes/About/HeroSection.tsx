@@ -17,25 +17,11 @@ export default function HeroSection() {
                         <div className="bg-[#f9f2ec] p-8">
                             <p className="font-['Noiretblanc'] text-[28px] leading-tight text-[#1e1e1e] mb-2">ABOUT US</p>
                             <div className="border-t border-[#1e1e1e] w-[141px] mb-4"></div>
-                            <p className="font-['Strings'] text-[65px] leading-tight text-[#1e1e1e] mb-4">Meet Megan</p>
-                            <p className="font-['Raleway'] text-[15px] leading-relaxed text-[#1e1e1e] mb-4">OWNER OF GLAM
-                                HAUS DESIGN CO.</p>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify">I&apos;m so
-                                glad you&apos;re here! About three years ago, I swapped my 7+ years in the medical field as a
-                                Regional Operations Director for something a bit more <em>glittery</em>. After feeling
-                                burnt out, I decided to dive into my true passion: entertaining, decor, and making
-                                <strong>everything beautiful</strong>!</p>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mt-4">I&apos;m
-                                blessed with an amazing husband who&apos;s my biggest supporter and two beautiful daughters
-                                who make up our fabulous little girl tribe. We&apos;re all about spreading joy—whether that&apos;s
-                                through our love of Jesus, exploring new places, making unforgettable memories with
-                                friends and family, hanging out with our adorable dogs, or savoring a glass of wine with
-                                a GH charcuterie board, of course!</p>
-                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mt-4">
-                                Starting Glam Haus has been a dream come true and a way to show my daughters the power
-                                of hard work. A huge thank you to everyone who&apos;s supported us with orders and glowing
-                                reviews. I&apos;m excited for all the fun and fabulous adventures ahead and can&apos;t wait to
-                                share them with you!</p>
+                            <p className="font-['Strings'] text-[65px] leading-tight text-[#1e1e1e] mb-4">Meet Sandra</p>
+                            <p className="font-['Raleway'] text-[15px] leading-relaxed text-[#1e1e1e] mb-4">FOUNDER OF ELEV8 MOMENTS</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify">I&apos;m so glad you&apos;re here! As an entrepreneur and creative visionary, I decided to build something truly meaningful after years of dreaming about creating spaces where people could connect, heal, and celebrate life. After feeling called to purpose, I dove into my true passion: curating experiences, intentional gatherings, and making every moment <strong>elevated</strong>!</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mt-4">I&apos;m blessed with incredible people who support this vision and a community that believes in the power of intentional connection. We&apos;re all about spreading joy—whether that&apos;s through creating meaningful experiences, exploring Kigali&apos;s vibrant culture, making unforgettable memories with friends and community, celebrating with thoughtful gifts, or gathering around shared moments of creativity and healing!</p>
+                            <p className="font-['Raleway'] text-[16px] leading-relaxed text-[#1e1e1e] text-justify mt-4">Starting Elev8 Moments has been a dream come true and a way to contribute to Rwanda&apos;s cultural and tourism story. A huge thank you to everyone who&apos;s supported us with bookings and glowing feedback. I&apos;m excited for all the intentional and inspiring experiences ahead and can&apos;t wait to share them with you!</p>
                         </div>
                     </div>
                 </div>
