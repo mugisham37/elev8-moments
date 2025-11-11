@@ -279,3 +279,8 @@ html {
   
   /* Mobile menu would be implemented here with hamburger icon */
 }
+
+/* Gallery scroll animation - pause on hover */
+.animate-scroll:hover {
+  animation-play-state: paused;
+}

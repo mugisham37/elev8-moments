@@ -4,8 +4,8 @@ export default function CharcuterieOfferings() {
   return (
     <>
     <section className="bg-[#f9f2ec] py-16">
-                <div className="max-w-[1200px] mx-auto px-4">
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="max-w-[1200px] mx-auto">
+                    <div className="grid md:grid-cols-2 gap-60 items-center">
                         <div>
                             <h3 className="text-[38px] font-noiretblanc mb-8">SIGNATURE OFFERINGS</h3>
                             <div className="mb-8 pb-8 border-b border-black">

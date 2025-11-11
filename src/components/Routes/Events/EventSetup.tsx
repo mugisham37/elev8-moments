@@ -4,7 +4,7 @@ export default function EventSetup() {
   return (
     <div className="relative h-[746px] bg-[#1E1E1E]">
                 <div className="max-w-[1200px] mx-auto h-full relative px-4 flex flex-col items-center justify-center">
-                    <h2 className="text-[55px] font-normal text-[#F9F2EC] font-['Noiretblanc'] text-center mb-4">EVENT SETUP &amp; EXPERIENCE</h2>
+                    <h2 className="text-[40px] font-normal text-[#F9F2EC] font-['Noiretblanc'] text-center mb-4">EVENT SETUP &amp; EXPERIENCE</h2>
                     <p className="text-[16px] text-[#F9F2EC] font-['Raleway'] tracking-[1.6px] text-center mb-8">WE HANDLE THE DETAILS, YOU ENJOY THE CONNECTION</p>
                     <p
                         className="text-[13px] text-[#F9F2EC] font-['Raleway'] font-light text-center max-w-[894px] mb-12 leading-relaxed">

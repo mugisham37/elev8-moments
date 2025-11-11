@@ -5,7 +5,7 @@ export default function EventDesign
     <>
     <section className="bg-[#f9f2ec] py-16">
                 <div className="max-w-[1200px] mx-auto px-4">
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <div className="grid md:grid-cols-2 gap-50 items-center">
                         <div>
                             <h3 className="text-[50px] font-['Noiretblanc'] uppercase leading-tight mb-4">EVENT DESIGN</h3>
                             <p
