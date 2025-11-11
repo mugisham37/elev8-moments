@@ -84,6 +84,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${allura.variable} ${playfair.variable} ${montserrat.variable} ${dancingScript.variable} ${cormorantGaramond.variable} ${crimsonText.variable} ${pinyonScript.variable} antialiased`}
+        suppressHydrationWarning
       >
         <TopNav />
         <MainNavigation />
