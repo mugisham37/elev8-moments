@@ -12,9 +12,9 @@ export default function CharcuterieOfferings() {
                         <div className="border-t border-[#1e1e1e] w-[189px] mx-auto mt-4"></div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        <div className="flex justify-center"><Image alt="Traditional Board"
+                        <div className="flex justify-center"><Image alt="Curated Events"
                                 className="w-full max-w-[248px] h-[157px] object-cover rounded"
-                                src="https://static.showit.co/400/ek_yOtCCRrCwzZcX3B8hrA/shared/img_0802.jpg" width={248} height={157} /></div>
+                                src="/images/2.JPG" width={248} height={157} /></div>
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
@@ -31,10 +31,10 @@ export default function CharcuterieOfferings() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        <div className="flex justify-center"><Image alt="Brunch Board"
+                        <div className="flex justify-center"><Image alt="Corporate Gifting"
                                 className="w-full max-w-[248px] h-[157px] object-cover rounded"
-                                src="https://static.showit.co/400/v-P9PYJKTk69_P-ceFnsIQ/shared/aee7a816-268f-4680-8c40-2ba82b22664b.jpg"
-                                style={{ objectPosition: '20% 20%' }} width={248} height={157} /></div>
+                                src="/images/4.JPG"
+                                style={{ objectPosition: 'center' }} width={248} height={157} /></div>
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
@@ -51,10 +51,10 @@ export default function CharcuterieOfferings() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        <div className="flex justify-center"><Image alt="Men's Board"
+                        <div className="flex justify-center"><Image alt="Visit Rwanda"
                                 className="w-full max-w-[248px] h-[157px] object-cover rounded"
-                                src="https://static.showit.co/400/hqWzUdGwFdXKDrQY7iafkA/shared/img_8304.jpg"
-                                style={{ objectPosition: '60% 60%' }} width={248} height={157} /></div>
+                                src="/images/6.JPG"
+                                style={{ objectPosition: 'center' }} width={248} height={157} /></div>
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">
@@ -71,9 +71,9 @@ export default function CharcuterieOfferings() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        <div className="flex justify-center"><Image alt="Holiday Board"
+                        <div className="flex justify-center"><Image alt="Intimate Retreats"
                                 className="w-full max-w-[248px] h-[157px] object-cover rounded"
-                                src="https://static.showit.co/400/OKtA2rtNySGQIGp01FMk_g/shared/img_5588.jpg" width={248} height={157} /></div>
+                                src="/images/3.JPG" width={248} height={157} /></div>
                         <div className="md:col-span-2"><a href="#" className="group">
                                 <h3
                                     className="font-['Montserrat'] font-medium text-[18px] uppercase tracking-[1.8px] text-[#1e1e1e] mb-3 group-hover:opacity-70 transition-opacity">

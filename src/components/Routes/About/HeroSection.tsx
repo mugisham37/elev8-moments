@@ -6,13 +6,13 @@ export default function HeroSection() {
   return (
      <section className="relative w-full h-[1024px]">
                 <div className="absolute inset-0 bg-cover bg-center opacity-50"
-                    style={{ backgroundImage: 'url("https://static.showit.co/1600/5VmE5o1m-IlMcKbabpu1EQ/shared/wedding-1854074_1920.jpg")' }}>
+                    style={{ backgroundImage: 'url("/images/34.jpg")' }}>
                 </div>
                 <div className="relative max-w-[1200px] mx-auto px-4 h-full flex items-center">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full">
-                        <div className="flex justify-center"><Image alt="Megan"
+                        <div className="flex justify-center"><Image alt="Sandra - Founder"
                                 className="w-full max-w-[392px] h-auto object-cover"
-                                src="https://static.showit.co/400/nvEk6w_xn3JjXMj4ZxxEQw/shared/unnamed.jpg"
+                                src="/images/1.JPG"
                                 style={{ objectPosition: '50% 90%' }} width={392} height={400} /></div>
                         <div className="bg-[#f9f2ec] p-8">
                             <p className="font-['Noiretblanc'] text-[28px] leading-tight text-[#1e1e1e] mb-2">ABOUT US</p>

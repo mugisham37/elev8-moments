@@ -17,8 +17,8 @@ export default function GrazingDetails() {
                         <div className="relative border-2 bg-[#f9f2ec]">
                             <div className="bg-[#efd8c9] w-[406px] h-[556px] -ml-8"></div><Image alt="Charcuterie detail"
                                 className="absolute top-4 left-0 w-[381px] h-[525px] object-cover"
-                                src="https://static.showit.co/800/peKFPz8JPAsMUdVl1gUrwg/shared/rebecca-t4mhp-kcgjq-unsplash.jpg"
-                                style={{ backgroundSize: '130%', backgroundPosition: '90% 40%' }} width={381} height={525} />
+                                src="/images/1.JPG"
+                                style={{ objectFit: 'cover' }} width={381} height={525} />
                         </div>
                         <div>
                             <ul className="text-[16px] leading-[20.8px] text-[#f9f2ec] mb-12 space-y-2"

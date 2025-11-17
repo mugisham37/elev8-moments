@@ -8,8 +8,8 @@ export default function GrazingTablesHero() {
                         <div className="relative">
                             <div className="absolute inset-0 bg-[#efd8c9] -left-4 -top-4 w-[281px] h-[383px]"></div><Image
                                 alt="Grazing table" className="relative w-[259px] h-[346px] object-cover"
-                                src="https://static.showit.co/800/G-ybSB7sOWRyN4b20KmF3g/shared/img_9735_jpg.jpg"
-                                style={{ objectPosition: '50% 70%' }} width={259} height={346} />
+                                src="/images/7.JPG"
+                                style={{ objectPosition: 'center' }} width={259} height={346} />
                         </div>
                         <div className="relative">
                             <div className="absolute inset-0 bg-[#efd8c9] -right-4 -top-4 w-[604px] h-[496px]"></div>

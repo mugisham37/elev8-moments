@@ -10,7 +10,7 @@ export default function LoveNotesSection() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                             <div className="flex justify-center md:justify-start"><Image alt="Customer Review"
                                     className="w-[236px] h-[238px] object-cover rounded-full"
-                                    src="https://static.showit.co/400/J_Yx7yD_QKOL1zpcOZbUdg/shared/img_1405.jpg"
+                                    src="/images/31.jpg"
                                     style={{ objectFit: 'cover', objectPosition: '50% 50%' }} width={236} height={238} /></div>
                             <div className="md:col-span-2 border-l-0 md:border-l border-[#1e1e1e] pl-0 md:pl-8">
                                 <h3 className="font-['Noiretblanc'] text-[33px] leading-tight text-[#1e1e1e] mb-4">&quot;Highly
@@ -30,7 +30,7 @@ export default function LoveNotesSection() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                             <div className="flex justify-center md:justify-start"><Image alt="Customer Review"
                                     className="w-[236px] h-[238px] object-cover rounded-full"
-                                    src="https://static.showit.co/400/Cr0kdpoORgKhOism4Tl3Nw/shared/img_4105_jpg.jpg"
+                                    src="/images/32.jpg"
                                     style={{ objectFit: 'cover', objectPosition: '50% 50%' }} width={236} height={238} /></div>
                             <div className="md:col-span-2 border-l-0 md:border-l border-[#f9f2ec] pl-0 md:pl-8">
                                 <h3 className="font-['Noiretblanc'] text-[33px] leading-tight text-[#1e1e1e] mb-4">&quot;Always

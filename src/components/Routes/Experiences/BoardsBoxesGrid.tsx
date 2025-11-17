@@ -43,10 +43,10 @@ export default function BoardsBoxesGrid() {
                             <p className="text-[16px] leading-[27.2px] text-[#f9f2ec] text-center"
                                 style={{ fontFamily: 'Raleway' }}>Our healing retreats are thoughtfully designed to suit your community&apos;s unique needs and intentions.</p>
                         </div>
-                        <div className="flex flex-col items-center"><Image alt="Men's Board"
+                        <div className="flex flex-col items-center"><Image alt="Corporate Experiences"
                                 className="w-[248px] h-[157px] object-cover mb-6"
-                                src="https://static.showit.co/400/hqWzUdGwFdXKDrQY7iafkA/shared/img_8304.jpg"
-                                style={{ objectPosition: '60% 60%' }} width={248} height={157} /><a href="#"
+                                src="/images/10.JPG"
+                                style={{ objectPosition: 'center' }} width={248} height={157} /><a href="#"
                                 className="flex items-center gap-2 mb-4 hover:opacity-70"><span
                                     className="text-[18px] leading-[19.8px] tracking-[1.8px] text-[#f9f2ec] font-medium"
                                     style={{ fontFamily: 'Montserrat' }}>CORPORATE<br />TEAM EXPERIENCES</span><svg
