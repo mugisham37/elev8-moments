@@ -17,7 +17,7 @@ export default function EventDesign
                                 more</a>
                         </div>
                         <div className="relative"><img alt="Event design" className="w-full h-auto rounded shadow-lg"
-                                src="https://picsum.photos/500/600" />
+                                src="/images/7.JPG" />
                             <div
                                 className="absolute bottom-0 right-0 w-[407px] h-[338px] bg-[#f9f2ec] rounded -mb-8 -mr-8 -z-10">
                             </div>

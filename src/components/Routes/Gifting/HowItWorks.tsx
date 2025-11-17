@@ -7,15 +7,15 @@ export function HowItWorks() {
                         <div className="relative">
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="w-full h-[229px] bg-cover bg-center"
-                                    style={{ backgroundImage: 'url("https://static.showit.co/400/B2FspXDjC2V2Of-J6Osbuw/shared/screenshot_2024-09-24_092354.png")', backgroundPosition: '90% 90%' }}>
+                                    style={{ backgroundImage: 'url("/images/19.jpg")', backgroundPosition: 'center' }}>
                                 </div>
                                 <div className="w-full h-[229px] bg-cover bg-center"
-                                    style={{ backgroundImage: 'url("https://static.showit.co/400/kuKtFG-7-tnrmoKEbrzKWg/shared/img_6224.jpg")', backgroundPosition: '20% 20%' }}>
+                                    style={{ backgroundImage: 'url("/images/20.jpg")', backgroundPosition: 'center' }}>
                                 </div>
                             </div>
                             <div className="mt-4">
                                 <div className="w-full h-[229px] bg-cover bg-center"
-                                    style={{ backgroundImage: 'url("https://static.showit.co/400/TcTIDi5dz4O4L5vIpn76qA/shared/screenshot_2024-09-23_153834.png")', backgroundPosition: '20% 20%' }}>
+                                    style={{ backgroundImage: 'url("/images/21.jpg")', backgroundPosition: 'center' }}>
                                 </div>
                             </div>
                         </div>

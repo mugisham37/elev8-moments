@@ -32,7 +32,7 @@ export default function CharcuterieOfferings() {
                             </div>
                         </div>
                         <div><Image alt="Charcuterie board" className="w-full h-auto rounded-tl-[366px] shadow-lg"
-                                src="https://picsum.photos/700/900" width={700} height={900} /></div>
+                                src="/images/3.JPG" width={700} height={900} /></div>
                     </div>
                 </div>
             </section>

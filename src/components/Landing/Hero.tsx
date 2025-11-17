@@ -7,7 +7,7 @@ export default function UnifiedHeroSection() {
                   <Image 
                     alt="Background" 
                     className="w-full h-full object-cover"
-                    src="https://picsum.photos/1600/800"
+                    src="/images/28.jpg"
                     fill
                     sizes="100vw"
                   />
@@ -23,7 +23,7 @@ export default function UnifiedHeroSection() {
                       <Image 
                         alt="Charcuterie board" 
                         className="w-full h-auto rounded-lg shadow-lg"
-                        src="https://picsum.photos/600/800"
+                        src="/images/1.JPG"
                         fill
                         sizes="(max-width: 768px) 100vw, 50vw"
                         style={{ objectFit: 'cover' }}

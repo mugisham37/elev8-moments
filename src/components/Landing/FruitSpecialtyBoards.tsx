@@ -16,7 +16,7 @@ export default function FruitSpecialtyBoards() {
                 <div className="max-w-[1200px] mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-40 items-center">
                         <div><img alt="Fruit boards" className="w-full h-auto rounded-br-[366px] shadow-lg"
-                            src="https://picsum.photos/700/500" /></div>
+                            src="/images/18.jpg" /></div>
                         <div>
                             <h3 className="text-[49px] font-['Noiretblanc'] leading-tight mb-6">VISIT RWANDA EXPERIENCES
                             </h3>
@@ -28,10 +28,10 @@ export default function FruitSpecialtyBoards() {
                         <p className="text-[27px] font-['Noiretblanc'] text-center py-4">Elev8 Moments - Elev8 Moments - Elev8 Moments - Elev8 Moments - Elev8 Moments</p>
                     </div>
                     <div className="mt-8 flex justify-center gap-4"><img alt="Sample 1"
-                        className="h-[201px] object-cover rounded" src="https://picsum.photos/250/200" /><img
+                        className="h-[201px] object-cover rounded" src="/images/11.JPG" /><img
                             alt="Sample 2" className="h-[201px] object-cover rounded"
-                            src="https://picsum.photos/250/200" /><img alt="Sample 3"
-                                className="h-[201px] object-cover rounded" src="https://picsum.photos/250/200" /></div>
+                            src="/images/13.JPG" /><img alt="Sample 3"
+                                className="h-[201px] object-cover rounded" src="/images/15.JPG" /></div>
                 </div>
             </section>
         </>

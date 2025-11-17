@@ -8,9 +8,9 @@ export default function Gallery2() {
                     <div className="border border-black p-4 relative">
                         <div className="overflow-hidden">
                             <div className="flex gap-1"><img alt="Event 1" className="h-[641px] object-cover"
-                                    src="https://picsum.photos/600/700" /><img alt="Event 2"
-                                    className="h-[641px] object-cover" src="https://picsum.photos/600/700" /><img
-                                    alt="Event 3" className="h-[641px] object-cover" src="https://picsum.photos/600/700" />
+                                    src="/images/12.JPG" /><img alt="Event 2"
+                                    className="h-[641px] object-cover" src="/images/14.JPG" /><img
+                                    alt="Event 3" className="h-[641px] object-cover" src="/images/16.jpg" />
                             </div>
                         </div><button className="absolute right-8 bottom-8 hover:opacity-70"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

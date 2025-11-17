@@ -19,9 +19,15 @@ export default function FloralDesign() {
                             A QUOTE</a>
                     </div>
                     <div className="flex gap-6">
-                        <div className="w-[339px] h-[333px] bg-gray-200 rounded opacity-90 overflow-hidden"></div>
-                        <div className="w-[236px] h-[289px] bg-gray-200 rounded opacity-90 overflow-hidden"></div>
-                        <div className="w-[339px] h-[336px] bg-gray-200 rounded overflow-hidden"></div>
+                        <div className="w-[339px] h-[333px] bg-gray-200 rounded opacity-90 overflow-hidden">
+                            <img src="/images/9.JPG" alt="Retreat experience" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="w-[236px] h-[289px] bg-gray-200 rounded opacity-90 overflow-hidden">
+                            <img src="/images/10.JPG" alt="Retreat detail" className="w-full h-full object-cover" />
+                        </div>
+                        <div className="w-[339px] h-[336px] bg-gray-200 rounded overflow-hidden">
+                            <img src="/images/11.JPG" alt="Retreat setup" className="w-full h-full object-cover" />
+                        </div>
                     </div>
                 </div>
             </div>

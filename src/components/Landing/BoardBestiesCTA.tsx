@@ -5,7 +5,7 @@ export default function BoardBestiesCTA() {
     <>
     <section className="bg-[#1e1e1e] relative py-16">
                 <div className="absolute inset-0 opacity-30"><Image alt="Background" className="w-full h-full object-cover"
-                        src="https://picsum.photos/1600/400" width={1600} height={400} /></div>
+                        src="/images/30.jpg" width={1600} height={400} /></div>
                 <div className="max-w-[1200px] mx-auto px-4 relative z-10 text-center">
                     <h2 className="text-[54px] font-['Noiretblanc'] text-white mb-2">Join our</h2>
                     <h3 className="text-[66px] font-['Strings'] text-white mb-4">Elev8 Community</h3>

@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 export default function Gallery() {
   const images = [
-    { src: "https://picsum.photos/600/700", alt: "Gallery 1" },
-    { src: "https://picsum.photos/600/700", alt: "Gallery 2" },
-    { src: "https://picsum.photos/600/700", alt: "Gallery 3" },
-    { src: "https://picsum.photos/600/700", alt: "Gallery 4" },
-    { src: "https://picsum.photos/600/700", alt: "Gallery 5" },
-    { src: "https://picsum.photos/600/700", alt: "Gallery 6" },
+    { src: "/images/2.JPG", alt: "Gallery 1" },
+    { src: "/images/4.JPG", alt: "Gallery 2" },
+    { src: "/images/6.JPG", alt: "Gallery 3" },
+    { src: "/images/8.JPG", alt: "Gallery 4" },
+    { src: "/images/9.JPG", alt: "Gallery 5" },
+    { src: "/images/10.JPG", alt: "Gallery 6" },
   ];
 
   return (

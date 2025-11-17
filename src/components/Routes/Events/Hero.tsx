@@ -15,10 +15,13 @@ export default function Hero() {
                             US</a>
                     </div>
                     <div className="flex-1 flex items-center justify-center gap-8">
-                        <div className="w-[486px] h-[541px] bg-gray-200 rounded overflow-hidden shadow-lg"></div>
+                        <div className="w-[486px] h-[541px] bg-gray-200 rounded overflow-hidden shadow-lg">
+                            <img src="/images/33.jpg" alt="Event showcase" className="w-full h-full object-cover" />
+                        </div>
                         <div className="relative">
                             <div className="w-[303px] h-[446px] bg-[#1E1E1E] rounded"></div>
                             <div className="absolute top-5 left-5 w-[268px] h-[407px] bg-gray-200 rounded overflow-hidden">
+                                <img src="/images/34.jpg" alt="Event detail" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>

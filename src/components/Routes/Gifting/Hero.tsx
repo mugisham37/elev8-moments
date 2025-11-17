@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <div className="relative bg-[#314F39] py-16 md:py-24">
                 <div className="absolute inset-0 opacity-10 bg-cover bg-center"
-                    style={{ backgroundImage: 'url("https://static.showit.co/1600/5oP4HTzeiuz6Z6Cdbs0VHQ/shared/img_3527.jpg")' }}>
+                    style={{ backgroundImage: 'url("/images/29.jpg")' }}>
                 </div>
                 <div className="relative max-w-[1200px] mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <div className="w-full max-w-[392px] mx-auto">
                             <div className="w-full h-[479px] bg-cover bg-center"
-                                style={{ backgroundImage: 'url("https://static.showit.co/800/xVBN4FzpzPWjUxUuzSt7BQ/shared/misty-ladd-rdjb3hzvgju-unsplash.jpg")' }}>
+                                style={{ backgroundImage: 'url("/images/17.jpg")' }}>
                             </div>
                         </div>
                         <div className="text-[#F9F2EC]">

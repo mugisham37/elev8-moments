@@ -13,14 +13,18 @@ export const SeasonalDecor = () => {
                         <div className="relative">
                             <div className="w-[480px] h-[334px] bg-[#95AA9B]"></div>
                             <div className="absolute top-4 left-4 w-[353px] h-[298px] bg-gray-200 rounded overflow-hidden">
+                                <img src="/images/16.jpg" alt="Rwanda experience" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="flex flex-col gap-6">
-                            <div className="w-[429px] h-[587px] bg-gray-200 rounded overflow-hidden"></div>
+                            <div className="w-[429px] h-[587px] bg-gray-200 rounded overflow-hidden">
+                                <img src="/images/17.jpg" alt="Cultural activity" className="w-full h-full object-cover" />
+                            </div>
                             <div className="relative">
                                 <div className="w-[267px] h-[280px] bg-[#95AA9B]"></div>
                                 <div
                                     className="absolute top-4 left-4 w-[237px] h-[250px] bg-gray-200 rounded overflow-hidden">
+                                    <img src="/images/18.jpg" alt="Tourism package" className="w-full h-full object-cover" />
                                 </div>
                             </div>
                         </div>
