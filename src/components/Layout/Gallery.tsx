@@ -27,7 +27,7 @@ export default function Gallery() {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
 
   return (
-    <section ref={sectionRef} className="bg-[#f9f2ec] py-16">
+    <section ref={sectionRef} className="bg-[#f9f2ec]">
       <div className="w-full overflow-hidden">
         <motion.div 
           className="flex"
