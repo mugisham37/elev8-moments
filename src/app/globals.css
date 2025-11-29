@@ -193,14 +193,17 @@ html {
   padding: 0 40px;
   background-color: #2B2B2B;
   position: relative;
+  z-index: 50;
 }
 
+/* Social Icons Container - Desktop/Tablet */
 .social-icons-container {
   display: flex;
   align-items: center;
   gap: 20px;
   position: absolute;
   left: 40px;
+  z-index: 10;
 }
 
 .social-icon {
@@ -222,8 +225,10 @@ html {
 .social-icon:focus {
   outline: 2px solid #FFFFFF;
   outline-offset: 4px;
+  border-radius: 4px;
 }
 
+/* Desktop/Tablet Navigation Menu */
 .nav-menu {
   display: flex;
   align-items: center;
@@ -255,27 +260,315 @@ html {
 .nav-link:focus {
   outline: 2px solid #FFFFFF;
   outline-offset: 4px;
+  border-radius: 2px;
 }
 
-/* Responsive Design for Main Navigation */
+/* Mobile Menu Toggle Button */
+.mobile-menu-toggle {
+  display: none;
+  position: absolute;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 60;
+  transition: opacity 0.2s ease;
+}
+
+.mobile-menu-toggle:hover {
+  opacity: 0.8;
+}
+
+.mobile-menu-toggle:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 40;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Menu Drawer */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background-color: #2B2B2B;
+  z-index: 50;
+  transition: right 0.3s ease-in-out;
+  overflow-y: auto;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-menu-open {
+  right: 0;
+}
+
+.mobile-nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 24px 24px;
+  gap: 0;
+}
+
+.mobile-nav-link {
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease, padding-left 0.2s ease;
+  display: block;
+}
+
+.mobile-nav-link:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding-left: 24px;
+}
+
+.mobile-nav-link:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: -2px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav-link:active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Mobile Social Icons */
+.mobile-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-social-icon {
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.mobile-social-icon:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.mobile-social-icon:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* ============================================
+   RESPONSIVE BREAKPOINTS
+   ============================================ */
+
+/* Large Desktop (1200px+) - Default styles above */
+
+/* Medium Desktop / Large Tablet (992px - 1199px) */
 @media (max-width: 1199px) {
   .nav-menu {
-    gap: 32px;
+    gap: 36px;
+  }
+  
+  .nav-link {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .main-navigation {
+    padding: 0 32px;
+  }
+  
+  .social-icons-container {
+    left: 32px;
+    gap: 16px;
+  }
+}
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991px) {
+  .nav-menu {
+    gap: 24px;
+  }
+  
+  .nav-link {
+    font-size: 11px;
+    letter-spacing: 0.8px;
   }
   
   .main-navigation {
     padding: 0 24px;
   }
-}
-
-@media (max-width: 767px) {
-  .main-navigation {
-    padding: 0 16px;
+  
+  .social-icons-container {
+    left: 24px;
+    gap: 14px;
   }
   
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Small Tablet / Large Mobile (640px - 767px) */
+@media (max-width: 767px) {
+  .main-navigation {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  
+  /* Hide desktop navigation */
   .nav-menu {
     display: none;
   }
   
-  /* Mobile menu would be implemented here with hamburger icon */
+  /* Show mobile menu toggle */
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Show mobile menu and overlay */
+  .mobile-menu {
+    display: block;
+  }
+  
+  .mobile-menu-overlay {
+    display: block;
+  }
+  
+  /* Keep social icons visible on tablet */
+  .social-icons-container {
+    position: static;
+    gap: 16px;
+  }
+}
+
+/* Mobile (480px - 639px) */
+@media (max-width: 639px) {
+  .main-navigation {
+    height: 56px;
+    padding: 0 16px;
+  }
+  
+  .social-icons-container {
+    gap: 12px;
+  }
+  
+  .social-icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .mobile-menu {
+    width: 260px;
+  }
+  
+  .mobile-nav-link {
+    font-size: 14px;
+    padding: 16px 12px;
+  }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 479px) {
+  .main-navigation {
+    height: 56px;
+    padding: 0 12px;
+  }
+  
+  .social-icons-container {
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .mobile-menu {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .mobile-nav-menu {
+    padding: 72px 20px 20px;
+  }
+  
+  .mobile-nav-link {
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    padding: 15px 12px;
+  }
+  
+  .mobile-social-icons {
+    gap: 28px;
+    margin-top: 32px;
+    padding-top: 28px;
+  }
+}
+
+/* Extra Small Mobile (< 360px) */
+@media (max-width: 359px) {
+  .social-icons-container {
+    gap: 8px;
+  }
+  
+  .social-icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .mobile-menu-toggle {
+    right: 12px;
+  }
+  
+  .mobile-nav-link {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
 }

@@ -21,23 +21,27 @@ const instagramImages = [
 export default function Footer() {
   return (
     <>
-      <section className="bg-[#f9f2ec] py-16">
+      {/* Instagram Section */}
+      <section className="bg-[#f9f2ec] py-8 md:py-12 lg:py-16">
         <div className="max-w-[1200px] mx-auto px-4">
           <h2 
-            className="text-[56px] leading-[67.2px] text-center text-[#1e1e1e] mb-12"
+            className="text-[32px] leading-[38px] sm:text-[42px] sm:leading-[50px] md:text-[48px] md:leading-[58px] lg:text-[56px] lg:leading-[67.2px] text-center text-[#1e1e1e] mb-6 md:mb-8 lg:mb-12"
             style={{ fontFamily: 'Strings' }}
           >
             Follow Us On Instagram!
           </h2>
-          <div className="relative mb-8">
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 h-[189px] w-px bg-[#ffffff]"></div>
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 h-[189px] w-px bg-[#ffffff]"></div>
-            <div className="grid grid-cols-7 gap-[5px] overflow-hidden h-60">
+          <div className="relative mb-6 md:mb-8">
+            {/* Side borders - hidden on mobile */}
+            <div className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 h-[189px] w-px bg-[#ffffff]"></div>
+            <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-[189px] w-px bg-[#ffffff]"></div>
+            
+            {/* Instagram Grid - responsive columns */}
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-[3px] sm:gap-[4px] md:gap-[5px] overflow-hidden">
               {instagramImages.map((image) => (
                 <Image 
                   key={image.id}
                   alt={image.alt}
-                  className="w-full h-[117.6px] object-cover"
+                  className="w-full h-[100px] sm:h-[110px] md:h-[117.6px] object-cover"
                   src={image.src}
                   width={200}
                   height={118}
@@ -45,8 +49,10 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="bg-[#1e1e1e] py-8 relative -mx-4 px-4">
-            <a href="#" className="flex items-center justify-center gap-4 hover:opacity-70">
+          
+          {/* Social CTA */}
+          <div className="bg-[#1e1e1e] py-6 md:py-8 relative -mx-4 px-4">
+            <a href="#" className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 md:gap-4 hover:opacity-70">
               <svg
                 xmlns="http://www.w3.org/2000/svg" 
                 width="24" 
@@ -57,25 +63,27 @@ export default function Footer() {
                 strokeWidth="2" 
                 strokeLinecap="round"
                 strokeLinejoin="round" 
-                className="lucide lucide-instagram w-6 h-5 text-[#ffffff]"
+                className="lucide lucide-instagram w-5 h-5 sm:w-6 sm:h-5 text-[#ffffff] hidden sm:block"
                 aria-hidden="true"
               >
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
               </svg>
-              <span 
-                className="text-[54px] leading-[48.6px] tracking-[-2.6px] text-[#ffffff]"
-                style={{ fontFamily: 'Noiretblanc' }}
-              >
-                Let&apos;s Get
-              </span>
-              <span
-                className="text-[73px] leading-[65.8px] text-[#ffffff]"
-                style={{ fontFamily: 'Strings' }}
-              >
-                Social
-              </span>
+              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 md:gap-4">
+                <span 
+                  className="text-[28px] leading-[32px] sm:text-[36px] sm:leading-[38px] md:text-[44px] md:leading-[42px] lg:text-[54px] lg:leading-[48.6px] tracking-[-1.5px] md:tracking-[-2.6px] text-[#ffffff]"
+                  style={{ fontFamily: 'Noiretblanc' }}
+                >
+                  Let&apos;s Get
+                </span>
+                <span
+                  className="text-[38px] leading-[42px] sm:text-[48px] sm:leading-[50px] md:text-[58px] md:leading-[58px] lg:text-[73px] lg:leading-[65.8px] text-[#ffffff]"
+                  style={{ fontFamily: 'Strings' }}
+                >
+                  Social
+                </span>
+              </div>
               <svg 
                 xmlns="http://www.w3.org/2000/svg"
                 width="24" 
@@ -86,27 +94,65 @@ export default function Footer() {
                 strokeWidth="2" 
                 strokeLinecap="round" 
                 strokeLinejoin="round"
-                className="lucide lucide-facebook w-6 h-5 text-[#ffffff]" 
+                className="lucide lucide-facebook w-5 h-5 sm:w-6 sm:h-5 text-[#ffffff] hidden sm:block" 
                 aria-hidden="true"
               >
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
               </svg>
+              
+              {/* Mobile social icons */}
+              <div className="flex sm:hidden items-center gap-4 mt-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24"
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2" 
+                  strokeLinecap="round"
+                  strokeLinejoin="round" 
+                  className="text-[#ffffff]"
+                  aria-hidden="true"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor"
+                  strokeWidth="2" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                  className="text-[#ffffff]" 
+                  aria-hidden="true"
+                >
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </div>
             </a>
           </div>
         </div>
       </section>
       
-      <footer className="bg-[#f9f2ec] py-16">
+      {/* Main Footer */}
+      <footer className="bg-[#f9f2ec] py-8 md:py-12 lg:py-16">
         <div className="max-w-[1200px] mx-auto px-4">
-          <div className="grid grid-cols-4 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-8 mb-8">
+            {/* Menu Column */}
+            <div className="sm:border-b sm:pb-6 lg:border-b-0 lg:pb-0">
               <h3 
-                className="text-[42px] leading-[29.4px] tracking-[-4.2px] text-[#1e1e1e] mb-8"
+                className="text-[32px] leading-[28px] md:text-[38px] md:leading-[29.4px] lg:text-[42px] tracking-[-3px] md:tracking-[-4.2px] text-[#1e1e1e] mb-6 md:mb-8"
                 style={{ fontFamily: 'Noiretblanc' }}
               >
                 Menu
               </h3>
-              <nav className="space-y-4">
+              <nav className="space-y-3 md:space-y-4">
                 <a 
                   href="#"
                   className="block text-[13px] leading-[23.4px] tracking-[1.4px] text-[#222222] uppercase hover:opacity-70"
@@ -130,8 +176,10 @@ export default function Footer() {
                 </a>
               </nav>
             </div>
-            <div className="border-l border-[#000000] pl-8">
-              <nav className="space-y-4 pt-12">
+            
+            {/* Services Column */}
+            <div className="sm:border-b sm:pb-6 lg:border-b-0 lg:pb-0 lg:border-l lg:border-[#000000] lg:pl-8">
+              <nav className="space-y-3 md:space-y-4 lg:pt-12">
                 <a 
                   href="#"
                   className="block text-[13px] leading-[23.4px] tracking-[1.4px] text-[#222222] uppercase hover:opacity-70"
@@ -155,18 +203,22 @@ export default function Footer() {
                 </a>
               </nav>
             </div>
-            <div className="border-l border-[#000000] pl-8">
+            
+            {/* Brand Column */}
+            <div className="sm:border-b sm:pb-6 lg:border-b-0 lg:pb-0 lg:border-l lg:border-[#000000] lg:pl-8">
               <p 
-                className="text-[45px] leading-[40.6px] text-[#000000]" 
+                className="text-[36px] leading-[34px] md:text-[40px] md:leading-[38px] lg:text-[45px] lg:leading-[40.6px] text-[#000000]" 
                 style={{ fontFamily: 'Noiretblanc' }}
               >
                 Elev8<br />Moments
               </p>
             </div>
-            <div className="border-l border-[#000000] pl-8 flex flex-col justify-between">
+            
+            {/* CTA Column */}
+            <div className="lg:border-l lg:border-[#000000] lg:pl-8 flex flex-col justify-between gap-6">
               <div>
                 <p 
-                  className="text-[30px] leading-[27px] text-[#1e1e1e] mb-6"
+                  className="text-[22px] leading-[24px] md:text-[26px] md:leading-[26px] lg:text-[30px] lg:leading-[27px] text-[#1e1e1e] mb-4 md:mb-6"
                   style={{ fontFamily: 'Noiretblanc' }}
                 >
                   Perfect for celebrating or gifting any occasion!
@@ -174,10 +226,10 @@ export default function Footer() {
               </div>
               <a 
                 href="#"
-                className="bg-[#1e1e1e] text-center py-4 px-8 hover:opacity-90 transition-opacity"
+                className="bg-[#1e1e1e] text-center py-3 md:py-4 px-6 md:px-8 hover:opacity-90 transition-opacity"
               >
                 <span
-                  className="text-[13px] leading-[23.4px] tracking-[1.4px] text-[#f9f2ec] uppercase"
+                  className="text-[12px] md:text-[13px] leading-[23.4px] tracking-[1.2px] md:tracking-[1.4px] text-[#f9f2ec] uppercase"
                   style={{ fontFamily: 'Raleway' }}
                 >
                   book an experience
@@ -188,35 +240,70 @@ export default function Footer() {
         </div>
       </footer>
       
-      <div className="bg-[#f9f2ec] border-t border-[#e5e7eb] py-4">
-        <div className="max-w-[1200px] mx-auto px-4 flex items-center justify-between">
-          <p 
-            className="text-[11px] leading-[15.4px] text-[#1e1e1e]" 
-            style={{ fontFamily: 'Montserrat' }}
-          >
-            PRIVACY
-          </p>
-          <div className="text-center">
+      {/* Bottom Bar */}
+      <div className="bg-[#f9f2ec] border-t border-[#e5e7eb] py-4 md:py-4">
+        <div className="max-w-[1200px] mx-auto px-4">
+          {/* Desktop Layout */}
+          <div className="hidden md:flex items-center justify-between">
             <p 
-              className="text-[9px] leading-[12.6px] text-[#1e1e1e] mb-1" 
+              className="text-[11px] leading-[15.4px] text-[#1e1e1e]" 
+              style={{ fontFamily: 'Montserrat' }}
+            >
+              PRIVACY
+            </p>
+            <div className="text-center">
+              <p 
+                className="text-[9px] leading-[12.6px] text-[#1e1e1e] mb-1" 
+                style={{ fontFamily: 'Montserrat' }}
+              >
+                ELEV8 MOMENTS 2024 | ALL RIGHTS RESERVED
+              </p>
+              <a 
+                href="#"
+                className="text-[14px] leading-[19.6px] tracking-[0.6px] text-[#1e1e1e] hover:opacity-70"
+                style={{ fontFamily: 'Noiretblanc' }}
+              >
+                Website Designed With Love By Indie Haus Design Co.
+              </a>
+            </div>
+            <p 
+              className="text-[11px] leading-[15.4px] text-[#1e1e1e]" 
+              style={{ fontFamily: 'Montserrat' }}
+            >
+              LEGAL
+            </p>
+          </div>
+          
+          {/* Mobile Layout */}
+          <div className="md:hidden flex flex-col items-center gap-3 text-center">
+            <div className="flex items-center gap-6">
+              <p 
+                className="text-[10px] leading-[14px] text-[#1e1e1e]" 
+                style={{ fontFamily: 'Montserrat' }}
+              >
+                PRIVACY
+              </p>
+              <p 
+                className="text-[10px] leading-[14px] text-[#1e1e1e]" 
+                style={{ fontFamily: 'Montserrat' }}
+              >
+                LEGAL
+              </p>
+            </div>
+            <p 
+              className="text-[8px] leading-[11px] text-[#1e1e1e]" 
               style={{ fontFamily: 'Montserrat' }}
             >
               ELEV8 MOMENTS 2024 | ALL RIGHTS RESERVED
             </p>
             <a 
               href="#"
-              className="text-[14px] leading-[19.6px] tracking-[0.6px] text-[#1e1e1e] hover:opacity-70"
+              className="text-[12px] leading-[16px] tracking-[0.4px] text-[#1e1e1e] hover:opacity-70"
               style={{ fontFamily: 'Noiretblanc' }}
             >
               Website Designed With Love By Indie Haus Design Co.
             </a>
           </div>
-          <p 
-            className="text-[11px] leading-[15.4px] text-[#1e1e1e]" 
-            style={{ fontFamily: 'Montserrat' }}
-          >
-            LEGAL
-          </p>
         </div>
       </div>
     </>
