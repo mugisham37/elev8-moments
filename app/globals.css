@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Noiretblanc';
+  src: url('//static.showit.co/file/-2eCp0_jSgW6z2q5bKVLgA/shared/noiretblanc-webfont.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Strings';
+  src: url('//static.showit.co/file/lbBSknNrRtmaP384hN7Xnw/shared/strings.woff');
+  font-weight: 400;
+  font-style: normal;
+}
