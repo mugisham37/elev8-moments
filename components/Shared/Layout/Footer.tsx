@@ -36,7 +36,7 @@ export default function Footer() {
         position: 'relative',
         width: '100%',
         backgroundColor: 'rgba(249,242,236,1)',
-        height: getResponsiveValue('441px', '340px', '280px')
+        height: getResponsiveValue('441px', '240px', '280px')
       }}
     >
       <div 
@@ -64,10 +64,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('15px', '500px', '883px'),
-              top: getResponsiveValue('310px', '240px', '155px'),
-              width: getResponsiveValue('224px', '235px', '247px'),
-              height: getResponsiveValue('48px', '50px', '51px'),
+              left: getResponsiveValue('15px', '565px', '883px'),
+              top: getResponsiveValue('310px', '99px', '155px'),
+              width: getResponsiveValue('224px', '158px', '247px'),
+              height: getResponsiveValue('48px', '33px', '51px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(27.1818px,57.9091px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -89,10 +89,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('12px', '490px', '873px'),
-              top: getResponsiveValue('320px', '254px', '169px'),
-              width: getResponsiveValue('251px', '260px', '267px'),
-              height: getResponsiveValue('20px', '18px', '17px'),
+              left: getResponsiveValue('12px', '559px', '873px'),
+              top: getResponsiveValue('320px', '108px', '169px'),
+              width: getResponsiveValue('251px', '171px', '267px'),
+              height: getResponsiveValue('20px', '11px', '17px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(27.0974px,57.9091px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -105,7 +105,7 @@ export default function Footer() {
                 textAlign: 'center',
                 fontFamily: 'Raleway',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('13px', '12px', '13px')
+                fontSize: getResponsiveValue('13px', '8px', '13px')
               }}
             >
               book an experience
@@ -116,10 +116,10 @@ export default function Footer() {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('15px', '465px', '825px'),
-              top: getResponsiveValue('259px', '165px', '78px'),
-              width: getResponsiveValue('235px', '290px', '337px'),
-              height: getResponsiveValue('33px', '55px', '77px'),
+              left: getResponsiveValue('15px', '528px', '825px'),
+              top: getResponsiveValue('259px', '50px', '78px'),
+              width: getResponsiveValue('235px', '216px', '337px'),
+              height: getResponsiveValue('33px', '49px', '77px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(27.0974px,46.513px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -131,7 +131,7 @@ export default function Footer() {
                 textAlign: 'center',
                 fontFamily: 'Noiretblanc',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('23px', '27px', '30px')
+                fontSize: getResponsiveValue('23px', '19px', '30px')
               }}
             >
               Perfect for celebrating or gifting any occasion!
@@ -143,10 +143,10 @@ export default function Footer() {
             style={{
               position: 'absolute',
               backgroundColor: 'rgba(0,0,0,1)',
-              left: getResponsiveValue('45px', '430px', '765px'),
-              top: getResponsiveValue('396px', '42px', '52px'),
+              left: getResponsiveValue('45px', '490px', '765px'),
+              top: getResponsiveValue('396px', '33px', '52px'),
               width: getResponsiveValue('230px', '1px', '1px'),
-              height: getResponsiveValue('1px', '250px', '169px'),
+              height: getResponsiveValue('1px', '108px', '169px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(27.013px,66.9416px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           ></div>
@@ -168,7 +168,7 @@ export default function Footer() {
                 color: 'rgba(30,30,30,1)',
                 lineHeight: '0.9',
                 letterSpacing: '0em',
-                fontSize: getResponsiveValue('24px', '24px', '53px'),
+                fontSize: getResponsiveValue('24px', '34px', '53px'),
                 textAlign: 'center',
                 fontFamily: 'Noiretblanc',
                 fontWeight: 'normal'
@@ -211,10 +211,10 @@ export default function Footer() {
             style={{
               position: 'absolute',
               backgroundColor: 'rgba(0,0,0,1)',
-              left: getResponsiveValue('45px', '260px', '435px'),
-              top: getResponsiveValue('229px', '42px', '52px'),
+              left: getResponsiveValue('45px', '278px', '435px'),
+              top: getResponsiveValue('229px', '33px', '52px'),
               width: getResponsiveValue('230px', '1px', '1px'),
-              height: getResponsiveValue('1px', '250px', '169px'),
+              height: getResponsiveValue('1px', '108px', '169px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(27.013px,38.7468px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           ></div>
@@ -225,10 +225,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('146px', '290px', '235px'),
-              top: getResponsiveValue('189px', '175px', '185px'),
-              width: getResponsiveValue('100px', '130px', '160px'),
-              height: getResponsiveValue('19px', '18px', '18px'),
+              left: getResponsiveValue('146px', '150px', '235px'),
+              top: getResponsiveValue('189px', '118px', '185px'),
+              width: getResponsiveValue('100px', '102px', '160px'),
+              height: getResponsiveValue('19px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(39px,33.513px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -240,7 +240,7 @@ export default function Footer() {
                 letterSpacing: '0.1em',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px'),
+                fontSize: getResponsiveValue('10px', '8px', '13px'),
                 textAlign: getResponsiveValue('right', 'justify', 'justify')
               }}
             >
@@ -254,10 +254,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('102px', '280px', '235px'),
-              top: getResponsiveValue('164px', '149px', '159px'),
-              width: getResponsiveValue('144px', '147px', '150px'),
-              height: getResponsiveValue('18px', '18px', '18px'),
+              left: getResponsiveValue('102px', '150px', '235px'),
+              top: getResponsiveValue('164px', '102px', '159px'),
+              width: getResponsiveValue('144px', '96px', '150px'),
+              height: getResponsiveValue('18px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(35.2857px,29.2078px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -269,7 +269,7 @@ export default function Footer() {
                 letterSpacing: '0.1em',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px'),
+                fontSize: getResponsiveValue('10px', '8px', '13px'),
                 textAlign: getResponsiveValue('right', 'justify', 'justify')
               }}
             >
@@ -283,10 +283,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('102px', '280px', '235px'),
-              top: getResponsiveValue('141px', '122px', '132px'),
-              width: getResponsiveValue('144px', '156px', '168px'),
-              height: getResponsiveValue('18px', '18px', '18px'),
+              left: getResponsiveValue('102px', '150px', '235px'),
+              top: getResponsiveValue('141px', '85px', '132px'),
+              width: getResponsiveValue('144px', '107px', '168px'),
+              height: getResponsiveValue('18px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(35.2857px,25.3247px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -298,7 +298,7 @@ export default function Footer() {
                 letterSpacing: '0.1em',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px'),
+                fontSize: getResponsiveValue('10px', '8px', '13px'),
                 textAlign: getResponsiveValue('right', 'justify', 'justify')
               }}
             >
@@ -312,10 +312,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('5px', '90px', '108px'),
-              top: getResponsiveValue('189px', '177px', '187px'),
-              width: getResponsiveValue('100px', '85px', '73px'),
-              height: getResponsiveValue('19px', '18px', '18px'),
+              left: getResponsiveValue('5px', '69px', '108px'),
+              top: getResponsiveValue('189px', '120px', '187px'),
+              width: getResponsiveValue('100px', '47px', '73px'),
+              height: getResponsiveValue('19px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(15.1948px,33.513px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -328,7 +328,7 @@ export default function Footer() {
                 textAlign: 'justify',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px')
+                fontSize: getResponsiveValue('10px', '8px', '13px')
               }}
             >
               CONTACT
@@ -341,10 +341,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('5px', '90px', '108px'),
-              top: getResponsiveValue('164px', '150px', '158px'),
-              width: getResponsiveValue('72px', '85px', '97px'),
-              height: getResponsiveValue('19px', '18px', '18px'),
+              left: getResponsiveValue('5px', '69px', '108px'),
+              top: getResponsiveValue('164px', '101px', '158px'),
+              width: getResponsiveValue('72px', '62px', '97px'),
+              height: getResponsiveValue('19px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(12.8312px,29.2922px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -357,7 +357,7 @@ export default function Footer() {
                 textAlign: 'justify',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px')
+                fontSize: getResponsiveValue('10px', '8px', '13px')
               }}
             >
               about
@@ -370,10 +370,10 @@ export default function Footer() {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('5px', '90px', '108px'),
-              top: getResponsiveValue('141px', '123px', '132px'),
-              width: getResponsiveValue('48px', '70px', '97px'),
-              height: getResponsiveValue('18px', '18px', '18px'),
+              left: getResponsiveValue('5px', '69px', '108px'),
+              top: getResponsiveValue('141px', '85px', '132px'),
+              width: getResponsiveValue('48px', '62px', '97px'),
+              height: getResponsiveValue('18px', '11px', '18px'),
               transform: getResponsiveValue('scale(1.20312,1.20312) translate(10.8052px,25.3247px)', 'scale(1,1) translate(0px,0px)', 'scale(1,1) translate(0px,0px)')
             }}
           >
@@ -386,7 +386,7 @@ export default function Footer() {
                 textAlign: 'justify',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                fontSize: getResponsiveValue('10px', '11px', '13px')
+                fontSize: getResponsiveValue('10px', '8px', '13px')
               }}
             >
               home
@@ -397,10 +397,10 @@ export default function Footer() {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('35px', '96px', '96px'),
-              top: getResponsiveValue('140px', '78px', '78px'),
-              width: getResponsiveValue('251px', '251px', '251px'),
-              height: getResponsiveValue('25px', '17px', '17px'),
+              left: getResponsiveValue('35px', '61px', '96px'),
+              top: getResponsiveValue('140px', '50px', '78px'),
+              width: getResponsiveValue('251px', '161px', '251px'),
+              height: getResponsiveValue('25px', '11px', '17px'),
               display: getResponsiveValue('none', 'block', 'block'),
               transform: 'scale(1,1) translate(0px,0px)'
             }}
@@ -410,7 +410,7 @@ export default function Footer() {
                 color: getResponsiveValue('rgba(249,242,236,1)', 'rgba(30,30,30,1)', 'rgba(30,30,30,1)'),
                 lineHeight: getResponsiveValue('1.2', '0.7', '0.7'),
                 letterSpacing: getResponsiveValue('0em', '-0.1em', '-0.1em'),
-                fontSize: getResponsiveValue('24px', '42px', '42px'),
+                fontSize: getResponsiveValue('24px', '27px', '42px'),
                 textAlign: 'center',
                 fontFamily: getResponsiveValue('Playfair Display', 'Noiretblanc', 'Noiretblanc'),
                 fontWeight: 'normal'
