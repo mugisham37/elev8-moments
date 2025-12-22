@@ -38,7 +38,7 @@ const EventPlanning = () => {
         position: 'relative',
         width: '100%',
         overflow: 'hidden',
-        height: getResponsiveValue('944px', '850px', '921px'),
+        height: getResponsiveValue('944px', '589px', '921px'),
         backgroundColor: getResponsiveValue('#1E1E1E', '#F9F2EC', '#F9F2EC'),
         display: 'flex',
         justifyContent: 'center',
@@ -86,10 +86,10 @@ const EventPlanning = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('22px', '60px', '84px'),
-              top: getResponsiveValue('421px', '480px', '522px'),
-              width: getResponsiveValue('332px', '550px', '696px'),
-              height: getResponsiveValue('236px', '295px', '359px')
+              left: getResponsiveValue('22px', '54px', '84px'),
+              top: getResponsiveValue('421px', '334px', '522px'),
+              width: getResponsiveValue('332px', '445px', '696px'),
+              height: getResponsiveValue('236px', '230px', '359px')
             }}
           >
             <div 
@@ -123,12 +123,12 @@ const EventPlanning = () => {
               fontFamily: 'Raleway, sans-serif',
               fontWeight: 400,
               letterSpacing: '0em',
-              left: getResponsiveValue('38px', '60px', '84px'),
-              top: getResponsiveValue('191px', '210px', '241px'),
-              width: getResponsiveValue('285px', '380px', '475px'),
-              height: getResponsiveValue('106px', '150px', '186px'),
+              left: getResponsiveValue('38px', '54px', '84px'),
+              top: getResponsiveValue('191px', '154px', '241px'),
+              width: getResponsiveValue('285px', '304px', '475px'),
+              height: getResponsiveValue('106px', '119px', '186px'),
               color: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E'),
-              fontSize: getResponsiveValue('13px', '14px', '16px'),
+              fontSize: getResponsiveValue('13px', '10px', '16px'),
               lineHeight: '1.8',
               textAlign: getResponsiveValue('justify', 'left', 'left') as 'justify' | 'left'
             }}
@@ -147,10 +147,10 @@ const EventPlanning = () => {
               position: 'absolute',
               border: 0,
               borderColor: 'white',
-              left: getResponsiveValue('66px', '60px', '84px'),
-              top: getResponsiveValue('844px', '710px', '427px'),
-              width: getResponsiveValue('224px', '235px', '247px'),
-              height: getResponsiveValue('48px', '50px', '51px'),
+              left: getResponsiveValue('66px', '54px', '84px'),
+              top: getResponsiveValue('844px', '273px', '427px'),
+              width: getResponsiveValue('224px', '158px', '247px'),
+              height: getResponsiveValue('48px', '33px', '51px'),
               backgroundColor: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E')
             }}
           >
@@ -172,12 +172,12 @@ const EventPlanning = () => {
               fontFamily: 'Raleway, sans-serif',
               fontWeight: 400,
               textTransform: 'uppercase',
-              left: getResponsiveValue('103px', '96px', '26px'),
-              top: getResponsiveValue('860px', '726px', '444px'),
-              width: getResponsiveValue('145px', '165px', '362px'),
-              height: getResponsiveValue('16px', '17px', '17px'),
+              left: getResponsiveValue('103px', '17px', '26px'),
+              top: getResponsiveValue('860px', '284px', '444px'),
+              width: getResponsiveValue('145px', '232px', '362px'),
+              height: getResponsiveValue('16px', '11px', '17px'),
               color: getResponsiveValue('#1E1E1E', '#F9F2EC', '#F9F2EC'),
-              fontSize: getResponsiveValue('12px', '13px', '14px')
+              fontSize: getResponsiveValue('12px', '9px', '14px')
             }}
           >
             <nav>
@@ -194,12 +194,12 @@ const EventPlanning = () => {
               fontWeight: 500,
               textTransform: 'uppercase',
               letterSpacing: '0.1em',
-              left: getResponsiveValue('36px', '60px', '84px'),
-              top: getResponsiveValue('112px', '130px', '158px'),
-              width: getResponsiveValue('285px', '365px', '456px'),
-              height: getResponsiveValue('54px', '58px', '63px'),
+              left: getResponsiveValue('36px', '54px', '84px'),
+              top: getResponsiveValue('112px', '101px', '158px'),
+              width: getResponsiveValue('285px', '292px', '456px'),
+              height: getResponsiveValue('54px', '40px', '63px'),
               color: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E'),
-              fontSize: getResponsiveValue('11px', '13px', '16px'),
+              fontSize: getResponsiveValue('11px', '10px', '16px'),
               lineHeight: '1.4'
             }}
           >
@@ -213,10 +213,10 @@ const EventPlanning = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '420px', '593px'),
-                top: getResponsiveValue('0px', '40px', '49px'),
-                width: getResponsiveValue('0px', '340px', '523px'),
-                height: getResponsiveValue('0px', '470px', '587px'),
+                left: getResponsiveValue('0px', '380px', '593px'),
+                top: getResponsiveValue('0px', '31px', '49px'),
+                width: getResponsiveValue('0px', '335px', '523px'),
+                height: getResponsiveValue('0px', '376px', '587px'),
                 backgroundColor: '#F9F2EC'
               }}
             >
@@ -228,10 +228,10 @@ const EventPlanning = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '432px', '609px'),
-                top: getResponsiveValue('0px', '52px', '64px'),
-                width: getResponsiveValue('0px', '320px', '491px'),
-                height: getResponsiveValue('0px', '446px', '558px')
+                left: getResponsiveValue('0px', '390px', '609px'),
+                top: getResponsiveValue('0px', '41px', '64px'),
+                width: getResponsiveValue('0px', '314px', '491px'),
+                height: getResponsiveValue('0px', '357px', '558px')
               }}
             >
               <div 
@@ -268,12 +268,12 @@ const EventPlanning = () => {
               fontWeight: 400,
               textTransform: 'uppercase',
               letterSpacing: '0em',
-              left: getResponsiveValue('34px', '60px', '84px'),
-              top: getResponsiveValue('57px', '80px', '103px'),
-              width: getResponsiveValue('376px', '430px', '486px'),
-              height: getResponsiveValue('28px', '35px', '39px'),
+              left: getResponsiveValue('34px', '54px', '84px'),
+              top: getResponsiveValue('57px', '66px', '103px'),
+              width: getResponsiveValue('376px', '311px', '486px'),
+              height: getResponsiveValue('28px', '25px', '39px'),
               color: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E'),
-              fontSize: getResponsiveValue('42px', '46px', '50px'),
+              fontSize: getResponsiveValue('42px', '32px', '50px'),
               lineHeight: '0.9'
             }}
           >
@@ -287,10 +287,10 @@ const EventPlanning = () => {
             style={{
               position: 'absolute',
               borderRadius: '2px',
-              left: getResponsiveValue('54px', '505px', '779px'),
-              top: getResponsiveValue('594px', '530px', '582px'),
-              width: getResponsiveValue('257px', '330px', '407px'),
-              height: getResponsiveValue('226px', '280px', '338px'),
+              left: getResponsiveValue('54px', '499px', '779px'),
+              top: getResponsiveValue('594px', '372px', '582px'),
+              width: getResponsiveValue('257px', '260px', '407px'),
+              height: getResponsiveValue('226px', '216px', '338px'),
               backgroundColor: getResponsiveValue('#1E1E1E', '#F9F2EC', '#F9F2EC')
             }}
           >
@@ -304,12 +304,12 @@ const EventPlanning = () => {
               fontWeight: 400,
               textTransform: 'uppercase',
               letterSpacing: '0em',
-              left: getResponsiveValue('-58px', '545px', '796px'),
-              top: getResponsiveValue('618px', '565px', '632px'),
-              width: getResponsiveValue('473px', '330px', '382px'),
-              height: getResponsiveValue('50px', '42px', '39px'),
+              left: getResponsiveValue('-58px', '509px', '796px'),
+              top: getResponsiveValue('618px', '404px', '632px'),
+              width: getResponsiveValue('473px', '244px', '382px'),
+              height: getResponsiveValue('50px', '25px', '39px'),
               color: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E'),
-              fontSize: getResponsiveValue('40px', '45px', '50px'),
+              fontSize: getResponsiveValue('40px', '32px', '50px'),
               lineHeight: '0.9',
               textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
             }}
@@ -326,13 +326,13 @@ const EventPlanning = () => {
               fontFamily: 'Raleway, sans-serif',
               fontWeight: 400,
               letterSpacing: '0em',
-              left: getResponsiveValue('36px', '545px', '796px'),
-              top: getResponsiveValue('673px', '620px', '693px'),
-              width: getResponsiveValue('285px', '293px', '294px'),
-              height: getResponsiveValue('75px', '120px', '150px'),
+              left: getResponsiveValue('36px', '509px', '796px'),
+              top: getResponsiveValue('673px', '444px', '693px'),
+              width: getResponsiveValue('285px', '188px', '294px'),
+              height: getResponsiveValue('75px', '96px', '150px'),
               color: getResponsiveValue('#F9F2EC', '#1E1E1E', '#1E1E1E'),
-              fontSize: getResponsiveValue('13px', '14px', '16px'),
-              lineHeight: getResponsiveValue('1.8', '1.6', '1.4'),
+              fontSize: getResponsiveValue('13px', '10px', '16px'),
+              lineHeight: getResponsiveValue('1.8', '1.4', '1.4'),
               textAlign: getResponsiveValue('justify', 'left', 'left') as 'justify' | 'left'
             }}
           >
