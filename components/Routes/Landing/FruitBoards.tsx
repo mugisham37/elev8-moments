@@ -94,9 +94,9 @@ const FruitBoards: React.FC = () => {
             style={{
               position: 'absolute',
               backgroundColor: 'rgb(30,30,30)',
-              left: getResponsiveValue('39px', '380px', '759px'),
-              top: getResponsiveValue('508px', '315px', '360px'),
-              width: getResponsiveValue('224px', '235px', '247px'),
+              left: getResponsiveValue('39px', '406px', '759px'),
+              top: getResponsiveValue('508px', '303px', '360px'),
+              width: getResponsiveValue('224px', '236px', '247px'),
               height: getResponsiveValue('48px', '50px', '51px')
             }}
           >
@@ -122,8 +122,8 @@ const FruitBoards: React.FC = () => {
                 textAlign: 'center',
                 fontFamily: 'Raleway',
                 fontWeight: 'normal',
-                left: getResponsiveValue('39px', '380px', '759px'),
-                top: getResponsiveValue('508px', '315px', '360px'),
+                left: getResponsiveValue('39px', '406px', '759px'),
+                top: getResponsiveValue('508px', '303px', '360px'),
                 width: getResponsiveValue('224px', '235px', '247px'),
                 height: getResponsiveValue('48px', '50px', '51px'),
                 fontSize: getResponsiveValue('12px', '13px', '14px')
@@ -143,10 +143,10 @@ const FruitBoards: React.FC = () => {
               color: 'black',
               fontFamily: 'Raleway',
               fontWeight: 'normal',
-              left: getResponsiveValue('45px', '380px', '758px'),
-              top: getResponsiveValue('294px', '165px', '186px'),
-              width: getResponsiveValue('290px', '370px', '460px'),
-              height: getResponsiveValue('98px', '110px', '119px'),
+              left: getResponsiveValue('45px', '378px', '758px'),
+              top: getResponsiveValue('294px', '119px', '186px'),
+              width: getResponsiveValue('290px', '377px', '460px'),
+              height: getResponsiveValue('98px', '109px', '119px'),
               fontSize: getResponsiveValue('13px', '14px', '16px'),
               lineHeight: getResponsiveValue('1.8', '1.7', '1.6'),
               textAlign: getResponsiveValue('justify', 'left', 'left') as 'justify' | 'left'
@@ -170,11 +170,11 @@ const FruitBoards: React.FC = () => {
                   lineHeight: '1.1',
                   fontFamily: 'Noiretblanc',
                   fontWeight: 'normal',
-                  left: getResponsiveValue('-37px', '380px', '758px'),
-                  top: getResponsiveValue('208px', '60px', '74px'),
-                  width: getResponsiveValue('395px', '420px', '531px'),
-                  height: getResponsiveValue('26px', '70px', '93px'),
-                  fontSize: getResponsiveValue('31px', '40px', '49px'),
+                  left: getResponsiveValue('-37px', '378px', '758px'),
+                  top: getResponsiveValue('208px', '19px', '74px'),
+                  width: getResponsiveValue('395px', '531px', '531px'),
+                  height: getResponsiveValue('26px', '93px', '93px'),
+                  fontSize: getResponsiveValue('31px', '49px', '49px'),
                   textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
                 }}
               >
@@ -238,8 +238,8 @@ const FruitBoards: React.FC = () => {
               borderBottomRightRadius: '366px',
               left: '0px',
               top: '0px',
-              width: getResponsiveValue('384px', '563px', '710px'),
-              height: getResponsiveValue('171px', '410px', '517px')
+              width: getResponsiveValue('384px', '355px', '710px'),
+              height: getResponsiveValue('171px', '357px', '517px')
             }}
           >
             <div 
@@ -277,8 +277,8 @@ const FruitBoards: React.FC = () => {
                 borderStyle: 'solid',
                 borderColor: 'black',
                 left: getResponsiveValue('-4px', '-4px', '-4px'),
-                top: getResponsiveValue('517px', '517px', '517px'),
-                width: getResponsiveValue('1209px', '1209px', '1530px'),
+                top: getResponsiveValue('517px', '389px', '517px'),
+                width: getResponsiveValue('1209px', '979px', '1530px'),
                 height: getResponsiveValue('55px', '55px', '55px')
               }}
             ></div>
@@ -288,10 +288,10 @@ const FruitBoards: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('68px', '380px', '676px'),
-              top: getResponsiveValue('572px', '608px', '608px'),
-              width: getResponsiveValue('184px', '247px', '247px'),
-              height: getResponsiveValue('276px', '201px', '201px')
+              left: getResponsiveValue('68px', '278px', '676px'),
+              top: getResponsiveValue('572px', '460px', '608px'),
+              width: getResponsiveValue('184px', '216px', '247px'),
+              height: getResponsiveValue('276px', '238px', '201px')
             }}
           >
             <div 
@@ -349,10 +349,10 @@ const FruitBoards: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-4px', '150px', '402px'),
-              top: getResponsiveValue('622px', '608px', '608px'),
-              width: getResponsiveValue('101px', '247px', '247px'),
-              height: getResponsiveValue('178px', '201px', '201px')
+              left: getResponsiveValue('-4px', '103px', '402px'),
+              top: getResponsiveValue('622px', '485px', '608px'),
+              width: getResponsiveValue('101px', '175px', '247px'),
+              height: getResponsiveValue('178px', '190px', '201px')
             }}
           >
             <div 
@@ -382,10 +382,10 @@ const FruitBoards: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('223px', '610px', '952px'),
-              top: getResponsiveValue('617px', '608px', '608px'),
-              width: getResponsiveValue('101px', '247px', '247px'),
-              height: getResponsiveValue('182px', '201px', '201px')
+              left: getResponsiveValue('223px', '494px', '952px'),
+              top: getResponsiveValue('617px', '482px', '608px'),
+              width: getResponsiveValue('101px', '175px', '247px'),
+              height: getResponsiveValue('182px', '192px', '201px')
             }}
           >
             <div 
@@ -417,7 +417,7 @@ const FruitBoards: React.FC = () => {
               style={{
                 position: 'absolute',
                 left: `${-856 + scrollTextOffset}px`,
-                top: getResponsiveValue('532px', '532px', '532px'),
+                top: getResponsiveValue('532px', '402px', '532px'),
                 width: getResponsiveValue('2912px', '2912px', '2912px'),
                 height: getResponsiveValue('39px', '39px', '39px'),
                 transition: 'left 0.1s linear',
@@ -442,9 +442,9 @@ const FruitBoards: React.FC = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('172px', '172px', '372px'),
-                top: getResponsiveValue('831px', '831px', '831px'),
-                width: getResponsiveValue('857px', '857px', '857px'),
+                left: getResponsiveValue('172px', '58px', '372px'),
+                top: getResponsiveValue('831px', '701px', '831px'),
+                width: getResponsiveValue('857px', '657px', '857px'),
                 height: getResponsiveValue('118px', '118px', '118px')
               }}
             >

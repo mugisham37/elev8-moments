@@ -53,9 +53,20 @@ const Gallery = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [images.length])
 
-  // Calculate visible count based on viewport width and zoom
+  // Calculate responsive dimensions based on viewport
+  const [dimensions, setDimensions] = useState({
+    arrowSize: 44,
+    arrowPosition: 20,
+    iconSize: 24,
+    dotSize: 10,
+    dotGap: 8,
+    bottomPosition: 20,
+    imagePadding: 2
+  })
+
+  // Calculate visible count and responsive dimensions
   useEffect(() => {
-    const calculateVisibleCount = () => {
+    const calculateResponsiveDimensions = () => {
       const width = window.innerWidth
       const zoom = window.devicePixelRatio || 1
       
@@ -63,28 +74,64 @@ const Gallery = () => {
       if (width < 640) {
         // Mobile: 1-2 images
         setVisibleCount(zoom > 1.5 ? 1 : 2)
+        setDimensions({
+          arrowSize: 36,
+          arrowPosition: 12,
+          iconSize: 18,
+          dotSize: 8,
+          dotGap: 6,
+          bottomPosition: 16,
+          imagePadding: 1
+        })
       } else if (width < 1024) {
-        // Tablet: 2-3 images
+        // Tablet: 2-3 images - Proportionally scaled from desktop
         setVisibleCount(zoom > 1.5 ? 2 : 3)
+        setDimensions({
+          arrowSize: 36,        // 82% of desktop (44px)
+          arrowPosition: 14,    // 70% of desktop (20px)
+          iconSize: 20,         // 83% of desktop (24px)
+          dotSize: 8,           // 80% of desktop (10px)
+          dotGap: 6,            // 75% of desktop (8px)
+          bottomPosition: 16,   // 80% of desktop (20px)
+          imagePadding: 1.5     // 75% of desktop (2px)
+        })
       } else if (width < 1536) {
-        // Desktop: 3-4 images
+        // Desktop: 3-4 images - Base measurements
         setVisibleCount(zoom > 1.5 ? 3 : 4)
+        setDimensions({
+          arrowSize: 44,
+          arrowPosition: 20,
+          iconSize: 24,
+          dotSize: 10,
+          dotGap: 8,
+          bottomPosition: 20,
+          imagePadding: 2
+        })
       } else {
-        // Large desktop: 4-5 images
+        // Large desktop: 4-5 images - Slightly larger
         setVisibleCount(zoom > 1.5 ? 4 : 5)
+        setDimensions({
+          arrowSize: 48,
+          arrowPosition: 24,
+          iconSize: 26,
+          dotSize: 12,
+          dotGap: 10,
+          bottomPosition: 24,
+          imagePadding: 2.5
+        })
       }
     }
 
-    calculateVisibleCount()
-    window.addEventListener('resize', calculateVisibleCount)
+    calculateResponsiveDimensions()
+    window.addEventListener('resize', calculateResponsiveDimensions)
     
     // Listen for zoom changes
     const mediaQuery = window.matchMedia('(resolution: 1dppx)')
-    mediaQuery.addEventListener('change', calculateVisibleCount)
+    mediaQuery.addEventListener('change', calculateResponsiveDimensions)
 
     return () => {
-      window.removeEventListener('resize', calculateVisibleCount)
-      mediaQuery.removeEventListener('change', calculateVisibleCount)
+      window.removeEventListener('resize', calculateResponsiveDimensions)
+      mediaQuery.removeEventListener('change', calculateResponsiveDimensions)
     }
   }, [])
 
@@ -163,7 +210,7 @@ const Gallery = () => {
               flex: `0 0 ${slideWidth}%`,
               height: '100%',
               position: 'relative',
-              padding: '0 2px'
+              padding: `0 ${dimensions.imagePadding}px`
             }}
           >
             <div style={{
@@ -192,11 +239,11 @@ const Gallery = () => {
         onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
         style={{
           position: 'absolute',
-          left: '20px',
+          left: `${dimensions.arrowPosition}px`,
           top: '50%',
           transform: 'translateY(-50%) rotate(180deg)',
-          width: '44px',
-          height: '44px',
+          width: `${dimensions.arrowSize}px`,
+          height: `${dimensions.arrowSize}px`,
           backgroundColor: 'rgba(255, 255, 255, 0.9)',
           border: 'none',
           borderRadius: '50%',
@@ -221,8 +268,8 @@ const Gallery = () => {
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 512 512"
           style={{
-            width: '24px',
-            height: '24px',
+            width: `${dimensions.iconSize}px`,
+            height: `${dimensions.iconSize}px`,
             fill: '#B5AFA0'
           }}
         >
@@ -234,11 +281,11 @@ const Gallery = () => {
         onClick={() => setCurrentIndex((prev) => prev + 1)}
         style={{
           position: 'absolute',
-          right: '20px',
+          right: `${dimensions.arrowPosition}px`,
           top: '50%',
           transform: 'translateY(-50%)',
-          width: '44px',
-          height: '44px',
+          width: `${dimensions.arrowSize}px`,
+          height: `${dimensions.arrowSize}px`,
           backgroundColor: 'rgba(255, 255, 255, 0.9)',
           border: 'none',
           borderRadius: '50%',
@@ -263,8 +310,8 @@ const Gallery = () => {
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 512 512"
           style={{
-            width: '24px',
-            height: '24px',
+            width: `${dimensions.iconSize}px`,
+            height: `${dimensions.iconSize}px`,
             fill: '#B5AFA0'
           }}
         >
@@ -276,11 +323,11 @@ const Gallery = () => {
       <div
         style={{
           position: 'absolute',
-          bottom: '20px',
+          bottom: `${dimensions.bottomPosition}px`,
           left: '50%',
           transform: 'translateX(-50%)',
           display: 'flex',
-          gap: '8px',
+          gap: `${dimensions.dotGap}px`,
           zIndex: 10
         }}
       >
@@ -289,8 +336,8 @@ const Gallery = () => {
             key={index}
             onClick={() => setCurrentIndex(images.length + index)}
             style={{
-              width: '10px',
-              height: '10px',
+              width: `${dimensions.dotSize}px`,
+              height: `${dimensions.dotSize}px`,
               borderRadius: '50%',
               border: 'none',
               backgroundColor: (currentIndex % images.length) === index 
