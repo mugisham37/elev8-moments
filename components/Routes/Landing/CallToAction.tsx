@@ -86,10 +86,10 @@ const CallToAction: React.FC = () => {
               data-sid="call-to-action-banner_0" 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('10px', '190px', '432px'),
-                top: getResponsiveValue('69px', '60px', '59px'),
-                width: getResponsiveValue('301px', '550px', '740px'),
-                height: getResponsiveValue('374px', '300px', '243px'),
+                left: getResponsiveValue('10px', '276px', '432px'),
+                top: getResponsiveValue('69px', '82px', '59px'),
+                width: getResponsiveValue('301px', '474px', '740px'),
+                height: getResponsiveValue('374px', '336px', '243px'),
                 backgroundColor: getResponsiveValue('rgba(249,242,236,1)', 'rgba(236,235,232,1)', 'rgba(236,235,232,1)')
               }}
             >
@@ -104,10 +104,10 @@ const CallToAction: React.FC = () => {
               data-sid="call-to-action-banner_1" 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('48px', '580px', '1016px'),
-                top: getResponsiveValue('255px', '130px', '87px'),
-                width: getResponsiveValue('224px', '155px', '124px'),
-                height: getResponsiveValue('258px', '220px', '188px')
+                left: getResponsiveValue('48px', '651px', '1016px'),
+                top: getResponsiveValue('255px', '120px', '87px'),
+                width: getResponsiveValue('224px', '79px', '124px'),
+                height: getResponsiveValue('258px', '261px', '188px')
               }}
             >
               <div 
@@ -147,10 +147,10 @@ const CallToAction: React.FC = () => {
                 borderWidth: 0,
                 borderStyle: 'solid',
                 borderColor: 'black',
-                left: getResponsiveValue('48px', '290px', '603px'),
-                top: getResponsiveValue('544px', '380px', '217px'),
-                width: getResponsiveValue('224px', '235px', '247px'),
-                height: getResponsiveValue('48px', '50px', '51px'),
+                left: getResponsiveValue('48px', '386px', '603px'),
+                top: getResponsiveValue('544px', '301px', '217px'),
+                width: getResponsiveValue('224px', '158px', '247px'),
+                height: getResponsiveValue('48px', '70px', '51px'),
                 backgroundColor: getResponsiveValue('rgba(249,242,236,1)', 'rgba(30,30,30,1)', 'rgba(30,30,30,1)')
               }}
             >
@@ -176,10 +176,10 @@ const CallToAction: React.FC = () => {
                 textAlign: 'center',
                 fontFamily: 'Montserrat',
                 fontWeight: 'normal',
-                left: getResponsiveValue('-6px', '296px', '609px'),
-                top: getResponsiveValue('556px', '391px', '228px'),
-                width: getResponsiveValue('332px', '223px', '235px'),
-                height: getResponsiveValue('37px', '28px', '30px'),
+                left: getResponsiveValue('-6px', '390px', '609px'),
+                top: getResponsiveValue('556px', '316px', '228px'),
+                width: getResponsiveValue('332px', '151px', '235px'),
+                height: getResponsiveValue('37px', '42px', '30px'),
                 color: getResponsiveValue('rgba(30,30,30,1)', 'rgba(249,242,236,1)', 'rgba(249,242,236,1)')
               }}
             >
@@ -204,10 +204,10 @@ const CallToAction: React.FC = () => {
                 textAlign: 'center',
                 fontFamily: 'Raleway',
                 fontWeight: 'normal',
-                left: getResponsiveValue('24px', '210px', '457px'),
-                top: getResponsiveValue('205px', '285px', '178px'),
-                width: getResponsiveValue('273px', '410px', '559px'),
-                height: getResponsiveValue('50px', '42px', '39px'),
+                left: getResponsiveValue('24px', '293px', '457px'),
+                top: getResponsiveValue('205px', '247px', '178px'),
+                width: getResponsiveValue('273px', '358px', '559px'),
+                height: getResponsiveValue('50px', '54px', '39px'),
                 fontSize: getResponsiveValue('14px', '15px', '16px')
               }}
             >
@@ -231,11 +231,11 @@ const CallToAction: React.FC = () => {
                 letterSpacing: '0em',
                 fontFamily: 'Strings',
                 fontWeight: 'normal',
-                left: getResponsiveValue('-31px', '340px', '645px'),
-                top: getResponsiveValue('134px', '165px', '98px'),
-                width: getResponsiveValue('382px', '370px', '370px'),
-                height: getResponsiveValue('81px', '68px', '59px'),
-                fontSize: getResponsiveValue('46px', '60px', '56px'),
+                left: getResponsiveValue('-31px', '373px', '645px'),
+                top: getResponsiveValue('134px', '186px', '98px'),
+                width: getResponsiveValue('382px', '237px', '370px'),
+                height: getResponsiveValue('81px', '82px', '59px'),
+                fontSize: getResponsiveValue('46px', '31px', '56px'),
                 textAlign: getResponsiveValue('center', 'left', 'left')
               }}
             >
@@ -255,10 +255,10 @@ const CallToAction: React.FC = () => {
                 data-sid="call-to-action-banner_6" 
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('0px', '18px', '24px'),
-                  top: getResponsiveValue('0px', '55px', '59px'),
-                  width: getResponsiveValue('0px', '300px', '380px'),
-                  height: getResponsiveValue('0px', '195px', '238px')
+                  left: getResponsiveValue('0px', '15px', '24px'),
+                  top: getResponsiveValue('0px', '82px', '59px'),
+                  width: getResponsiveValue('0px', '243px', '380px'),
+                  height: getResponsiveValue('0px', '330px', '238px')
                 }}
               >
                 <div 
@@ -301,11 +301,11 @@ const CallToAction: React.FC = () => {
                 letterSpacing: '0em',
                 fontFamily: 'Noiretblanc',
                 fontWeight: 'normal',
-                left: getResponsiveValue('-7px', '220px', '455px'),
-                top: getResponsiveValue('93px', '125px', '109px'),
-                width: getResponsiveValue('335px', '250px', '190px'),
-                height: getResponsiveValue('16px', '40px', '59px'),
-                fontSize: getResponsiveValue('45px', '48px', '54px'),
+                left: getResponsiveValue('-7px', '421px', '455px'),
+                top: getResponsiveValue('93px', '151px', '109px'),
+                width: getResponsiveValue('335px', '172px', '190px'),
+                height: getResponsiveValue('16px', '82px', '59px'),
+                fontSize: getResponsiveValue('45px', '29px', '54px'),
                 textAlign: getResponsiveValue('center', 'left', 'left')
               }}
             >

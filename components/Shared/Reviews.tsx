@@ -33,7 +33,7 @@ const Reviews = () => {
         position: getResponsiveValue('relative', 'relative', 'relative') as 'relative',
         width: getResponsiveValue('100%', '100%', '100%'),
         backgroundColor: getResponsiveValue('rgb(30,30,30)', 'rgb(30,30,30)', 'rgb(30,30,30)'),
-        height: getResponsiveValue('1355px', '1100px', '902px')
+        height: getResponsiveValue('1355px', '631px', '902px')
       }}
     >
       {/* Background container */}
@@ -50,10 +50,10 @@ const Reviews = () => {
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
             backgroundColor: getResponsiveValue('rgb(249,242,236)', 'rgb(249,242,236)', 'rgb(249,242,236)'),
-            left: getResponsiveValue('19px', '40px', '241px'),
-            top: getResponsiveValue('24px', '50px', '70px'),
+            left: getResponsiveValue('19px', '44px', '241px'),
+            top: getResponsiveValue('24px', '49px', '70px'),
             width: getResponsiveValue('339px', '688px', '1078px'),
-            height: getResponsiveValue('644px', '480px', '358px'),
+            height: getResponsiveValue('644px', '251px', '358px'),
             border: getResponsiveValue('1px solid rgb(220,222,229)', '1px solid rgb(30,30,30)', '1px solid rgb(30,30,30)')
           }}
         >
@@ -64,10 +64,10 @@ const Reviews = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
               borderRadius: getResponsiveValue('50%', '50%', '50%'),
               overflow: getResponsiveValue('hidden', 'hidden', 'hidden') as 'hidden',
-              left: getResponsiveValue('72px', '95px', '58px'),
-              top: getResponsiveValue('148px', '140px', '54px'),
-              width: getResponsiveValue('178px', '205px', '236px'),
-              height: getResponsiveValue('169px', '200px', '238px')
+              left: getResponsiveValue('72px', '37px', '58px'),
+              top: getResponsiveValue('148px', '38px', '54px'),
+              width: getResponsiveValue('178px', '151px', '236px'),
+              height: getResponsiveValue('169px', '167px', '238px')
             }}
           >
             <div 
@@ -86,10 +86,10 @@ const Reviews = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
               backgroundColor: getResponsiveValue('rgb(30,30,30)', 'rgb(30,30,30)', 'rgb(30,30,30)'),
-              left: getResponsiveValue('77px', '345px', '338px'),
-              top: getResponsiveValue('348px', '85px', '25px'),
+              left: getResponsiveValue('77px', '216px', '338px'),
+              top: getResponsiveValue('348px', '18px', '25px'),
               width: getResponsiveValue('168px', '1px', '1px'),
-              height: getResponsiveValue('1px', '310px', '309px')
+              height: getResponsiveValue('1px', '216px', '309px')
             }}
           />
 
@@ -97,9 +97,9 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('20px', '385px', '387px'),
-              top: getResponsiveValue('65px', '110px', '74px'),
-              width: getResponsiveValue('281px', '480px', '683px'),
+              left: getResponsiveValue('20px', '247px', '387px'),
+              top: getResponsiveValue('65px', '32px', '74px'),
+              width: getResponsiveValue('281px', '436px', '683px'),
               height: getResponsiveValue('71px', '50px', '41px')
             }}
           >
@@ -108,7 +108,7 @@ const Reviews = () => {
                 color: getResponsiveValue('rgb(0,0,0)', 'rgb(0,0,0)', 'rgb(0,0,0)'),
                 lineHeight: getResponsiveValue(1.2, 1.2, 1.2),
                 fontFamily: getResponsiveValue("'Noiretblanc',serif", "'Noiretblanc',serif", "'Noiretblanc',serif"),
-                fontSize: getResponsiveValue('27px', '30px', '33px'),
+                fontSize: getResponsiveValue('27px', '26px', '33px'),
                 textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
               }}
             >
@@ -120,10 +120,10 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('54px', '385px', '397px'),
-              top: getResponsiveValue('365px', '175px', '137px'),
-              width: getResponsiveValue('220px', '545px', '611px'),
-              height: getResponsiveValue('245px', '165px', '125px')
+              left: getResponsiveValue('54px', '253px', '397px'),
+              top: getResponsiveValue('365px', '68px', '137px'),
+              width: getResponsiveValue('220px', '430px', '611px'),
+              height: getResponsiveValue('245px', '88px', '125px')
             }}
           >
             <p 
@@ -144,9 +144,9 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('63px', '385px', '397px'),
-              top: getResponsiveValue('615px', '355px', '272px'),
-              width: getResponsiveValue('194px', '230px', '274px'),
+              left: getResponsiveValue('63px', '253px', '397px'),
+              top: getResponsiveValue('615px', '216px', '272px'),
+              width: getResponsiveValue('194px', '215px', '274px'),
               height: getResponsiveValue('27px', '22px', '19px')
             }}
           >
@@ -158,7 +158,7 @@ const Reviews = () => {
                 letterSpacing: '0.2em',
                 fontFamily: "'Raleway',sans-serif",
                 fontWeight: 400,
-                fontSize: getResponsiveValue('12px', '13px', '15px'),
+                fontSize: getResponsiveValue('12px', '14px', '15px'),
                 textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
               }}
             >
@@ -172,10 +172,10 @@ const Reviews = () => {
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
             backgroundColor: getResponsiveValue('rgb(249,242,236)', 'rgb(249,242,236)', 'rgb(249,242,236)'),
-            left: getResponsiveValue('19px', '40px', '241px'),
-            top: getResponsiveValue('702px', '570px', '473px'),
+            left: getResponsiveValue('19px', '44px', '241px'),
+            top: getResponsiveValue('702px', '320px', '473px'),
             width: getResponsiveValue('337px', '688px', '1078px'),
-            height: getResponsiveValue('616px', '480px', '358px'),
+            height: getResponsiveValue('616px', '251px', '358px'),
             border: getResponsiveValue('1px solid rgb(220,222,229)', '1px solid rgb(30,30,30)', '1px solid rgb(30,30,30)')
           }}
         >
@@ -184,9 +184,9 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('31px', '75px', '77px'),
-              top: getResponsiveValue('38px', '82px', '82px'),
-              width: getResponsiveValue('267px', '420px', '547px'),
+              left: getResponsiveValue('31px', '49px', '77px'),
+              top: getResponsiveValue('38px', '37px', '82px'),
+              width: getResponsiveValue('267px', '349px', '547px'),
               height: getResponsiveValue('71px', '50px', '41px')
             }}
           >
@@ -195,7 +195,7 @@ const Reviews = () => {
                 color: getResponsiveValue('rgb(0,0,0)', 'rgb(0,0,0)', 'rgb(0,0,0)'),
                 lineHeight: getResponsiveValue(1.2, 1.2, 1.2),
                 fontFamily: getResponsiveValue("'Noiretblanc',serif", "'Noiretblanc',serif", "'Noiretblanc',serif"),
-                fontSize: getResponsiveValue('29px', '31px', '33px'),
+                fontSize: getResponsiveValue('29px', '26px', '33px'),
                 textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
               }}
             >
@@ -207,10 +207,10 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('51px', '75px', '87px'),
-              top: getResponsiveValue('341px', '141px', '141px'),
-              width: getResponsiveValue('220px', '545px', '611px'),
-              height: getResponsiveValue('215px', '135px', '98px')
+              left: getResponsiveValue('51px', '56px', '87px'),
+              top: getResponsiveValue('341px', '69px', '141px'),
+              width: getResponsiveValue('220px', '390px', '611px'),
+              height: getResponsiveValue('215px', '69px', '98px')
             }}
           >
             <p 
@@ -231,9 +231,9 @@ const Reviews = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
-              left: getResponsiveValue('63px', '75px', '87px'),
-              top: getResponsiveValue('561px', '291px', '255px'),
-              width: getResponsiveValue('194px', '230px', '274px'),
+              left: getResponsiveValue('63px', '56px', '87px'),
+              top: getResponsiveValue('561px', '209px', '255px'),
+              width: getResponsiveValue('194px', '175px', '274px'),
               height: getResponsiveValue('27px', '22px', '19px')
             }}
           >
@@ -245,7 +245,7 @@ const Reviews = () => {
                 letterSpacing: getResponsiveValue('0.2em', '0.2em', '0.2em'),
                 fontFamily: getResponsiveValue("'Raleway',sans-serif", "'Raleway',sans-serif", "'Raleway',sans-serif"),
                 fontWeight: getResponsiveValue(400, 400, 400),
-                fontSize: getResponsiveValue('12px', '13px', '15px'),
+                fontSize: getResponsiveValue('12px', '14px', '15px'),
                 textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
               }}
             >
@@ -258,10 +258,10 @@ const Reviews = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
               backgroundColor: getResponsiveValue('rgb(30,30,30)', 'rgb(30,30,30)', 'rgb(30,30,30)'),
-              left: getResponsiveValue('77px', '658px', '721px'),
-              top: getResponsiveValue('323px', '25px', '25px'),
+              left: getResponsiveValue('77px', '460px', '721px'),
+              top: getResponsiveValue('323px', '18px', '25px'),
               width: getResponsiveValue('168px', '1px', '1px'),
-              height: getResponsiveValue('1px', '310px', '309px')
+              height: getResponsiveValue('1px', '216px', '309px')
             }}
           />
 
@@ -271,10 +271,10 @@ const Reviews = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute') as 'absolute',
               borderRadius: getResponsiveValue('50%', '50%', '50%'),
               overflow: getResponsiveValue('hidden', 'hidden', 'hidden') as 'hidden',
-              left: getResponsiveValue('72px', '440px', '783px'),
-              top: getResponsiveValue('132px', '60px', '60px'),
-              width: getResponsiveValue('178px', '205px', '236px'),
-              height: getResponsiveValue('169px', '200px', '238px')
+              left: getResponsiveValue('72px', '500px', '783px'),
+              top: getResponsiveValue('132px', '42px', '60px'),
+              width: getResponsiveValue('178px', '151px', '236px'),
+              height: getResponsiveValue('169px', '167px', '238px')
             }}
           >
             <div 
