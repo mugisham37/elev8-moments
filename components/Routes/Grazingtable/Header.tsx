@@ -46,7 +46,7 @@ export default function Header() {
           position: 'relative',
           width: '100%',
           zIndex: 2,
-          height: getResponsiveValue('752px', '726px', '726px')
+          height: getResponsiveValue('752px', '465px', '726px')
         }}
       >
         {/* Background container */}
@@ -75,10 +75,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '278px', '278px'),
+                left: getResponsiveValue('0px', '178px', '278px'),
                 top: '0px',
-                width: getResponsiveValue('320px', '922px', '922px'),
-                height: getResponsiveValue('274px', '750px', '750px')
+                width: getResponsiveValue('320px', '590px', '922px'),
+                height: getResponsiveValue('274px', '480px', '750px')
               }}
             >
               <div 
@@ -100,10 +100,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('192px', '138px', '138px'),
-                top: getResponsiveValue('97px', '172px', '172px'),
-                width: getResponsiveValue('128px', '281px', '281px'),
-                height: getResponsiveValue('178px', '383px', '383px')
+                left: getResponsiveValue('192px', '88px', '138px'),
+                top: getResponsiveValue('97px', '110px', '172px'),
+                width: getResponsiveValue('128px', '180px', '281px'),
+                height: getResponsiveValue('178px', '245px', '383px')
               }}
             >
               <div 
@@ -119,10 +119,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('205px', '145px', '145px'),
-                top: getResponsiveValue('110px', '190px', '190px'),
-                width: getResponsiveValue('103px', '259px', '259px'),
-                height: getResponsiveValue('149px', '346px', '346px')
+                left: getResponsiveValue('205px', '93px', '145px'),
+                top: getResponsiveValue('110px', '122px', '190px'),
+                width: getResponsiveValue('103px', '166px', '259px'),
+                height: getResponsiveValue('149px', '221px', '346px')
               }}
             >
               <div 
@@ -145,10 +145,10 @@ export default function Header() {
               <div 
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('-19px', '419px', '419px'),
-                  top: getResponsiveValue('242px', '102px', '102px'),
-                  width: getResponsiveValue('319px', '604px', '604px'),
-                  height: getResponsiveValue('483px', '496px', '496px')
+                  left: getResponsiveValue('-19px', '268px', '419px'),
+                  top: getResponsiveValue('242px', '65px', '102px'),
+                  width: getResponsiveValue('319px', '387px', '604px'),
+                  height: getResponsiveValue('483px', '317px', '496px')
                 }}
               >
                 <div 
@@ -165,10 +165,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('14px', '447px', '447px'),
-                top: getResponsiveValue('437px', '288px', '288px'),
-                width: getResponsiveValue('294px', '537px', '537px'),
-                height: getResponsiveValue('205px', '160px', '160px')
+                left: getResponsiveValue('14px', '286px', '447px'),
+                top: getResponsiveValue('437px', '184px', '288px'),
+                width: getResponsiveValue('294px', '444px', '537px'),
+                height: getResponsiveValue('205px', '102px', '160px')
               }}
             >
               <p 
@@ -179,7 +179,7 @@ export default function Header() {
                   textAlign: 'left',
                   fontFamily: "'Raleway'",
                   fontWeight: 'normal',
-                  fontSize: getResponsiveValue('14px', '16px', '16px')
+                  fontSize: getResponsiveValue('14px', '14px', '16px')
                 }}
               >
                 At Elev8 Moments, we create intentional spaces where people connect, heal, and celebrate. From floral design workshops like Bloom & Bond to creative gatherings like Paint a Shirt, our experiences are soulful, playful, and memorable. Whether you&apos;re planning a corporate retreat, a healing workshop, or a creative celebration, we bring your vision to life with purpose and attention to every meaningful detail.
@@ -190,10 +190,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('14px', '447px', '447px'),
-                top: getResponsiveValue('400px', '247px', '247px'),
-                width: getResponsiveValue('342px', '399px', '399px'),
-                height: getResponsiveValue('17px', '19px', '19px')
+                left: getResponsiveValue('14px', '286px', '447px'),
+                top: getResponsiveValue('400px', '138px', '247px'),
+                width: getResponsiveValue('342px', '475px', '399px'),
+                height: getResponsiveValue('17px', '12px', '19px')
               }}
             >
               <p 
@@ -221,10 +221,10 @@ export default function Header() {
               <div 
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('14px', '440px', '440px'),
-                  top: getResponsiveValue('292px', '190px', '190px'),
-                  width: getResponsiveValue('300px', '583px', '583px'),
-                  height: getResponsiveValue('105px', '50px', '50px')
+                  left: getResponsiveValue('14px', '282px', '440px'),
+                  top: getResponsiveValue('292px', '96px', '190px'),
+                  width: getResponsiveValue('300px', '573px', '583px'),
+                  height: getResponsiveValue('105px', '32px', '50px')
                 }}
               >
                 <h1 
@@ -236,7 +236,7 @@ export default function Header() {
                     textAlign: 'left',
                     fontFamily: "'Noiretblanc'",
                     fontWeight: 'normal',
-                    fontSize: getResponsiveValue('47px', '49px', '49px')
+                    fontSize: getResponsiveValue('47px', '30px', '49px')
                   }}
                 >
                   curated experiences
@@ -248,10 +248,10 @@ export default function Header() {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('48px', '447px', '447px'),
-                top: getResponsiveValue('668px', '472px', '472px'),
-                width: getResponsiveValue('224px', '241px', '241px'),
-                height: getResponsiveValue('48px', '51px', '51px')
+                left: getResponsiveValue('48px', '286px', '447px'),
+                top: getResponsiveValue('668px', '359px', '472px'),
+                width: getResponsiveValue('224px', '154px', '241px'),
+                height: getResponsiveValue('48px', '33px', '51px')
               }}
             >
               <div 
@@ -275,10 +275,10 @@ export default function Header() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                left: getResponsiveValue('48px', '461px', '461px'),
-                top: getResponsiveValue('681px', '482px', '482px'),
-                width: getResponsiveValue('224px', '213px', '213px'),
-                height: getResponsiveValue('21px', '29px', '29px')
+                left: getResponsiveValue('48px', '295px', '461px'),
+                top: getResponsiveValue('681px', '379px', '482px'),
+                width: getResponsiveValue('224px', '136px', '213px'),
+                height: getResponsiveValue('21px', '19px', '29px')
               }}
             >
               <nav 
