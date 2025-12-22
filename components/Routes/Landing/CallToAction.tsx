@@ -233,9 +233,9 @@ const CallToAction: React.FC = () => {
                 fontWeight: 'normal',
                 left: getResponsiveValue('-31px', '340px', '645px'),
                 top: getResponsiveValue('134px', '165px', '98px'),
-                width: getResponsiveValue('382px', '370px', '360px'),
+                width: getResponsiveValue('382px', '370px', '370px'),
                 height: getResponsiveValue('81px', '68px', '59px'),
-                fontSize: getResponsiveValue('55px', '60px', '66px'),
+                fontSize: getResponsiveValue('46px', '60px', '56px'),
                 textAlign: getResponsiveValue('center', 'left', 'left')
               }}
             >

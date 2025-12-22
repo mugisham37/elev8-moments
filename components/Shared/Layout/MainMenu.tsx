@@ -68,8 +68,8 @@ const MainMenu: React.FC = () => {
                 position: 'absolute',
                 top: 0,
                 height: getResponsiveValue('0px', '1px', '1px'),
-                left: getResponsiveValue('0px', '-20px', '-30px'),
-                width: getResponsiveValue('0px', '808px', '1242px')
+                left: getResponsiveValue('0px', '-19px', '-30px'),
+                width: getResponsiveValue('0px', '795px', '1242px')
               }}
             >
               <div style={{
@@ -87,10 +87,10 @@ const MainMenu: React.FC = () => {
               target="_self"
               style={{
                 position: 'absolute',
-                height: getResponsiveValue('0px', '18px', '18px'),
-                right: getResponsiveValue('0px', '-60px', '-90px'),
-                top: getResponsiveValue('0px', '62px', '102px'),
-                width: getResponsiveValue('0px', '140px', '152px')
+                height: getResponsiveValue('0px', '12px', '18px'),
+                right: getResponsiveValue('0px', '38px', '-90px'),
+                top: getResponsiveValue('0px', '65px', '102px'),
+                width: getResponsiveValue('0px', '97px', '152px')
               }}
             >
               <nav style={{
@@ -113,10 +113,10 @@ const MainMenu: React.FC = () => {
             <div 
               style={{
                 position: 'absolute',
-                right: getResponsiveValue('0px', '-80px', '-125px'),
+                right: getResponsiveValue('0px', '20px', '-125px'),
                 top: getResponsiveValue('0px', '28px', '44px'),
-                width: getResponsiveValue('0px', '200px', '226px'),
-                height: getResponsiveValue('0px', '38px', '42px')
+                width: getResponsiveValue('0px', '145px', '226px'),
+                height: getResponsiveValue('0px', '27px', '42px')
               }}
             >
               <p 
@@ -126,7 +126,7 @@ const MainMenu: React.FC = () => {
                   textAlign: 'center',
                   fontFamily: 'Noiretblanc',
                   fontWeight: 'normal',
-                  fontSize: getResponsiveValue('0px', '18px', '20px')
+                  fontSize: getResponsiveValue('0px', '13px', '20px')
                 }}
               >
                 Looking for the perfect gift for someone special?
@@ -139,9 +139,9 @@ const MainMenu: React.FC = () => {
             <div 
               style={{
                 position: 'absolute',
-                width: getResponsiveValue('0px', '154px', '154px'),
+                width: getResponsiveValue('0px', '99px', '154px'),
                 height: getResponsiveValue('0px', '1px', '1px'),
-                left: getResponsiveValue('0px', '100px', '135px'),
+                left: getResponsiveValue('0px', '186px', '135px'),
                 top: getResponsiveValue('0px', '4px', '6px')
               }}
             >
@@ -154,7 +154,7 @@ const MainMenu: React.FC = () => {
                   stroke: 'rgba(99,99,99,1)',
                   transform: 'scaleX(1)',
                   padding: '0.5px',
-                  height: '154px',
+                  height: getResponsiveValue('0px', '99px', '154px'),
                   width: 0
                 }}
               >
@@ -180,7 +180,7 @@ const MainMenu: React.FC = () => {
               style={{
                 position: 'absolute',
                 height: getResponsiveValue('0px', '1px', '1px'),
-                right: getResponsiveValue('0px', '110px', '150px'),
+                right: getResponsiveValue('0px', '186px', '150px'),
                 top: getResponsiveValue('0px', '4px', '6px')
               }}
             >
@@ -193,7 +193,7 @@ const MainMenu: React.FC = () => {
                   stroke: 'rgba(99,99,99,1)',
                   transform: 'scaleX(1)',
                   padding: '0.5px',
-                  height: '154px',
+                  height: getResponsiveValue('0px', '99px', '154px'),
                   width: 0
                 }}
               >
@@ -220,10 +220,10 @@ const MainMenu: React.FC = () => {
               target="_self"
               style={{
                 position: 'absolute',
-                height: getResponsiveValue('0px', '18px', '18px'),
-                left: getResponsiveValue('0px', '-75px', '-120px'),
-                top: getResponsiveValue('0px', '61px', '101px'),
-                width: getResponsiveValue('0px', '200px', '227px')
+                height: getResponsiveValue('0px', '12px', '18px'),
+                left: getResponsiveValue('0px', '27px', '-120px'),
+                top: getResponsiveValue('0px', '65px', '101px'),
+                width: getResponsiveValue('0px', '145px', '227px')
               }}
             >
               <nav style={{
@@ -247,10 +247,10 @@ const MainMenu: React.FC = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '-70px', '-110px'),
-                top: getResponsiveValue('0px', '35px', '53px'),
-                width: getResponsiveValue('0px', '185px', '207px'),
-                height: getResponsiveValue('0px', '19px', '21px')
+                left: getResponsiveValue('0px', '30px', '-110px'),
+                top: getResponsiveValue('0px', '34px', '53px'),
+                width: getResponsiveValue('0px', '132px', '207px'),
+                height: getResponsiveValue('0px', '13px', '21px')
               }}
             >
               <p 
@@ -260,7 +260,7 @@ const MainMenu: React.FC = () => {
                   textAlign: 'center',
                   fontFamily: 'Noiretblanc',
                   fontWeight: 'normal',
-                  fontSize: getResponsiveValue('0px', '18px', '20px')
+                  fontSize: getResponsiveValue('0px', '13px', '20px')
                 }}
               >
                 Need an experience?
@@ -273,11 +273,15 @@ const MainMenu: React.FC = () => {
           <div 
             style={{ 
               position: 'absolute',
-              left: getResponsiveValue('-70px', '180px', '374px'),
-              top: getResponsiveValue('48px', '63px', '101px'),
-              width: getResponsiveValue('466px', '410px', '453px'),
-              height: getResponsiveValue('31px', '35px', '39px'),
-              transform: 'scale(1.20312, 1.20312) translate(-40px, 10.7208px)',
+              left: getResponsiveValue('-70px', '239px', '374px'),
+              top: getResponsiveValue('48px', '65px', '101px'),
+              width: getResponsiveValue('466px', '290px', '453px'),
+              height: getResponsiveValue('31px', '25px', '39px'),
+              transform: getResponsiveValue(
+                'scale(1.20312, 1.20312) translate(-40px, 10.7208px)',
+                'scale(1.20312, 1.20312) translate(-26px, 6.9px)',
+                'scale(1.20312, 1.20312) translate(-40px, 10.7208px)'
+              ),
               transformOrigin: 'top left'
             }}
           >
@@ -288,7 +292,7 @@ const MainMenu: React.FC = () => {
                 fontFamily: 'Raleway',
                 fontWeight: 'normal',
                 color: getResponsiveValue('rgba(249,242,236,1)', 'rgba(30,30,30,1)', 'rgba(30,30,30,1)'),
-                fontSize: getResponsiveValue('13px', '15px', '17px')
+                fontSize: getResponsiveValue('13px', '11px', '17px')
               }}
             >
               Curated Experiences + Thoughtful Gifting + Events
@@ -300,15 +304,15 @@ const MainMenu: React.FC = () => {
             <div 
               style={{
                 position: 'absolute',
-                height: getResponsiveValue('0px', '10px', '10px'),
-                left: getResponsiveValue('0px', '235px', '353px'),
+                height: getResponsiveValue('0px', '6px', '10px'),
+                left: getResponsiveValue('0px', '226px', '353px'),
                 top: getResponsiveValue('0px', '58px', '91px'),
-                width: getResponsiveValue('0px', '298px', '495px')
+                width: getResponsiveValue('0px', '317px', '495px')
               }}
             >
               <svg 
                 style={{
-                  width: getResponsiveValue('0px', '298px', '495px'),
+                  width: getResponsiveValue('0px', '317px', '495px'),
                   verticalAlign: 'top',
                   overflow: 'visible',
                   pointerEvents: 'none',
@@ -342,10 +346,10 @@ const MainMenu: React.FC = () => {
               target="_self"
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '135px', '275px'),
-                top: getResponsiveValue('0px', '10px', '42px'),
-                width: getResponsiveValue('0px', '500px', '651px'),
-                height: getResponsiveValue('0px', '38px', '50px')
+                left: getResponsiveValue('0px', '176px', '275px'),
+                top: getResponsiveValue('0px', '27px', '42px'),
+                width: getResponsiveValue('0px', '417px', '651px'),
+                height: getResponsiveValue('0px', '32px', '50px')
               }}
             >
               <p 
@@ -356,7 +360,7 @@ const MainMenu: React.FC = () => {
                   textAlign: 'center',
                   fontFamily: 'Noiretblanc',
                   fontWeight: 'normal',
-                  fontSize: getResponsiveValue('0px', '38px', '50px')
+                  fontSize: getResponsiveValue('0px', '32px', '50px')
                 }}
               >
                 ELEV8 MOMENTS
