@@ -55,7 +55,7 @@ const Instagram = () => {
       style={{
         position: getResponsiveValue('relative', 'relative', 'relative'),
         background: getResponsiveValue('#F9F2EC', '#F9F2EC', '#F9F2EC'),
-        height: getResponsiveValue('475px', '420px', '497px')
+        height: getResponsiveValue('475px', '318px', '497px')
       }}
     >
       <div style={{
@@ -79,10 +79,10 @@ const Instagram = () => {
             onMouseLeave={() => setIsHovering({ ...isHovering, facebook: false })}
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('286px', '710px', '1037px'),
-              top: getResponsiveValue('449px', '380px', '356px'),
-              width: getResponsiveValue('25px', '24px', '24px'),
-              height: getResponsiveValue('25px', '20px', '19px'),
+              left: getResponsiveValue('286px', '664px', '1037px'),
+              top: getResponsiveValue('449px', '228px', '356px'),
+              width: getResponsiveValue('25px', '15px', '24px'),
+              height: getResponsiveValue('25px', '12px', '19px'),
               transition: getResponsiveValue('opacity 500ms', 'opacity 500ms', 'opacity 500ms'),
               opacity: isHovering.facebook ? getResponsiveValue(0.3, 0.3, 0.3) : getResponsiveValue(1, 1, 1)
             }}
@@ -104,9 +104,9 @@ const Instagram = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('18px', '40px', '57px'),
-              top: getResponsiveValue('462px', '340px', '260px'),
-              width: getResponsiveValue('254px', '180px', '189px'),
+              left: getResponsiveValue('18px', '36px', '57px'),
+              top: getResponsiveValue('462px', '166px', '260px'),
+              width: getResponsiveValue('254px', '121px', '189px'),
               height: getResponsiveValue('1px', '1px', '1px')
             }}
           >
@@ -114,7 +114,7 @@ const Instagram = () => {
               style={{ 
                 overflow: 'visible',
                 width: getResponsiveValue('254px', '0', '0'),
-                height: getResponsiveValue('1px', '180px', '189px')
+                height: getResponsiveValue('1px', '121px', '189px')
               }}
             >
               <line 
@@ -137,9 +137,9 @@ const Instagram = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               overflow: getResponsiveValue('hidden', 'hidden', 'hidden'),
               left: getResponsiveValue('10px', '105px', '164px'),
-              top: getResponsiveValue('147px', '115px', '135px'),
-              width: getResponsiveValue('300px', '558px', '873px'),
-              height: getResponsiveValue('291px', '240px', '240px')
+              top: getResponsiveValue('147px', '86px', '135px'),
+              width: getResponsiveValue('300px', '559px', '873px'),
+              height: getResponsiveValue('291px', '154px', '240px')
             }}
           >
             <div 
@@ -164,7 +164,7 @@ const Instagram = () => {
                 style={{
                   display: getResponsiveValue('grid', 'grid', 'grid'),
                   justifyContent: getResponsiveValue('center', 'center', 'center'),
-                  gridTemplateColumns: getResponsiveValue('repeat(auto-fit,143px)', 'repeat(auto-fit,93px)', 'repeat(auto-fit,117.5px)'),
+                  gridTemplateColumns: getResponsiveValue('repeat(auto-fit,143px)', 'repeat(auto-fit,75px)', 'repeat(auto-fit,117.5px)'),
                   gap: getResponsiveValue('5px', '5px', '5px')
                 }}
               >
@@ -173,8 +173,8 @@ const Instagram = () => {
                     key={index}
                     style={{
                       position: 'relative',
-                      height: getResponsiveValue('143px', '93px', '117.5px'),
-                      width: getResponsiveValue('143px', '93px', '117.5px')
+                      height: getResponsiveValue('143px', '75px', '117.5px'),
+                      width: getResponsiveValue('143px', '75px', '117.5px')
                     }}
                   >
                     <Image
@@ -197,10 +197,10 @@ const Instagram = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               display: getResponsiveValue('none', 'block', 'block'),
-              left: getResponsiveValue('50px', '295px', '295px'),
-              top: getResponsiveValue('200px', '327px', '327px'),
-              width: getResponsiveValue('224px', '612px', '612px'),
-              height: getResponsiveValue('56px', '85px', '95px')
+              left: getResponsiveValue('50px', '189px', '295px'),
+              top: getResponsiveValue('200px', '209px', '327px'),
+              width: getResponsiveValue('224px', '392px', '612px'),
+              height: getResponsiveValue('56px', '61px', '95px')
             }}
           >
             <div style={{
@@ -217,10 +217,10 @@ const Instagram = () => {
             rel="noopener noreferrer"
             style={{ 
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('20px', '320px', '554px'),
-              top: getResponsiveValue('43px', '335px', '336px'),
-              width: getResponsiveValue('217px', '260px', '338px'),
-              height: getResponsiveValue('67px', '75px', '87px'),
+              left: getResponsiveValue('20px', '355px', '554px'),
+              top: getResponsiveValue('43px', '215px', '336px'),
+              width: getResponsiveValue('217px', '216px', '338px'),
+              height: getResponsiveValue('67px', '56px', '87px'),
               transform: getResponsiveValue('scale(1.20312, 1.20312) translate(27.0974px, 12.9156px)', 'scale(1.20312, 1.20312) translate(27.0974px, 12.9156px)', 'scale(1.20312, 1.20312) translate(27.0974px, 12.9156px)')
             }}
           >
@@ -230,7 +230,7 @@ const Instagram = () => {
                 fontWeight: getResponsiveValue(400, 400, 400), 
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
                 color: getResponsiveValue('#1E1E1E', 'white', 'white'),
-                fontSize: getResponsiveValue('75px', '70px', '73px'),
+                fontSize: getResponsiveValue('75px', '47px', '73px'),
                 textAlign: getResponsiveValue('center', 'center', 'center'),
                 lineHeight: getResponsiveValue(0.9, 0.9, 0.9),
                 letterSpacing: getResponsiveValue('0em', '0em', '0em')
@@ -244,9 +244,9 @@ const Instagram = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('42px', '588px', '955px'),
-              top: getResponsiveValue('128px', '340px', '255px'),
-              width: getResponsiveValue('257px', '180px', '189px'),
+              left: getResponsiveValue('42px', '611px', '955px'),
+              top: getResponsiveValue('128px', '163px', '255px'),
+              width: getResponsiveValue('257px', '121px', '189px'),
               height: getResponsiveValue('1px', '1px', '1px')
             }}
           >
@@ -254,7 +254,7 @@ const Instagram = () => {
               style={{ 
                 overflow: 'visible',
                 width: getResponsiveValue('257px', '0', '0'),
-                height: getResponsiveValue('1px', '180px', '189px')
+                height: getResponsiveValue('1px', '121px', '189px')
               }}
             >
               <line 
@@ -277,10 +277,10 @@ const Instagram = () => {
             onMouseLeave={() => setIsHovering({ ...isHovering, instagram: false })}
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('9px', '80px', '140px'),
-              top: getResponsiveValue('116px', '115px', '135px'),
-              width: getResponsiveValue('25px', '24px', '24px'),
-              height: getResponsiveValue('25px', '20px', '19px'),
+              left: getResponsiveValue('9px', '90px', '140px'),
+              top: getResponsiveValue('116px', '86px', '135px'),
+              width: getResponsiveValue('25px', '15px', '24px'),
+              height: getResponsiveValue('25px', '12px', '19px'),
               transition: getResponsiveValue('opacity 500ms', 'opacity 500ms', 'opacity 500ms'),
               opacity: isHovering.instagram ? getResponsiveValue(0.3, 0.3, 0.3) : getResponsiveValue(1, 1, 1)
             }}
@@ -307,10 +307,10 @@ const Instagram = () => {
             rel="noopener noreferrer"
             style={{ 
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('43px', '190px', '299px'),
-              top: getResponsiveValue('40px', '350px', '350px'),
-              width: getResponsiveValue('217px', '310px', '406px'),
-              height: getResponsiveValue('67px', '75px', '87px'),
+              left: getResponsiveValue('43px', '191px', '299px'),
+              top: getResponsiveValue('40px', '224px', '350px'),
+              width: getResponsiveValue('217px', '260px', '406px'),
+              height: getResponsiveValue('67px', '56px', '87px'),
               transform: getResponsiveValue('scale(1.20312, 1.20312) translate(32.3312px, 12.4091px)', 'scale(1.20312, 1.20312) translate(32.3312px, 12.4091px)', 'scale(1.20312, 1.20312) translate(32.3312px, 12.4091px)')
             }}
           >
@@ -321,7 +321,7 @@ const Instagram = () => {
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
                 color: getResponsiveValue('#1E1E1E', 'white', 'white'),
                 letterSpacing: getResponsiveValue('-0.05em', '-0.05em', '-0.05em'),
-                fontSize: getResponsiveValue('20px', '40px', '54px'),
+                fontSize: getResponsiveValue('20px', '35px', '54px'),
                 textTransform: isMobile ? getResponsiveValue('uppercase', 'none', 'none') : getResponsiveValue('uppercase', 'none', 'none'),
                 textAlign: getResponsiveValue('center', 'center', 'center'),
                 lineHeight: getResponsiveValue(0.9, 0.9, 0.9)
