@@ -40,7 +40,7 @@ const Header = () => {
         backgroundColor: '#fae7e2',
         overflow: 'hidden',
         zIndex: 2,
-        height: getResponsiveValue('855px', '0px', '1024px')
+        height: getResponsiveValue('855px', '814px', '1024px')
       }}
     >
       {/* Background layer with image and overlay */}
@@ -58,7 +58,7 @@ const Header = () => {
             right: 0,
             bottom: 0,
             left: 0,
-            opacity: getResponsiveValue('0.5', '0', '0.5')
+            opacity: getResponsiveValue('0.5', '0.5', '0.5')
           }}
         >
           <Image
@@ -79,7 +79,7 @@ const Header = () => {
           marginLeft: 'auto',
           marginRight: 'auto',
           height: '100%',
-          width: getResponsiveValue('320px', '0px', '966px')
+          width: getResponsiveValue('320px', '768px', '966px')
         }}
       >
         
@@ -89,10 +89,10 @@ const Header = () => {
             style={{
               position: 'absolute',
               backgroundColor: '#f9f2ec',
-              left: getResponsiveValue('0px', '0px', '434px'),
-              top: getResponsiveValue('0px', '0px', '126px'),
-              width: getResponsiveValue('0px', '0px', '910px'),
-              height: getResponsiveValue('0px', '0px', '992px'),
+              left: getResponsiveValue('0px', '345px', '434px'),
+              top: getResponsiveValue('0px', '100px', '126px'),
+              width: getResponsiveValue('0px', '723px', '910px'),
+              height: getResponsiveValue('0px', '789px', '992px'),
               transform: 'scale(0.805, 0.805) translate(-185.916px, -126.447px)'
             }}
           />
@@ -103,10 +103,10 @@ const Header = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '0px', '747px'),
-              top: getResponsiveValue('0px', '0px', '210px'),
-              width: getResponsiveValue('0px', '0px', '32px'),
-              height: getResponsiveValue('0px', '0px', '1px')
+              left: getResponsiveValue('0px', '594px', '747px'),
+              top: getResponsiveValue('0px', '167px', '210px'),
+              width: getResponsiveValue('0px', '25px', '32px'),
+              height: getResponsiveValue('0px', '1px', '1px')
             }}
           >
             <svg style={{ width: '100%', height: '100%', overflow: 'visible' }}>
@@ -141,10 +141,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('-32px', '0px', '556px'),
-            top: getResponsiveValue('60px', '0px', '195px'),
-            width: getResponsiveValue('385px', '0px', '402px'),
-            height: getResponsiveValue('71px', '0px', '57px')
+            left: getResponsiveValue('-32px', '442px', '556px'),
+            top: getResponsiveValue('60px', '155px', '195px'),
+            width: getResponsiveValue('385px', '320px', '402px'),
+            height: getResponsiveValue('71px', '45px', '57px')
           }}
         >
           <p 
@@ -154,7 +154,7 @@ const Header = () => {
               fontWeight: 'normal',
               lineHeight: 1.2,
               fontFamily: 'Strings, cursive',
-              fontSize: getResponsiveValue('57px', '0px', '65px')
+              fontSize: getResponsiveValue('57px', '52px', '65px')
             }}
           >
             Meet Sandra
@@ -166,10 +166,10 @@ const Header = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '0px', '702px'),
-              top: getResponsiveValue('0px', '0px', '183px'),
-              width: getResponsiveValue('0px', '0px', '141px'),
-              height: getResponsiveValue('0px', '0px', '1px')
+              left: getResponsiveValue('0px', '558px', '702px'),
+              top: getResponsiveValue('0px', '145px', '183px'),
+              width: getResponsiveValue('0px', '112px', '141px'),
+              height: getResponsiveValue('0px', '1px', '1px')
             }}
           >
             <svg style={{ width: '100%', height: '100%', overflow: 'visible' }}>
@@ -190,10 +190,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('109px', '0px', '556px'),
-            top: getResponsiveValue('58px', '0px', '173px'),
-            width: getResponsiveValue('102px', '0px', '473px'),
-            height: getResponsiveValue('42px', '0px', '22px')
+            left: getResponsiveValue('109px', '442px', '556px'),
+            top: getResponsiveValue('58px', '137px', '173px'),
+            width: getResponsiveValue('102px', '376px', '473px'),
+            height: getResponsiveValue('42px', '17px', '22px')
           }}
         >
           <p 
@@ -202,7 +202,7 @@ const Header = () => {
               fontWeight: 'normal',
               lineHeight: 1,
               fontFamily: 'Noiretblanc, sans-serif',
-              fontSize: getResponsiveValue('19px', '0px', '28px'),
+              fontSize: getResponsiveValue('19px', '22px', '28px'),
               textAlign: getResponsiveValue('center', 'center', 'left')
             }}
           >
@@ -267,16 +267,16 @@ const Header = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '0px', '555px'),
-              top: getResponsiveValue('0px', '0px', '338px'),
-              width: getResponsiveValue('0px', '0px', '503px'),
-              height: getResponsiveValue('0px', '0px', '492px')
+              left: getResponsiveValue('0px', '411px', '555px'),
+              top: getResponsiveValue('0px', '269px', '338px'),
+              width: getResponsiveValue('0px', '340px', '503px'),
+              height: getResponsiveValue('0px', '391px', '492px')
             }}
           >
             <p 
               style={{
                 color: '#1e1e1e',
-                fontSize: '16px',
+                fontSize: '13px',
                 textAlign: 'justify',
                 fontWeight: 'normal',
                 lineHeight: 1.5,
@@ -292,10 +292,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('-6px', '0px', '68px'),
-            top: getResponsiveValue('177px', '0px', '173px'),
-            width: getResponsiveValue('142px', '0px', '392px'),
-            height: getResponsiveValue('212px', '0px', '479px')
+            left: getResponsiveValue('-6px', '54px', '68px'),
+            top: getResponsiveValue('177px', '137px', '173px'),
+            width: getResponsiveValue('142px', '312px', '392px'),
+            height: getResponsiveValue('212px', '381px', '479px')
           }}
         >
           <div
@@ -316,10 +316,10 @@ const Header = () => {
             style={{
               position: 'absolute',
               backgroundColor: '#f9f2ec',
-              left: getResponsiveValue('0px', '0px', '184px'),
-              top: getResponsiveValue('0px', '0px', '560px'),
-              width: getResponsiveValue('0px', '0px', '332px'),
-              height: getResponsiveValue('0px', '0px', '92px')
+              left: getResponsiveValue('0px', '146px', '184px'),
+              top: getResponsiveValue('0px', '445px', '560px'),
+              width: getResponsiveValue('0px', '264px', '332px'),
+              height: getResponsiveValue('0px', '73px', '92px')
             }}
           />
         )}
@@ -329,10 +329,10 @@ const Header = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '0px', '199px'),
-              top: getResponsiveValue('0px', '0px', '576px'),
-              width: getResponsiveValue('0px', '0px', '300px'),
-              height: getResponsiveValue('0px', '0px', '255px')
+              left: getResponsiveValue('0px', '158px', '199px'),
+              top: getResponsiveValue('0px', '458px', '576px'),
+              width: getResponsiveValue('0px', '238px', '300px'),
+              height: getResponsiveValue('0px', '203px', '255px')
             }}
           >
             <div
@@ -352,10 +352,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('138px', '0px', '620px'),
-            top: getResponsiveValue('722px', '0px', '798px'),
-            width: getResponsiveValue('224px', '0px', '302px'),
-            height: getResponsiveValue('59px', '0px', '57px'),
+            left: getResponsiveValue('138px', '493px', '620px'),
+            top: getResponsiveValue('722px', '634px', '798px'),
+            width: getResponsiveValue('224px', '240px', '302px'),
+            height: getResponsiveValue('59px', '45px', '57px'),
             transform: getResponsiveValue('rotate(0deg)', 'rotate(0deg)', 'rotate(354deg)')
           }}
         >
@@ -365,7 +365,7 @@ const Header = () => {
               textAlign: 'center',
               fontWeight: 'normal',
               fontFamily: 'Strings, cursive',
-              fontSize: getResponsiveValue('36px', '0px', '40px')
+              fontSize: getResponsiveValue('36px', '32px', '40px')
             }}
           >
             Sandra
@@ -376,10 +376,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('98px', '0px', '531px'),
-            top: getResponsiveValue('739px', '0px', '816px'),
-            width: getResponsiveValue('106px', '0px', '96px'),
-            height: getResponsiveValue('42px', '0px', '66px')
+            left: getResponsiveValue('98px', '422px', '531px'),
+            top: getResponsiveValue('739px', '679px', '816px'),
+            width: getResponsiveValue('106px', '76px', '96px'),
+            height: getResponsiveValue('42px', '52px', '66px')
           }}
         >
           <p 
@@ -387,7 +387,7 @@ const Header = () => {
               color: '#1e1e1e',
               fontWeight: 'normal',
               fontFamily: 'Strings, cursive',
-              fontSize: getResponsiveValue('25px', '0px', '33px'),
+              fontSize: getResponsiveValue('25px', '26px', '33px'),
               textAlign: getResponsiveValue('left', 'left', 'center')
             }}
           >
@@ -399,10 +399,10 @@ const Header = () => {
         <div 
           style={{
             position: 'absolute',
-            left: getResponsiveValue('-156px', '0px', '555px'),
-            top: getResponsiveValue('147px', '0px', '288px'),
-            width: getResponsiveValue('632px', '0px', '347px'),
-            height: getResponsiveValue('41px', '0px', '27px')
+            left: getResponsiveValue('-156px', '441px', '555px'),
+            top: getResponsiveValue('147px', '229px', '288px'),
+            width: getResponsiveValue('632px', '276px', '347px'),
+            height: getResponsiveValue('41px', '21px', '27px')
           }}
         >
           <p 
@@ -411,7 +411,7 @@ const Header = () => {
               fontWeight: 300,
               lineHeight: 1.2,
               fontFamily: 'Raleway, sans-serif',
-              fontSize: getResponsiveValue('12px', '0px', '15px'),
+              fontSize: getResponsiveValue('12px', '12px', '15px'),
               textAlign: getResponsiveValue('center', 'center', 'left')
             }}
           >
