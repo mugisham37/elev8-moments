@@ -130,8 +130,8 @@ const Florals: React.FC = () => {
             style={{
               position: 'absolute',
               transition: 'opacity 500ms',
-              left: getResponsiveValue('223px', '174px', '274px'),
-              top: getResponsiveValue('57px', '93px', '123px'),
+              left: getResponsiveValue('3px', '174px', '44px'),
+              top: getResponsiveValue('2px', '93px', '23px'),
               width: getResponsiveValue('171px', '208px', '208px'),
               height: getResponsiveValue('67px', '53px', '53px'),
               transform: getResponsiveValue('0px', '0px', '0px')
@@ -236,8 +236,8 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('73px', '230px', '140px'),
-              top: getResponsiveValue('85px', '176px', '176px'),
+              left: getResponsiveValue('173px', '230px', '140px'),
+              top: getResponsiveValue('65px', '176px', '176px'),
               width: getResponsiveValue('175px', '90px', '90px'),
               height: getResponsiveValue('44px', '22px', '22px'),
               transform: getResponsiveValue('0px', '0px', '0px')
@@ -263,8 +263,8 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('190px', '398px', '488px'),
-              top: getResponsiveValue('420px', '97px', '197px'),
+              left: getResponsiveValue('-10px', '398px', '308px'),
+              top: getResponsiveValue('100px', '97px', '217px'),
               width: getResponsiveValue('475px', '581px', '581px'),
               height: getResponsiveValue('36px', '22px', '22px'),
               transform: getResponsiveValue('0px', '0px', '0px')
@@ -279,7 +279,7 @@ const Florals: React.FC = () => {
                 fontFamily: 'raleway',
                 fontWeight: 'normal',
                 margin: getResponsiveValue('0px', '0px', '0px'),
-                fontSize: getResponsiveValue('18px', '16px', '22px')
+                fontSize: getResponsiveValue('13px', '16px', '22px')
               }}
             >
               ELEVATE YOUR SPACE. ONE BLOOM AT A TIME.<br />

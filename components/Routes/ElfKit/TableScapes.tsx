@@ -253,9 +253,9 @@ const TableScapes = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('92px', '288px', '288px'),
+                left: getResponsiveValue('52px', '288px', '250px'),
                 top: getResponsiveValue('61px', '33px', '33px'),
-                width: getResponsiveValue('324px', '516px', '516px'),
+                width: getResponsiveValue('424px', '516px', '516px'),
                 height: getResponsiveValue('41px', '73px', '73px'),
                 transform: getResponsiveValue('scale(0.805, 0.805) translate(-132.261px, -16.8354px)', '0px', '0px')
               }}
@@ -281,9 +281,9 @@ const TableScapes = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('54px', '288px', '288px'),
-                top: getResponsiveValue('120px', '106px', '106px'),
-                width: getResponsiveValue('391px', '465px', '465px'),
+                left: getResponsiveValue('54px', '288px', '238px'),
+                top: getResponsiveValue('120px', '106px', '99px'),
+                width: getResponsiveValue('391px', '465px', '565px'),
                 height: getResponsiveValue('59px', '47px', '47px'),
                 transform: getResponsiveValue('scale(0.805, 0.805) translate(-126.084px, -31.3696px)', '0px', '0px')
               }}

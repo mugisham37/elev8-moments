@@ -205,7 +205,7 @@ const Seasonal: React.FC = () => {
             style={{
               position: 'absolute',
               left: getResponsiveValue('270px', '883px', '883px'),
-              top: getResponsiveValue('460x', '129px', '129px'),
+              top: getResponsiveValue('60x', '129px', '129px'),
               width: getResponsiveValue('221px', '237px', '237px'),
               height: getResponsiveValue('240px', '250px', '250px'),
               transform: getResponsiveValue('scale(0.709167, 0.709167) translate(-410.721px, -104.167px)', '0px', '0px')

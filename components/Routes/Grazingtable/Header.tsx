@@ -191,8 +191,8 @@ export default function Header() {
               style={{
                 position: 'absolute',
                 left: getResponsiveValue('14px', '447px', '447px'),
-                top: getResponsiveValue('406px', '247px', '247px'),
-                width: getResponsiveValue('442px', '399px', '399px'),
+                top: getResponsiveValue('400px', '247px', '247px'),
+                width: getResponsiveValue('342px', '399px', '399px'),
                 height: getResponsiveValue('17px', '19px', '19px')
               }}
             >
@@ -200,7 +200,7 @@ export default function Header() {
                 style={{
                   color: 'rgba(30,30,30,1)',
                   textTransform: 'uppercase',
-                  lineHeight: 1.8,
+                  lineHeight: 1.3,
                   letterSpacing: '0.1em',
                   textAlign: 'left',
                   fontFamily: "'Montserrat'",

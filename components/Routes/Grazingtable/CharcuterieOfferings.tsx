@@ -268,8 +268,8 @@ const CharcuterieOfferings: React.FC = () => {
             style={{
               position: 'absolute',
               left: getResponsiveValue('91px', '480px', '480px'),
-              top: getResponsiveValue('635px', '897px', '897px'),
-              width: getResponsiveValue('202px', '245px', '245px'),
+              top: getResponsiveValue('635px', '897px', '877px'),
+              width: getResponsiveValue('302px', '245px', '345px'),
               height: getResponsiveValue('22px', '41px', '41px')
             }}
           >
@@ -425,7 +425,7 @@ const CharcuterieOfferings: React.FC = () => {
             style={{
               position: 'absolute',
               left: getResponsiveValue('27px', '479px', '479px'),
-              top: getResponsiveValue('452px', '592px', '592px'),
+              top: getResponsiveValue('459px', '592px', '602px'),
               width: getResponsiveValue('266px', '489px', '489px'),
               height: '1px'
             }}
@@ -462,7 +462,7 @@ const CharcuterieOfferings: React.FC = () => {
               position: 'absolute',
               left: getResponsiveValue('90px', '477px', '477px'),
               top: getResponsiveValue('311px', '461px', '461px'),
-              width: getResponsiveValue('202px', '245px', '245px'),
+              width: getResponsiveValue('202px', '245px', '445px'),
               height: getResponsiveValue('22px', '41px', '41px')
             }}
           >
@@ -560,7 +560,7 @@ const CharcuterieOfferings: React.FC = () => {
             style={{
               position: 'absolute',
               left: getResponsiveValue('28px', '480px', '480px'),
-              top: getResponsiveValue('609px', '802px', '802px'),
+              top: getResponsiveValue('609px', '802px', '812px'),
               width: getResponsiveValue('266px', '489px', '489px'),
               height: '1px'
             }}
@@ -597,7 +597,7 @@ const CharcuterieOfferings: React.FC = () => {
               position: 'absolute',
               left: getResponsiveValue('91px', '477px', '477px'),
               top: getResponsiveValue('468px', '675px', '675px'),
-              width: getResponsiveValue('202px', '245px', '245px'),
+              width: getResponsiveValue('202px', '245px', '445px'),
               height: getResponsiveValue('22px', '41px', '41px')
             }}
           >

@@ -143,7 +143,7 @@ const Header = () => {
             position: 'absolute',
             left: getResponsiveValue('-32px', '0px', '556px'),
             top: getResponsiveValue('60px', '0px', '195px'),
-            width: getResponsiveValue('385px', '0px', '302px'),
+            width: getResponsiveValue('385px', '0px', '402px'),
             height: getResponsiveValue('71px', '0px', '57px')
           }}
         >
@@ -303,7 +303,7 @@ const Header = () => {
               width: '100%',
               height: '100%',
               backgroundRepeat: 'no-repeat',
-              backgroundImage: 'url(/images/25.jpg)',
+              backgroundImage: 'url(/images/11.jpg)',
               backgroundSize: '130%',
               backgroundPosition: '50% 90%'
             }}
@@ -340,7 +340,7 @@ const Header = () => {
                 width: '100%',
                 height: '100%',
                 backgroundRepeat: 'no-repeat',
-                backgroundImage: 'url(/images/26.jpg)',
+                backgroundImage: 'url(/images/1.jpg)',
                 backgroundSize: '160%',
                 backgroundPosition: '50% 50%'
               }}

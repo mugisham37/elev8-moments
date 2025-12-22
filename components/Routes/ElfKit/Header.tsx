@@ -78,7 +78,7 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('144px', '569px', '809px'),
+              left: getResponsiveValue('144px', '569px', '703px'),
               top: getResponsiveValue('397px', '322px', '322px'),
               width: getResponsiveValue('405px', '503px', '643px'),
               height: getResponsiveValue('400px', '98px', '98px'),
@@ -104,7 +104,7 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('134px', '569px', '803px'),
+              left: getResponsiveValue('134px', '569px', '703px'),
               top: getResponsiveValue('356px', '269px', '265px'),
               width: getResponsiveValue('300px', '322px', '522px'),
               height: getResponsiveValue('41px', '61px', '61px'),
@@ -130,7 +130,7 @@ const Header = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('20px', '155px', '394px'),
+              left: getResponsiveValue('20px', '155px', '274px'),
               top: getResponsiveValue('34px', '75px', '115px'),
               width: getResponsiveValue('470px', '392px', '410px'),
               height: getResponsiveValue('272px', '479px', '499px'),
@@ -158,7 +158,7 @@ const Header = () => {
             target="_self"
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('208px', '569px', '823px'),
+              left: getResponsiveValue('208px', '569px', '703px'),
               top: getResponsiveValue('675px', '503px', '543px'),
               width: getResponsiveValue('224px', '241px', '241px'),
               height: getResponsiveValue('48px', '51px', '51px'),
@@ -193,9 +193,9 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('124px', '569px', '819px'),
+              left: getResponsiveValue('114px', '569px', '703px'),
               top: getResponsiveValue('312px', '211px', '211px'),
-              width: getResponsiveValue('536px', '473px', '473px'),
+              width: getResponsiveValue('536px', '473px', '773px'),
               height: getResponsiveValue('42px', '62px', '62px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-195.121px, -58.6211px)', '0px', '0px')
             }}
@@ -218,7 +218,7 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('157px', '569px', '813px'),
+              left: getResponsiveValue('157px', '569px', '703px'),
               top: getResponsiveValue('267px', '154px', '150px'),
               width: getResponsiveValue('224px', '508px', '508px'),
               height: getResponsiveValue('17px', '57px', '57px'),

@@ -139,7 +139,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/traditional-boards"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '0px', '213.696px'),
+              left: getResponsiveValue('91px', '0px', '233.696px'),
               top: getResponsiveValue('188px', '0px', '234px'),
               width: getResponsiveValue('202px', '0px', '258px'),
               height: getResponsiveValue('22px', '0px', '41px'),
@@ -204,7 +204,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/traditional-boards"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('251px', '0px', '309.12px'),
+              left: getResponsiveValue('251px', '0px', '429.12px'),
               top: getResponsiveValue('180px', '0px', '215px'),
               width: getResponsiveValue('30px', '0px', '34px'),
               height: getResponsiveValue('29px', '0px', '96px'),
@@ -247,7 +247,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/grazing-tables"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('252px', '0px', '317.632px'),
+              left: getResponsiveValue('252px', '0px', '442.632px'),
               top: getResponsiveValue('646px', '0px', '856px'),
               width: getResponsiveValue('30px', '0px', '34px'),
               height: getResponsiveValue('36px', '0px', '96px'),
@@ -266,7 +266,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/grazing-tables"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '0px', '215.04px'),
+              left: getResponsiveValue('91px', '0px', '245.04px'),
               top: getResponsiveValue('657px', '0px', '897px'),
               width: getResponsiveValue('202px', '0px', '245px'),
               height: getResponsiveValue('22px', '0px', '41px'),
@@ -342,7 +342,7 @@ const CharcuterieOfferings: React.FC = () => {
             style={{
               position: 'absolute',
               left: getResponsiveValue('202px', '0px', '275.968px'),
-              top: getResponsiveValue('47px', '0px', '95px'),
+              top: getResponsiveValue('47px', '0px', '125px'),
               width: getResponsiveValue('58px', '0px', '189px'),
               height: getResponsiveValue('1px', '0px', '1px')
             }}
@@ -430,7 +430,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/grazing-tables"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('251px', '0px', '310.912px'),
+              left: getResponsiveValue('251px', '0px', '430.912px'),
               top: getResponsiveValue('326px', '0px', '443px'),
               width: getResponsiveValue('30px', '0px', '34px'),
               height: getResponsiveValue('36px', '0px', '96px'),
@@ -449,7 +449,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/grazing-tables"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('90px', '0px', '213.696px'),
+              left: getResponsiveValue('90px', '0px', '243.696px'),
               top: getResponsiveValue('333px', '0px', '461px'),
               width: getResponsiveValue('202px', '0px', '245px'),
               height: getResponsiveValue('22px', '0px', '41px'),
@@ -569,7 +569,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/grazing-tables"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('252px', '0px', '310.912px'),
+              left: getResponsiveValue('252px', '0px', '430.912px'),
               top: getResponsiveValue('483px', '0px', '656px'),
               width: getResponsiveValue('30px', '0px', '34px'),
               height: getResponsiveValue('36px', '0px', '96px'),
@@ -588,7 +588,7 @@ const CharcuterieOfferings: React.FC = () => {
             href="/mens-boards"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '0px', '213.696px'),
+              left: getResponsiveValue('91px', '0px', '243.696px'),
               top: getResponsiveValue('490px', '0px', '675px'),
               width: getResponsiveValue('202px', '0px', '245px'),
               height: getResponsiveValue('22px', '0px', '41px'),

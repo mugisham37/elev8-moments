@@ -56,7 +56,7 @@ const LoveNotes: React.FC = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               border: getResponsiveValue('1px solid rgba(30,30,30,1)', '1px solid rgba(30,30,30,1)', '1px solid rgba(30,30,30,1)'),
               backgroundColor: getResponsiveValue('rgba(0,0,0,0)', 'rgba(0,0,0,0)', 'rgba(0,0,0,0)'),
-              left: getResponsiveValue('21px', '0px', '61px'),
+              left: getResponsiveValue('131px', '0px', '61px'),
               top: getResponsiveValue('849px', '0px', '593px'),
               width: getResponsiveValue('283px', '0px', '1078px'),
               height: getResponsiveValue('616px', '0px', '358px'),
@@ -68,8 +68,8 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('65px', '0px', '137px'),
-              top: getResponsiveValue('1410px', '0px', '848px'),
+              left: getResponsiveValue('115px', '0px', '137px'),
+              top: getResponsiveValue('1390px', '0px', '848px'),
               width: getResponsiveValue('194px', '0px', '274px'),
               height: getResponsiveValue('27px', '0px', '19px'),
               transform: 'scale(0.805, 0.805) translate(-66.3727px, -207.717px)'
@@ -96,7 +96,7 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('53px', '0px', '137px'),
+              left: getResponsiveValue('133px', '0px', '137px'),
               top: getResponsiveValue('1190px', '0px', '734px'),
               width: getResponsiveValue('220px', '0px', '611px'),
               height: getResponsiveValue('215px', '0px', '98px'),
@@ -124,7 +124,7 @@ const LoveNotes: React.FC = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               backgroundColor: getResponsiveValue('rgba(30,30,30,1)', 'rgba(0,0,0,0)', 'rgba(249,242,236,1)'),
-              left: getResponsiveValue('79px', '0px', '821px'),
+              left: getResponsiveValue('229px', '0px', '821px'),
               top: getResponsiveValue('1172px', '0px', '618px'),
               width: getResponsiveValue('168px', '0px', '1px'),
               height: getResponsiveValue('1px', '0px', '309px'),
@@ -138,8 +138,8 @@ const LoveNotes: React.FC = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               borderRadius: getResponsiveValue('50%', '50%', '50%'),
               overflow: getResponsiveValue('hidden', 'hidden', 'hidden'),
-              left: getResponsiveValue('74px', '0px', '863px'),
-              top: getResponsiveValue('981px', '0px', '653px'),
+              left: getResponsiveValue('264px', '0px', '863px'),
+              top: getResponsiveValue('1000px', '0px', '653px'),
               width: getResponsiveValue('178px', '0px', '236px'),
               height: getResponsiveValue('169px', '0px', '238px'),
               transform: 'scale(0.805, 0.805) translate(-237.634px, -187.006px)'
@@ -164,8 +164,8 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('33px', '0px', '137px'),
-              top: getResponsiveValue('887px', '0px', '675px'),
+              left: getResponsiveValue('103px', '0px', '137px'),
+              top: getResponsiveValue('907px', '0px', '675px'),
               width: getResponsiveValue('267px', '0px', '547px'),
               height: getResponsiveValue('71px', '0px', '41px'),
               transform: 'scale(0.805, 0.805) translate(-99.4379px, -168.475px)'
@@ -193,7 +193,7 @@ const LoveNotes: React.FC = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               border: getResponsiveValue('1px solid rgba(30,30,30,1)', '1px solid rgba(30,30,30,1)', '1px solid rgba(30,30,30,1)'),
               backgroundColor: getResponsiveValue('rgba(0,0,0,0)', 'rgba(0,0,0,0)', 'rgba(0,0,0,0)'),
-              left: getResponsiveValue('21px', '0px', '61px'),
+              left: getResponsiveValue('131px', '0px', '61px'),
               top: getResponsiveValue('171px', '0px', '190px'),
               width: getResponsiveValue('283px', '0px', '1078px'),
               height: getResponsiveValue('644px', '0px', '358px'),
@@ -205,8 +205,8 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('65px', '0px', '469px'),
-              top: getResponsiveValue('762px', '0px', '462px'),
+              left: getResponsiveValue('185px', '0px', '469px'),
+              top: getResponsiveValue('732px', '0px', '462px'),
               width: getResponsiveValue('194px', '0px', '274px'),
               height: getResponsiveValue('27px', '0px', '19px'),
               transform: 'scale(0.805, 0.805) translate(-146.795px, -114.214px)'
@@ -233,8 +233,8 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('53px', '0px', '468px'),
-              top: getResponsiveValue('512px', '0px', '327px'),
+              left: getResponsiveValue('193px', '0px', '468px'),
+              top: getResponsiveValue('492px', '0px', '327px'),
               width: getResponsiveValue('220px', '0px', '611px'),
               height: getResponsiveValue('245px', '0px', '125px'),
               transform: 'scale(0.805, 0.805) translate(-187.37px, -94.3509px)'
@@ -261,7 +261,7 @@ const LoveNotes: React.FC = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               backgroundColor: getResponsiveValue('rgba(30,30,30,1)', 'rgba(30,30,30,1)', 'rgba(30,30,30,1)'),
-              left: getResponsiveValue('79px', '0px', '408px'),
+              left: getResponsiveValue('150px', '0px', '408px'),
               top: getResponsiveValue('495px', '0px', '215px'),
               width: getResponsiveValue('168px', '0px', '1px'),
               height: getResponsiveValue('1px', '0px', '309px'),
@@ -275,8 +275,8 @@ const LoveNotes: React.FC = () => {
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               borderRadius: getResponsiveValue('50%', '50%', '50%'),
               overflow: getResponsiveValue('hidden', 'hidden', 'hidden'),
-              left: getResponsiveValue('74px', '0px', '128px'),
-              top: getResponsiveValue('295px', '0px', '254px'),
+              left: getResponsiveValue('114px', '0px', '128px'),
+              top: getResponsiveValue('325px', '0px', '254px'),
               width: getResponsiveValue('178px', '0px', '236px'),
               height: getResponsiveValue('169px', '0px', '238px'),
               transform: 'scale(0.805, 0.805) translate(-59.5901px, -90.354px)'
@@ -301,8 +301,8 @@ const LoveNotes: React.FC = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('22px', '0px', '467px'),
-              top: getResponsiveValue('212px', '0px', '264px'),
+              left: getResponsiveValue('172px', '0px', '467px'),
+              top: getResponsiveValue('232px', '0px', '264px'),
               width: getResponsiveValue('281px', '0px', '683px'),
               height: getResponsiveValue('71px', '0px', '41px'),
               transform: 'scale(0.805, 0.805) translate(-195.848px, -68.9161px)'

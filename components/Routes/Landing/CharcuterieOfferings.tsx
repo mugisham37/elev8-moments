@@ -147,7 +147,7 @@ const CharcuterieOfferings = () => {
                   fontFamily: 'Montserrat',
                   fontWeight: 500,
                   left: getResponsiveValue('0px', '15px', '19px'),
-                  top: getResponsiveValue('0px', '135px', '173px'),
+                  top: getResponsiveValue('0px', '135px', '153px'),
                   width: getResponsiveValue('0px', '220px', '245px'),
                   height: getResponsiveValue('0px', '30px', '41px'),
                   fontSize: getResponsiveValue('0px', '17px', '20px')
@@ -195,7 +195,7 @@ const CharcuterieOfferings = () => {
               position: 'absolute',
               backgroundColor: '#000000',
               left: getResponsiveValue('47px', '15px', '19px'),
-              top: getResponsiveValue('316px', '240px', '308px'),
+              top: getResponsiveValue('316px', '240px', '322px'),
               width: getResponsiveValue('266px', '360px', '489px'),
               height: '1px'
             }}
@@ -342,7 +342,7 @@ const CharcuterieOfferings = () => {
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
                 left: getResponsiveValue('105px', '15px', '19px'),
-                top: getResponsiveValue('334px', '270px', '353px'),
+                top: getResponsiveValue('334px', '270px', '323px'),
                 width: getResponsiveValue('202px', '220px', '245px'),
                 height: getResponsiveValue('22px', '30px', '41px'),
                 fontSize: getResponsiveValue('15px', '17px', '20px')

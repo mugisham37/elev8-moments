@@ -289,7 +289,7 @@ const MainHeader = () => {
                   position: 'absolute',
                   top: 0,
                   left: 0,
-                  backgroundImage: 'url(/images/11.JPG)',
+                  backgroundImage: 'url(/images/13.JPG)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: '120%',
                   backgroundPosition: '50% 40%'
