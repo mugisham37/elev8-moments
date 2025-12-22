@@ -51,11 +51,11 @@ const CharcuterieOfferings = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-66px', '380px', 'auto'),
+              left: getResponsiveValue('-66px', '392px', 'auto'),
               right: screenSize === 'desktop' ? 'calc((100vw - 1200px) / 2 * -1)' : 'auto',
               top: getResponsiveValue('159px', '0px', '0px'),
-              width: getResponsiveValue('185px', '390px', 'calc(588px + (100vw - 1200px) / 2)'),
-              height: getResponsiveValue('140px', '560px', '905px')
+              width: getResponsiveValue('185px', '376px', 'calc(588px + (100vw - 1200px) / 2)'),
+              height: getResponsiveValue('140px', '579px', '905px')
             }}
           >
             <div 
@@ -87,10 +87,10 @@ const CharcuterieOfferings = () => {
               style={{
                 position: 'absolute',
                 backgroundColor: '#1E1E1E',
-                left: getResponsiveValue('0px', '50px', '60px'),
-                top: getResponsiveValue('0px', '450px', '610px'),
-                width: getResponsiveValue('0px', '450px', '634px'),
-                height: getResponsiveValue('0px', '240px', '313px')
+                left: getResponsiveValue('0px', '38px', '60px'),
+                top: getResponsiveValue('0px', '390px', '610px'),
+                width: getResponsiveValue('0px', '406px', '634px'),
+                height: getResponsiveValue('0px', '200px', '313px')
               }}
             >
               <div />
@@ -101,10 +101,10 @@ const CharcuterieOfferings = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-29px', '25px', '30px'),
-              top: getResponsiveValue('345px', '430px', '542px'),
-              width: getResponsiveValue('111px', '420px', '649px'),
-              height: getResponsiveValue('140px', '290px', '366px')
+              left: getResponsiveValue('-29px', '19px', '30px'),
+              top: getResponsiveValue('345px', '347px', '542px'),
+              width: getResponsiveValue('111px', '415px', '649px'),
+              height: getResponsiveValue('140px', '234px', '366px')
             }}
           >
             <div 
@@ -146,11 +146,11 @@ const CharcuterieOfferings = () => {
                   textAlign: 'left',
                   fontFamily: 'Montserrat',
                   fontWeight: 500,
-                  left: getResponsiveValue('0px', '15px', '19px'),
-                  top: getResponsiveValue('0px', '135px', '153px'),
-                  width: getResponsiveValue('0px', '220px', '245px'),
-                  height: getResponsiveValue('0px', '30px', '41px'),
-                  fontSize: getResponsiveValue('0px', '17px', '20px')
+                  left: getResponsiveValue('0px', '12px', '19px'),
+                  top: getResponsiveValue('0px', '98px', '153px'),
+                  width: getResponsiveValue('0px', '157px', '245px'),
+                  height: getResponsiveValue('0px', '26px', '41px'),
+                  fontSize: getResponsiveValue('0px', '13px', '20px')
                 }}
               >
                 <p>
@@ -194,9 +194,9 @@ const CharcuterieOfferings = () => {
             style={{
               position: 'absolute',
               backgroundColor: '#000000',
-              left: getResponsiveValue('47px', '15px', '19px'),
-              top: getResponsiveValue('316px', '240px', '322px'),
-              width: getResponsiveValue('266px', '360px', '489px'),
+              left: getResponsiveValue('47px', '12px', '19px'),
+              top: getResponsiveValue('316px', '206px', '322px'),
+              width: getResponsiveValue('266px', '313px', '489px'),
               height: '1px'
             }}
           >
@@ -212,11 +212,11 @@ const CharcuterieOfferings = () => {
                   color: '#000000',
                   letterSpacing: '0em',
                   fontFamily: 'Noiretblanc',
-                  left: getResponsiveValue('0px', '12px', '16px'),
-                  top: getResponsiveValue('0px', '75px', '96px'),
-                  width: getResponsiveValue('0px', '550px', '710px'),
-                  height: getResponsiveValue('0px', '35px', '43px'),
-                  fontSize: getResponsiveValue('0px', '32px', '38px'),
+                  left: getResponsiveValue('0px', '10px', '16px'),
+                  top: getResponsiveValue('0px', '61px', '96px'),
+                  width: getResponsiveValue('0px', '454px', '710px'),
+                  height: getResponsiveValue('0px', '28px', '43px'),
+                  fontSize: getResponsiveValue('0px', '24px', '38px'),
                   lineHeight: getResponsiveValue('1.2', '1.4', '1.6'),
                   textAlign: getResponsiveValue('center', 'left', 'left')
                 }}
@@ -257,10 +257,10 @@ const CharcuterieOfferings = () => {
             target="_self" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('285px', '230px', '289px'),
-              top: getResponsiveValue('159px', '115px', '170px'),
-              width: getResponsiveValue('30px', '32px', '34px'),
-              height: getResponsiveValue('29px', '60px', '96px')
+              left: getResponsiveValue('285px', '185px', '289px'),
+              top: getResponsiveValue('159px', '109px', '170px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('29px', '61px', '96px')
             }}
           >
             <div>
@@ -280,11 +280,11 @@ const CharcuterieOfferings = () => {
                 textAlign: 'justify',
                 fontFamily: 'Raleway',
                 fontWeight: 400,
-                left: getResponsiveValue('105px', '15px', '19px'),
-                top: getResponsiveValue('188px', '170px', '214px'),
-                width: getResponsiveValue('210px', '410px', '553px'),
-                height: getResponsiveValue('108px', '88px', '76px'),
-                fontSize: getResponsiveValue('13px', '14px', '16px'),
+                left: getResponsiveValue('105px', '12px', '19px'),
+                top: getResponsiveValue('188px', '137px', '214px'),
+                width: getResponsiveValue('210px', '354px', '553px'),
+                height: getResponsiveValue('108px', '49px', '76px'),
+                fontSize: getResponsiveValue('13px', '10px', '16px'),
                 lineHeight: getResponsiveValue('1.4', '1.5', '1.7')
               }}
             >
@@ -299,9 +299,9 @@ const CharcuterieOfferings = () => {
             style={{
               position: 'absolute',
               backgroundColor: '#000000',
-              left: getResponsiveValue('47px', '15px', '19px'),
-              top: getResponsiveValue('511px', '395px', '516px'),
-              width: getResponsiveValue('266px', '360px', '489px'),
+              left: getResponsiveValue('47px', '12px', '19px'),
+              top: getResponsiveValue('511px', '330px', '516px'),
+              width: getResponsiveValue('266px', '313px', '489px'),
               height: '1px'
             }}
           >
@@ -314,10 +314,10 @@ const CharcuterieOfferings = () => {
             target="_self" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('285px', '230px', '289px'),
-              top: getResponsiveValue('329px', '255px', '350px'),
-              width: getResponsiveValue('30px', '32px', '34px'),
-              height: getResponsiveValue('36px', '65px', '96px')
+              left: getResponsiveValue('285px', '185px', '289px'),
+              top: getResponsiveValue('329px', '224px', '350px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('36px', '61px', '96px')
             }}
           >
             <div>
@@ -341,11 +341,11 @@ const CharcuterieOfferings = () => {
                 textAlign: 'left',
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
-                left: getResponsiveValue('105px', '15px', '19px'),
-                top: getResponsiveValue('334px', '270px', '323px'),
-                width: getResponsiveValue('202px', '220px', '245px'),
-                height: getResponsiveValue('22px', '30px', '41px'),
-                fontSize: getResponsiveValue('15px', '17px', '20px')
+                left: getResponsiveValue('105px', '12px', '19px'),
+                top: getResponsiveValue('334px', '207px', '323px'),
+                width: getResponsiveValue('202px', '157px', '245px'),
+                height: getResponsiveValue('22px', '26px', '41px'),
+                fontSize: getResponsiveValue('15px', '13px', '20px')
               }}
             >
               <h3>
@@ -364,11 +364,11 @@ const CharcuterieOfferings = () => {
                 textAlign: 'justify',
                 fontFamily: 'Raleway',
                 fontWeight: 400,
-                left: getResponsiveValue('105px', '15px', '19px'),
-                top: getResponsiveValue('365px', '310px', '394px'),
-                width: getResponsiveValue('210px', '410px', '553px'),
-                height: getResponsiveValue('120px', '95px', '76px'),
-                fontSize: getResponsiveValue('13px', '14px', '16px'),
+                left: getResponsiveValue('105px', '12px', '19px'),
+                top: getResponsiveValue('365px', '252px', '394px'),
+                width: getResponsiveValue('210px', '354px', '553px'),
+                height: getResponsiveValue('120px', '49px', '76px'),
+                fontSize: getResponsiveValue('13px', '10px', '16px'),
                 lineHeight: getResponsiveValue('1.4', '1.5', '1.7')
               }}
             >
