@@ -37,7 +37,7 @@ const MainHeader = () => {
       style={{
         position: 'relative',
         fontFamily: 'system-ui, -apple-system, sans-serif',
-        height: getResponsiveValue('666px', '800px', '963px')
+        height: getResponsiveValue('666px', '616px', '963px')
       }}
     >
       {/* Background layer */}
@@ -101,11 +101,11 @@ const MainHeader = () => {
         <div
           style={{
             position: 'absolute',
-            left: getResponsiveValue('50%', '20px', '50px'),
-            top: getResponsiveValue('170px', '100px', '148px'),
-            width: getResponsiveValue('calc(100% + 20px)', '650px', '647px'),
-            maxWidth: getResponsiveValue('494px', '650px', '854px'),
-            height: getResponsiveValue('720px', '720px', '675px'),
+            left: getResponsiveValue('50%', '32px', '50px'),
+            top: getResponsiveValue('170px', '95px', '148px'),
+            width: getResponsiveValue('calc(100% + 20px)', '414px', '647px'),
+            maxWidth: getResponsiveValue('494px', '414px', '854px'),
+            height: getResponsiveValue('720px', '432px', '675px'),
             transform: getResponsiveValue('translateX(-50%)', 'none', 'none'),
             display: 'flex',
             flexDirection: 'column',
@@ -133,10 +133,10 @@ const MainHeader = () => {
               width: '100%',
               display: 'flex',
               flexDirection: 'column',
-              paddingTop: getResponsiveValue('157px', '38px', '120px'),
-              paddingLeft: getResponsiveValue('30px', '40px', '60px'),
-              paddingRight: getResponsiveValue('30px', '40px', '60px'),
-              paddingBottom: getResponsiveValue('40px', '50px', '40px')
+              paddingTop: getResponsiveValue('157px', '77px', '120px'),
+              paddingLeft: getResponsiveValue('30px', '38px', '60px'),
+              paddingRight: getResponsiveValue('30px', '38px', '60px'),
+              paddingBottom: getResponsiveValue('40px', '26px', '40px')
             }}
           >
             {/* Location subheading with fade-in */}
@@ -146,7 +146,7 @@ const MainHeader = () => {
                 animationDelay: '0s',
                 animationDuration: '0.5s',
                 animationFillMode: 'both',
-                marginBottom: getResponsiveValue('10px', '30px', '25px')
+                marginBottom: getResponsiveValue('10px', '16px', '25px')
               }}
             >
               <h2 
@@ -155,10 +155,10 @@ const MainHeader = () => {
                   textTransform: 'uppercase',
                   lineHeight: '1.2',
                   letterSpacing: '0.2em',
-                  fontSize: getResponsiveValue('12px', '13px', '14px'),
+                  fontSize: getResponsiveValue('12px', '9px', '14px'),
                   textAlign: getResponsiveValue('center', 'left', 'left'),
                   fontFamily: 'Raleway, sans-serif',
-                  fontWeight: getResponsiveValue(400, 350, 300),
+                  fontWeight: getResponsiveValue(400, 300, 300),
                   fontStyle: 'normal',
                   margin: 0
                 }}
@@ -174,8 +174,8 @@ const MainHeader = () => {
                 animationDelay: '0s',
                 animationDuration: '0.75s',
                 animationFillMode: 'both',
-                maxWidth: getResponsiveValue('100%', '450px', '100%'),
-                marginBottom: getResponsiveValue('10px', '40px', '12px'),
+                maxWidth: getResponsiveValue('100%', '300px', '100%'),
+                marginBottom: getResponsiveValue('10px', '8px', '12px'),
                 width: '100%'
               }}
             >
@@ -185,7 +185,7 @@ const MainHeader = () => {
                   textTransform: 'uppercase',
                   lineHeight: '1.2',
                   letterSpacing: '0em',
-                  fontSize: getResponsiveValue('23px', '32px', '41px'),
+                  fontSize: getResponsiveValue('23px', '26px', '41px'),
                   textAlign: getResponsiveValue('center', 'left', 'left'),
                   fontFamily: 'Noiretblanc, sans-serif',
                   fontWeight: 400,
@@ -204,8 +204,8 @@ const MainHeader = () => {
                 animationDelay: '0s',
                 animationDuration: '1s',
                 animationFillMode: 'both',
-                maxWidth: getResponsiveValue('100%', '420px', '100%'),
-                marginBottom: getResponsiveValue('10px', '50px', '40px'),
+                maxWidth: getResponsiveValue('100%', '300px', '100%'),
+                marginBottom: getResponsiveValue('10px', '26px', '40px'),
                 width: '100%'
               }}
             >
@@ -215,7 +215,7 @@ const MainHeader = () => {
                   textTransform: 'none',
                   lineHeight: getResponsiveValue('1.6', '1.7', '1.8'),
                   letterSpacing: '0em',
-                  fontSize: getResponsiveValue('13px', '14px', '15px'),
+                  fontSize: getResponsiveValue('13px', '10px', '15px'),
                   textAlign: getResponsiveValue('justify', 'left', 'left'),
                   fontFamily: 'Raleway, sans-serif',
                   fontWeight: 400,
@@ -232,8 +232,8 @@ const MainHeader = () => {
               href="/experiences"
               target="_self"
               style={{
-                width: getResponsiveValue('224px', '235px', '247px'),
-                height: getResponsiveValue('48px', '50px', '51px'),
+                width: getResponsiveValue('224px', '158px', '247px'),
+                height: getResponsiveValue('48px', '33px', '51px'),
                 backgroundColor: 'rgba(249, 242, 236, 1)',
                 display: 'flex',
                 alignItems: 'center',
@@ -248,7 +248,7 @@ const MainHeader = () => {
                   textTransform: 'uppercase',
                   lineHeight: '1.8',
                   letterSpacing: '0.1em',
-                  fontSize: getResponsiveValue('12px', '13px', '14px'),
+                  fontSize: getResponsiveValue('12px', '9px', '14px'),
                   textAlign: 'center',
                   fontFamily: 'Raleway, sans-serif',
                   fontWeight: 400,
@@ -275,10 +275,10 @@ const MainHeader = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('0px', '480px', '641px'),
-                top: getResponsiveValue('0px', '150px', '200px'),
-                width: getResponsiveValue('0px', '350px', '562px'),
-                height: getResponsiveValue('0px', '380px', '572px'),
+                left: getResponsiveValue('0px', '410px', '641px'),
+                top: getResponsiveValue('0px', '128px', '200px'),
+                width: getResponsiveValue('0px', '360px', '562px'),
+                height: getResponsiveValue('0px', '366px', '572px'),
                 transform: 'scale(1, 1) translate(0px, 0px)'
               }}
             >

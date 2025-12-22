@@ -77,7 +77,7 @@ const HeaderQuote: React.FC = () => {
         style={{
           position: 'relative',
           display: isMobile ? 'none' : 'block',
-          height: getResponsiveValue('0px', '451px', '451px')
+          height: getResponsiveValue('0px', '281px', '451px')
         }}
       >
         {/* Background Container */}
@@ -109,10 +109,10 @@ const HeaderQuote: React.FC = () => {
               <div
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('11px', '244px', '244px'),
-                  top: getResponsiveValue('242px', '261px', '261px'),
-                  width: getResponsiveValue('302px', '712px', '712px'),
-                  height: getResponsiveValue('184px', '118px', '118px')
+                  left: getResponsiveValue('11px', '156px', '244px'),
+                  top: getResponsiveValue('242px', '167px', '261px'),
+                  width: getResponsiveValue('302px', '456px', '712px'),
+                  height: getResponsiveValue('184px', '76px', '118px')
                 }}
               >
                 <p
@@ -120,7 +120,7 @@ const HeaderQuote: React.FC = () => {
                     fontFamily: 'Raleway, sans-serif',
                     fontWeight: 400,
                     color: '#f9f2ec',
-                    fontSize: getResponsiveValue('14px', '15px', '15px'),
+                    fontSize: getResponsiveValue('14px', '10px', '15px'),
                     lineHeight: '1.8',
                     letterSpacing: '0em',
                     textAlign: getResponsiveValue('left', 'center', 'center')
@@ -142,10 +142,10 @@ const HeaderQuote: React.FC = () => {
               <div
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('11px', '200px', '200px'),
-                  top: getResponsiveValue('108px', '195px', '195px'),
-                  width: getResponsiveValue('302px', '801px', '801px'),
-                  height: getResponsiveValue('134px', '60px', '60px')
+                  left: getResponsiveValue('11px', '128px', '200px'),
+                  top: getResponsiveValue('108px', '125px', '195px'),
+                  width: getResponsiveValue('302px', '513px', '801px'),
+                  height: getResponsiveValue('134px', '38px', '60px')
                 }}
               >
                 <p
@@ -153,7 +153,7 @@ const HeaderQuote: React.FC = () => {
                     fontFamily: getResponsiveValue('Raleway, sans-serif', 'Noiretblanc, sans-serif', 'Noiretblanc, sans-serif'),
                     fontWeight: 400,
                     color: getResponsiveValue('#000000', '#f9f2ec', '#f9f2ec'),
-                    fontSize: getResponsiveValue('17px', '20px', '20px'),
+                    fontSize: getResponsiveValue('17px', '13px', '20px'),
                     lineHeight: '1.2',
                     letterSpacing: '0em',
                     textAlign: getResponsiveValue('justify', 'center', 'center')
@@ -174,10 +174,10 @@ const HeaderQuote: React.FC = () => {
               <div
                 style={{
                   position: 'absolute',
-                  left: getResponsiveValue('2px', '145px', '145px'),
-                  top: getResponsiveValue('63px', '110px', '110px'),
-                  width: getResponsiveValue('320px', '910px', '910px'),
-                  height: getResponsiveValue('52px', '87px', '87px')
+                  left: getResponsiveValue('2px', '93px', '145px'),
+                  top: getResponsiveValue('63px', '70px', '110px'),
+                  width: getResponsiveValue('320px', '582px', '910px'),
+                  height: getResponsiveValue('52px', '56px', '87px')
                 }}
               >
                 <p
@@ -185,7 +185,7 @@ const HeaderQuote: React.FC = () => {
                     fontFamily: 'Strings, cursive',
                     fontWeight: 400,
                     color: '#f9f2ec',
-                    fontSize: getResponsiveValue('25px', '70px', '70px'),
+                    fontSize: getResponsiveValue('25px', '45px', '70px'),
                     lineHeight: '1.2',
                     letterSpacing: '0em',
                     textAlign: 'center'
