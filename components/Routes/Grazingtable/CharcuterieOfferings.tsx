@@ -38,7 +38,7 @@ const CharcuterieOfferings: React.FC = () => {
         position: 'relative',
         zIndex: 3,
         backgroundColor: '#1e1e1e',
-        height: getResponsiveValue('900px', '1182px', '1182px')
+        height: getResponsiveValue('900px', '757px', '1182px')
       }}
     >
       <div style={{
@@ -61,10 +61,10 @@ const CharcuterieOfferings: React.FC = () => {
             style={{
               position: 'absolute',
               opacity: 1,
-              left: getResponsiveValue('-66px', '202px', '202px'),
-              top: getResponsiveValue('166px', '230px', '230px'),
-              width: getResponsiveValue('185px', '248px', '248px'),
-              height: getResponsiveValue('110px', '157px', '157px')
+              left: getResponsiveValue('-66px', '129px', '202px'),
+              top: getResponsiveValue('166px', '147px', '230px'),
+              width: getResponsiveValue('185px', '159px', '248px'),
+              height: getResponsiveValue('110px', '100px', '157px')
             }}
           >
             <div style={{
@@ -105,10 +105,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-73px', '202px', '202px'),
-              top: getResponsiveValue('635px', '878px', '878px'),
-              width: getResponsiveValue('185px', '248px', '248px'),
-              height: getResponsiveValue('110px', '157px', '157px')
+              left: getResponsiveValue('-73px', '129px', '202px'),
+              top: getResponsiveValue('635px', '562px', '878px'),
+              width: getResponsiveValue('185px', '159px', '248px'),
+              height: getResponsiveValue('110px', '100px', '157px')
             }}
           >
             <div style={{
@@ -132,10 +132,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="mailto:hello@elev8moments.com" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '477px', '477px'),
-              top: getResponsiveValue('166px', '234px', '234px'),
-              width: getResponsiveValue('202px', '258px', '258px'),
-              height: getResponsiveValue('22px', '41px', '41px')
+              left: getResponsiveValue('91px', '305px', '477px'),
+              top: getResponsiveValue('166px', '150px', '234px'),
+              width: getResponsiveValue('202px', '165px', '258px'),
+              height: getResponsiveValue('22px', '26px', '41px')
             }}
           >
             <p 
@@ -148,7 +148,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('14px', '18px', '18px')
+                fontSize: getResponsiveValue('14px', '12px', '18px')
               }}
             >
               BLOOM & BOND<br />WORKSHOPS<br />
@@ -159,9 +159,9 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('27px', '475px', '475px'),
-              top: getResponsiveValue('293px', '370px', '370px'),
-              width: getResponsiveValue('266px', '489px', '489px'),
+              left: getResponsiveValue('27px', '304px', '475px'),
+              top: getResponsiveValue('293px', '237px', '370px'),
+              width: getResponsiveValue('266px', '313px', '489px'),
               height: '1px'
             }}
           >
@@ -176,10 +176,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-66px', '76px', '76px'),
-              top: getResponsiveValue('46px', '46px', '46px'),
-              width: getResponsiveValue('398px', '710px', '710px'),
-              height: getResponsiveValue('56px', '73px', '73px')
+              left: getResponsiveValue('-66px', '49px', '76px'),
+              top: getResponsiveValue('46px', '29px', '46px'),
+              width: getResponsiveValue('398px', '454px', '710px'),
+              height: getResponsiveValue('56px', '47px', '73px')
             }}
           >
             <p 
@@ -192,7 +192,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.2, 1.6, 1.6),
-                fontSize: getResponsiveValue('39px', '60px', '60px')
+                fontSize: getResponsiveValue('39px', '38px', '60px')
               }}
             >
               Explore Our<br />
@@ -204,10 +204,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="/traditional-boards" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('251px', '690px', '690px'),
-              top: getResponsiveValue('158px', '215px', '215px'),
-              width: getResponsiveValue('30px', '34px', '34px'),
-              height: getResponsiveValue('29px', '96px', '96px')
+              left: getResponsiveValue('251px', '442px', '690px'),
+              top: getResponsiveValue('158px', '138px', '215px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('29px', '61px', '96px')
             }}
           >
             <div style={{ width: '100%', height: '100%' }}>
@@ -221,10 +221,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('90px', '477px', '477px'),
-              top: getResponsiveValue('206px', '292px', '292px'),
-              width: getResponsiveValue('210px', '522px', '522px'),
-              height: getResponsiveValue('78px', '76px', '76px')
+              left: getResponsiveValue('90px', '305px', '477px'),
+              top: getResponsiveValue('206px', '187px', '292px'),
+              width: getResponsiveValue('210px', '334px', '522px'),
+              height: getResponsiveValue('78px', '49px', '76px')
             }}
           >
             <p 
@@ -237,7 +237,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.4, 1.7, 1.7),
-                fontSize: getResponsiveValue('13px', '16px', '16px')
+                fontSize: getResponsiveValue('13px', '10px', '16px')
               }}
             >
               Floral arrangement and connection workshops for women. Beautiful, intentional, and healing experiences that combine creativity with meaningful bonding and soulful activities.<br />
@@ -249,10 +249,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="#/" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('252px', '709px', '709px'),
-              top: getResponsiveValue('624px', '856px', '856px'),
-              width: getResponsiveValue('30px', '34px', '34px'),
-              height: getResponsiveValue('36px', '96px', '96px')
+              left: getResponsiveValue('252px', '454px', '709px'),
+              top: getResponsiveValue('624px', '548px', '856px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('36px', '61px', '96px')
             }}
           >
             <div style={{ width: '100%', height: '100%' }}>
@@ -267,10 +267,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="mailto:hello@elev8moments.com" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '480px', '480px'),
-              top: getResponsiveValue('635px', '897px', '877px'),
-              width: getResponsiveValue('302px', '245px', '345px'),
-              height: getResponsiveValue('22px', '41px', '41px')
+              left: getResponsiveValue('91px', '307px', '480px'),
+              top: getResponsiveValue('635px', '561px', '877px'),
+              width: getResponsiveValue('302px', '221px', '345px'),
+              height: getResponsiveValue('22px', '26px', '41px')
             }}
           >
             <p 
@@ -283,7 +283,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('14px', '18px', '18px')
+                fontSize: getResponsiveValue('14px', '12px', '18px')
               }}
             >
               VISIT RWANDA<br />EXPERIENCES<br />
@@ -294,10 +294,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '483px', '483px'),
-              top: getResponsiveValue('659px', '930px', '930px'),
-              width: getResponsiveValue('210px', '553px', '553px'),
-              height: getResponsiveValue('94px', '76px', '76px')
+              left: getResponsiveValue('91px', '309px', '483px'),
+              top: getResponsiveValue('659px', '595px', '930px'),
+              width: getResponsiveValue('210px', '354px', '553px'),
+              height: getResponsiveValue('94px', '49px', '76px')
             }}
           >
             <p 
@@ -310,7 +310,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.4, 1.7, 1.7),
-                fontSize: getResponsiveValue('13px', '16px', '16px')
+                fontSize: getResponsiveValue('13px', '10px', '16px')
               }}
             >
               Cultural, creative, and bonding experiences for visitors looking to explore Kigali beyond the ordinary. Contributing to Rwanda&apos;s tourism story through meaningful activities.<br />
@@ -321,10 +321,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-39px', '89px', '89px'),
-              top: getResponsiveValue('102px', '119px', '119px'),
-              width: getResponsiveValue('398px', '1023px', '1023px'),
-              height: getResponsiveValue('56px', '69px', '69px')
+              left: getResponsiveValue('-39px', '57px', '89px'),
+              top: getResponsiveValue('102px', '76px', '119px'),
+              width: getResponsiveValue('398px', '655px', '1023px'),
+              height: getResponsiveValue('56px', '44px', '69px')
             }}
           >
             <p 
@@ -337,7 +337,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.2, 1.6, 1.6),
-                fontSize: getResponsiveValue('32px', '55px', '55px')
+                fontSize: getResponsiveValue('32px', '35px', '55px')
               }}
             >
               EXPERIENCE OFFERINGS<br />
@@ -348,15 +348,15 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('230px', '593px', '593px'),
-              top: getResponsiveValue('71px', '97px', '97px'),
-              width: getResponsiveValue('42px', '315px', '315px'),
+              left: getResponsiveValue('230px', '380px', '593px'),
+              top: getResponsiveValue('71px', '62px', '97px'),
+              width: getResponsiveValue('42px', '202px', '315px'),
               height: '1px'
             }}
           >
             <svg 
               style={{ 
-                width: getResponsiveValue('42px', '223px', '223px'), 
+                width: getResponsiveValue('42px', '143px', '223px'), 
                 height: '1px' 
               }}
             >
@@ -397,10 +397,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-66px', '202px', '202px'),
-              top: getResponsiveValue('311px', '449px', '449px'),
-              width: getResponsiveValue('185px', '248px', '248px'),
-              height: getResponsiveValue('110px', '157px', '157px')
+              left: getResponsiveValue('-66px', '129px', '202px'),
+              top: getResponsiveValue('311px', '287px', '449px'),
+              width: getResponsiveValue('185px', '159px', '248px'),
+              height: getResponsiveValue('110px', '100px', '157px')
             }}
           >
             <div style={{
@@ -424,9 +424,9 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('27px', '479px', '479px'),
-              top: getResponsiveValue('459px', '592px', '602px'),
-              width: getResponsiveValue('266px', '489px', '489px'),
+              left: getResponsiveValue('27px', '307px', '479px'),
+              top: getResponsiveValue('459px', '385px', '602px'),
+              width: getResponsiveValue('266px', '313px', '489px'),
               height: '1px'
             }}
           >
@@ -442,10 +442,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="#/" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('251px', '723px', '723px'),
-              top: getResponsiveValue('316px', '443px', '443px'),
-              width: getResponsiveValue('30px', '34px', '34px'),
-              height: getResponsiveValue('36px', '96px', '96px')
+              left: getResponsiveValue('251px', '463px', '723px'),
+              top: getResponsiveValue('316px', '284px', '443px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('36px', '61px', '96px')
             }}
           >
             <div style={{ width: '100%', height: '100%' }}>
@@ -460,10 +460,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="mailto:hello@elev8moments.com" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('90px', '477px', '477px'),
-              top: getResponsiveValue('311px', '461px', '461px'),
-              width: getResponsiveValue('202px', '245px', '445px'),
-              height: getResponsiveValue('22px', '41px', '41px')
+              left: getResponsiveValue('90px', '305px', '477px'),
+              top: getResponsiveValue('311px', '295px', '461px'),
+              width: getResponsiveValue('202px', '285px', '445px'),
+              height: getResponsiveValue('22px', '26px', '41px')
             }}
           >
             <p 
@@ -476,7 +476,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('14px', '18px', '18px')
+                fontSize: getResponsiveValue('14px', '12px', '18px')
               }}
             >
               PAINT A SHIRT<br />CREATIVE GATHERINGS<br />
@@ -487,10 +487,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('90px', '477px', '477px'),
-              top: getResponsiveValue('350px', '517px', '517px'),
-              width: getResponsiveValue('210px', '553px', '553px'),
-              height: getResponsiveValue('94px', '76px', '76px')
+              left: getResponsiveValue('90px', '305px', '477px'),
+              top: getResponsiveValue('350px', '331px', '517px'),
+              width: getResponsiveValue('210px', '354px', '553px'),
+              height: getResponsiveValue('94px', '49px', '76px')
             }}
           >
             <p 
@@ -503,7 +503,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.4, 1.7, 1.7),
-                fontSize: getResponsiveValue('13px', '16px', '16px')
+                fontSize: getResponsiveValue('13px', '10px', '16px')
               }}
             >
               Creative, fun, and expressive events where participants paint inspirational T-shirts to take home. Playful community gatherings that celebrate creativity and self-expression.<br />
@@ -532,10 +532,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-76px', '202px', '202px'),
-              top: getResponsiveValue('468px', '665px', '665px'),
-              width: getResponsiveValue('185px', '248px', '248px'),
-              height: getResponsiveValue('110px', '157px', '157px')
+              left: getResponsiveValue('-76px', '129px', '202px'),
+              top: getResponsiveValue('468px', '426px', '665px'),
+              width: getResponsiveValue('185px', '159px', '248px'),
+              height: getResponsiveValue('110px', '100px', '157px')
             }}
           >
             <div style={{
@@ -559,9 +559,9 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('28px', '480px', '480px'),
-              top: getResponsiveValue('609px', '802px', '812px'),
-              width: getResponsiveValue('266px', '489px', '489px'),
+              left: getResponsiveValue('28px', '307px', '480px'),
+              top: getResponsiveValue('609px', '520px', '812px'),
+              width: getResponsiveValue('266px', '313px', '489px'),
               height: '1px'
             }}
           >
@@ -577,10 +577,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="#/" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('252px', '694px', '694px'),
-              top: getResponsiveValue('472px', '656px', '656px'),
-              width: getResponsiveValue('30px', '34px', '34px'),
-              height: getResponsiveValue('36px', '96px', '96px')
+              left: getResponsiveValue('252px', '444px', '694px'),
+              top: getResponsiveValue('472px', '420px', '656px'),
+              width: getResponsiveValue('30px', '22px', '34px'),
+              height: getResponsiveValue('36px', '61px', '96px')
             }}
           >
             <div style={{ width: '100%', height: '100%' }}>
@@ -595,10 +595,10 @@ const CharcuterieOfferings: React.FC = () => {
             href="mailto:hello@elev8moments.com" 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '477px', '477px'),
-              top: getResponsiveValue('468px', '675px', '675px'),
-              width: getResponsiveValue('202px', '245px', '445px'),
-              height: getResponsiveValue('22px', '41px', '41px')
+              left: getResponsiveValue('91px', '305px', '477px'),
+              top: getResponsiveValue('468px', '432px', '675px'),
+              width: getResponsiveValue('202px', '285px', '445px'),
+              height: getResponsiveValue('22px', '26px', '41px')
             }}
           >
             <p 
@@ -611,7 +611,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontFamily: 'Montserrat',
                 fontWeight: 500,
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('14px', '18px', '18px')
+                fontSize: getResponsiveValue('14px', '12px', '18px')
               }}
             >
               RETREATS &<br />INTIMATE GATHERINGS<br />
@@ -622,10 +622,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('91px', '477px', '477px'),
-              top: getResponsiveValue('507px', '727px', '727px'),
-              width: getResponsiveValue('210px', '560px', '560px'),
-              height: getResponsiveValue('94px', '76px', '76px')
+              left: getResponsiveValue('91px', '305px', '477px'),
+              top: getResponsiveValue('507px', '465px', '727px'),
+              width: getResponsiveValue('210px', '358px', '560px'),
+              height: getResponsiveValue('94px', '49px', '76px')
             }}
           >
             <p 
@@ -638,7 +638,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontWeight: 400,
                 fontStyle: 'normal',
                 lineHeight: getResponsiveValue(1.4, 1.7, 1.7),
-                fontSize: getResponsiveValue('13px', '16px', '16px')
+                fontSize: getResponsiveValue('13px', '10px', '16px')
               }}
             >
               Events designed around healing, creativity, and soulful connection. Intimate gatherings that create meaningful spaces for personal growth and community bonding.<br />
@@ -649,10 +649,10 @@ const CharcuterieOfferings: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('48px', '480px', '480px'),
-              top: getResponsiveValue('800px', '1098px', '1098px'),
-              width: getResponsiveValue('224px', '241px', '241px'),
-              height: getResponsiveValue('48px', '51px', '51px')
+              left: getResponsiveValue('48px', '307px', '480px'),
+              top: getResponsiveValue('800px', '703px', '1098px'),
+              width: getResponsiveValue('224px', '154px', '241px'),
+              height: getResponsiveValue('48px', '33px', '51px')
             }}
           >
             <div style={{
@@ -670,10 +670,10 @@ const CharcuterieOfferings: React.FC = () => {
             target="_self"
             style={{
               position: 'absolute',
-              left: getResponsiveValue('48px', '494px', '494px'),
-              top: getResponsiveValue('813px', '1108px', '1108px'),
-              width: getResponsiveValue('224px', '213px', '213px'),
-              height: getResponsiveValue('21px', '29px', '29px')
+              left: getResponsiveValue('48px', '316px', '494px'),
+              top: getResponsiveValue('813px', '709px', '1108px'),
+              width: getResponsiveValue('224px', '136px', '213px'),
+              height: getResponsiveValue('21px', '19px', '29px')
             }}
           >
             <nav 
@@ -686,7 +686,7 @@ const CharcuterieOfferings: React.FC = () => {
                 fontFamily: 'Raleway',
                 fontWeight: 400,
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('11px', '14px', '14px')
+                fontSize: getResponsiveValue('11px', '9px', '14px')
               }}
             >
               BOOK EXPERIENCE
