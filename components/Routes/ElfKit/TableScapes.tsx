@@ -82,10 +82,10 @@ const TableScapes = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('17px', '-109px', '-109px'),
-              top: getResponsiveValue('622px', '186px', '186px'),
-              width: getResponsiveValue('89px', '323px', '323px'),
-              height: getResponsiveValue('117px', '412px', '412px'),
+              left: getResponsiveValue('17px', '-86.7px', '-109px'),
+              top: getResponsiveValue('622px', '147.9px', '186px'),
+              width: getResponsiveValue('89px', '256.8px', '323px'),
+              height: getResponsiveValue('117px', '327.5px', '412px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-12.7174px, -94.9565px)', '0px', '0px')
             }}
           >
@@ -108,10 +108,10 @@ const TableScapes = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-2px', '951px', '951px'),
-              top: getResponsiveValue('-16px', '-21px', '-21px'),
-              width: getResponsiveValue('87px', '304px', '304px'),
-              height: getResponsiveValue('77px', '340px', '340px'),
+              left: getResponsiveValue('-2px', '756px', '951px'),
+              top: getResponsiveValue('-16px', '-16.7px', '-21px'),
+              width: getResponsiveValue('87px', '241.7px', '304px'),
+              height: getResponsiveValue('77px', '270.3px', '340px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-267.186px, -36.0932px)', '0px', '0px')
             }}
           >
@@ -136,10 +136,10 @@ const TableScapes = () => {
               style={{
                 position: 'absolute',
                 transition: 'opacity 500ms',
-                left: getResponsiveValue('0px', '750px', '750px'),
-                top: getResponsiveValue('0px', '455px', '455px'),
-                width: getResponsiveValue('0px', '161px', '161px'),
-                height: getResponsiveValue('0px', '229px', '229px'),
+                left: getResponsiveValue('0px', '596.3px', '750px'),
+                top: getResponsiveValue('0px', '361.7px', '455px'),
+                width: getResponsiveValue('0px', '128px', '161px'),
+                height: getResponsiveValue('0px', '182.1px', '229px'),
                 transform: getResponsiveValue('0px', 'scale(0.805, 0.805) translate(-201.177px, -137.953px)', 'scale(0.805, 0.805) translate(-201.177px, -137.953px)')
               }}
               onMouseEnter={(e) => e.currentTarget.style.opacity = '0.2'}
@@ -166,10 +166,10 @@ const TableScapes = () => {
             style={{
               position: 'absolute',
               transition: 'opacity 500ms',
-              left: getResponsiveValue('15px', '501px', '501px'),
-              top: getResponsiveValue('192px', '455px', '455px'),
-              width: getResponsiveValue('89px', '234px', '234px'),
-              height: getResponsiveValue('117px', '229px', '229px'),
+              left: getResponsiveValue('15px', '398.3px', '501px'),
+              top: getResponsiveValue('192px', '361.7px', '455px'),
+              width: getResponsiveValue('89px', '186px', '234px'),
+              height: getResponsiveValue('117px', '182.1px', '229px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-149.702px, -137.953px)', '0px', '0px')
             }}
             onMouseEnter={(e) => e.currentTarget.style.opacity = '0.2'}
@@ -195,10 +195,10 @@ const TableScapes = () => {
             style={{
               position: 'absolute',
               transition: 'opacity 500ms',
-              left: getResponsiveValue('208px', '241px', '241px'),
-              top: getResponsiveValue('616px', '455px', '455px'),
-              width: getResponsiveValue('114px', '247px', '247px'),
-              height: getResponsiveValue('111px', '229px', '229px'),
+              left: getResponsiveValue('208px', '191.6px', '241px'),
+              top: getResponsiveValue('616px', '361.7px', '455px'),
+              width: getResponsiveValue('114px', '196.4px', '247px'),
+              height: getResponsiveValue('111px', '182.1px', '229px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-88.295px, -137.953px)', '0px', '0px')
             }}
             onMouseEnter={(e) => e.currentTarget.style.opacity = '0.2'}
@@ -224,10 +224,10 @@ const TableScapes = () => {
             style={{
               position: 'absolute',
               transition: 'opacity 500ms',
-              left: getResponsiveValue('116px', '951px', '951px'),
-              top: getResponsiveValue('192px', '335px', '335px'),
-              width: getResponsiveValue('89px', '247px', '247px'),
-              height: getResponsiveValue('117px', '368px', '368px'),
+              left: getResponsiveValue('116px', '756px', '951px'),
+              top: getResponsiveValue('192px', '266.3px', '335px'),
+              width: getResponsiveValue('89px', '196.4px', '247px'),
+              height: getResponsiveValue('117px', '292.6px', '368px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-260.283px, -125.72px)', '0px', '0px')
             }}
             onMouseEnter={(e) => e.currentTarget.style.opacity = '0.2'}
@@ -253,10 +253,10 @@ const TableScapes = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('52px', '288px', '250px'),
-                top: getResponsiveValue('61px', '33px', '33px'),
-                width: getResponsiveValue('424px', '516px', '516px'),
-                height: getResponsiveValue('41px', '73px', '73px'),
+                left: getResponsiveValue('52px', '238.8px', '250px'),
+                top: getResponsiveValue('61px', '26.2px', '33px'),
+                width: getResponsiveValue('424px', '410.2px', '516px'),
+                height: getResponsiveValue('41px', '58px', '73px'),
                 transform: getResponsiveValue('scale(0.805, 0.805) translate(-132.261px, -16.8354px)', '0px', '0px')
               }}
             >
@@ -267,7 +267,7 @@ const TableScapes = () => {
                   fontFamily: 'Noiretblanc',
                   fontWeight: 'normal',
                   color: 'rgba(0,0,0,1)',
-                  fontSize: getResponsiveValue('40px', '56px', '56px'),
+                  fontSize: getResponsiveValue('40px', '44.5px', '56px'),
                   textAlign: getResponsiveValue('center', 'justify', 'justify') as 'center' | 'justify'
                 }}
               >
@@ -281,10 +281,10 @@ const TableScapes = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('54px', '288px', '238px'),
-                top: getResponsiveValue('120px', '106px', '99px'),
-                width: getResponsiveValue('391px', '465px', '565px'),
-                height: getResponsiveValue('59px', '47px', '47px'),
+                left: getResponsiveValue('54px', '229.2px', '238px'),
+                top: getResponsiveValue('120px', '78.7px', '99px'),
+                width: getResponsiveValue('391px', '449.2px', '565px'),
+                height: getResponsiveValue('59px', '37.4px', '47px'),
                 transform: getResponsiveValue('scale(0.805, 0.805) translate(-126.084px, -31.3696px)', '0px', '0px')
               }}
             >
@@ -295,7 +295,7 @@ const TableScapes = () => {
                   fontFamily: 'Raleway',
                   fontWeight: 'normal',
                   color: 'rgba(0,0,0,1)',
-                  fontSize: getResponsiveValue('16px', '15px', '15px'),
+                  fontSize: getResponsiveValue('16px', '11.9px', '15px'),
                   textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left',
                   lineHeight: getResponsiveValue('1.6', '1.4', '1.4')
                 }}
@@ -309,9 +309,9 @@ const TableScapes = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('13px', '260px', '220px'),
-              top: getResponsiveValue('182px', '170px', '150px'),
-              width: getResponsiveValue('280px', '575px', '515px')
+              left: getResponsiveValue('13px', '205px', '220px'),
+              top: getResponsiveValue('182px', '119.3px', '150px'),
+              width: getResponsiveValue('280px', '409.4px', '515px')
             }}
           >
             {listItems.map((item, index) => (
@@ -320,16 +320,16 @@ const TableScapes = () => {
                 style={{
                   display: 'flex',
                   alignItems: 'flex-start',
-                  gap: getResponsiveValue('10px', '25px', '5px'),
-                  marginBottom: getResponsiveValue('20px', '40px', '20px')
+                  gap: getResponsiveValue('10px', '4px', '5px'),
+                  marginBottom: getResponsiveValue('20px', '15.9px', '20px')
                 }}
               >
                 {/* Star Icon */}
                 <div 
                   style={{
                     flexShrink: 0,
-                    width: getResponsiveValue('15px', '18px', '18px'),
-                    height: getResponsiveValue('15px', '18px', '18px'),
+                    width: getResponsiveValue('15px', '14.3px', '18px'),
+                    height: getResponsiveValue('15px', '14.3px', '18px'),
                     marginTop: getResponsiveValue('2px', '4px', '4px')
                   }}
                 >
@@ -345,7 +345,7 @@ const TableScapes = () => {
                     fontFamily: 'Raleway',
                     fontWeight: 'normal',
                     color: 'rgba(0,0,0,1)',
-                    fontSize: getResponsiveValue('13px', '16px', '13px'),
+                    fontSize: getResponsiveValue('13px', '10.3px', '13px'),
                     lineHeight: getResponsiveValue('1.5', '1.4', '1.4'),
                     margin: 0
                   }}
@@ -361,10 +361,10 @@ const TableScapes = () => {
             <div 
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('66px', '285px', '285px'),
-                top: getResponsiveValue('572px', '403px', '403px'),
-                width: getResponsiveValue('200px', '113px', '113px'),
-                height: getResponsiveValue('17px', '21px', '21px'),
+                left: getResponsiveValue('66px', '226.6px', '285px'),
+                top: getResponsiveValue('572px', '320.4px', '403px'),
+                width: getResponsiveValue('200px', '89.9px', '113px'),
+                height: getResponsiveValue('17px', '16.7px', '21px'),
                 transform: getResponsiveValue('scale(0.805, 0.805) translate(-82.7236px, -100.165px)', '0px', '0px')
               }}
             >
@@ -375,7 +375,7 @@ const TableScapes = () => {
                   fontFamily: 'Raleway',
                   fontWeight: 'normal',
                   color: 'rgba(0,0,0,1)',
-                  fontSize: getResponsiveValue('12px', '10px', '10px'),
+                  fontSize: getResponsiveValue('12px', '8px', '10px'),
                   lineHeight: getResponsiveValue('1.8', '1.4', '1.4')
                 }}
               >

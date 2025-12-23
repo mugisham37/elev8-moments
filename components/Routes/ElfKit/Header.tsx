@@ -34,7 +34,7 @@ const Header = () => {
       style={{
         position: getResponsiveValue('relative', 'relative', 'relative'),
         zIndex: getResponsiveValue(2, 2, 2),
-        height: getResponsiveValue('632px', '659px', '659px')
+        height: getResponsiveValue('632px', '579px', '659px')
       }}
     >
       <div 
@@ -78,9 +78,9 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('144px', '569px', '703px'),
-              top: getResponsiveValue('397px', '322px', '322px'),
-              width: getResponsiveValue('405px', '503px', '643px'),
+              left: getResponsiveValue('144px', '372.89px', '703px'),
+              top: getResponsiveValue('397px', '249px', '322px'),
+              width: getResponsiveValue('405px', '341.19px', '643px'),
               height: getResponsiveValue('400px', '98px', '98px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-198.755px, -89.8696px)', '0px', '0px')
             }}
@@ -92,7 +92,7 @@ const Header = () => {
                 textAlign: getResponsiveValue('justify', 'justify', 'justify'),
                 fontWeight: getResponsiveValue('normal', 'normal', 'normal'),
                 fontFamily: 'Raleway',
-                fontSize: getResponsiveValue('17px', '16px', '21px')
+                fontSize: getResponsiveValue('17px', '16.7px', '21px')
               }}
             >
               We craft elegant gifting solutions for individuals and corporates, designed to celebrate moments that matter with style and intention. From curated corporate packages to personalized celebration gifts, each offering includes thoughtful touches, premium packaging, and meaningful elements that create lasting impressions and strengthen connections.
@@ -104,9 +104,9 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('134px', '569px', '703px'),
-              top: getResponsiveValue('356px', '269px', '265px'),
-              width: getResponsiveValue('300px', '322px', '522px'),
+              left: getResponsiveValue('134px', '372.89px', '703px'),
+              top: getResponsiveValue('356px', '210.68px', '265px'),
+              width: getResponsiveValue('300px', '414.99px', '522px'),
               height: getResponsiveValue('41px', '61px', '61px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-176.832px, -72.5497px)', '0px', '0px')
             }}
@@ -119,7 +119,7 @@ const Header = () => {
                 textAlign: getResponsiveValue('left', 'left', 'left'),
                 fontWeight: getResponsiveValue('normal', 'normal', 'normal'),
                 fontFamily: 'Raleway',
-                fontSize: getResponsiveValue('17px', '15px', '19px')
+                fontSize: getResponsiveValue('17px', '15.1px', '19px')
               }}
             >
               ELEGANT SOLUTIONS FOR MEANINGFUL MOMENTS<br />
@@ -130,10 +130,10 @@ const Header = () => {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('20px', '155px', '274px'),
-              top: getResponsiveValue('34px', '75px', '115px'),
-              width: getResponsiveValue('470px', '392px', '410px'),
-              height: getResponsiveValue('272px', '479px', '499px'),
+              left: getResponsiveValue('20px', '27.83px', '274px'),
+              top: getResponsiveValue('34px', '91.43px', '115px'),
+              width: getResponsiveValue('470px', '325.95px', '410px'),
+              height: getResponsiveValue('272px', '396.71px', '499px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-85.0248px, -76.1832px)', '0px', '0px')
             }}
           >
@@ -158,10 +158,10 @@ const Header = () => {
             target="_self"
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('208px', '569px', '703px'),
-              top: getResponsiveValue('675px', '503px', '543px'),
-              width: getResponsiveValue('224px', '241px', '241px'),
-              height: getResponsiveValue('48px', '51px', '51px'),
+              left: getResponsiveValue('208px', '372.89px', '703px'),
+              top: getResponsiveValue('675px', '501.69px', '543px'),
+              width: getResponsiveValue('224px', '191.60px', '241px'),
+              height: getResponsiveValue('48px', '40.55px', '51px'),
               display: getResponsiveValue('flex', 'flex', 'flex'),
               justifyContent: getResponsiveValue('center', 'center', 'center'),
               alignItems: getResponsiveValue('center', 'center', 'center'),
@@ -181,7 +181,7 @@ const Header = () => {
                 letterSpacing: getResponsiveValue('0.1em', '0.1em', '0.1em'),
                 fontWeight: getResponsiveValue('normal', 'normal', 'normal'),
                 fontFamily: 'Raleway',
-                fontSize: getResponsiveValue('12px', '14px', '14px')
+                fontSize: getResponsiveValue('12px', '11.13px', '14px')
               }}
             >
               EXPLORE GIFTING OPTIONS
@@ -193,10 +193,10 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('114px', '569px', '703px'),
-              top: getResponsiveValue('312px', '211px', '211px'),
-              width: getResponsiveValue('536px', '473px', '773px'),
-              height: getResponsiveValue('42px', '62px', '62px'),
+              left: getResponsiveValue('114px', '362.89px', '703px'),
+              top: getResponsiveValue('312px', '167.75px', '211px'),
+              width: getResponsiveValue('536px', '614.54px', '773px'),
+              height: getResponsiveValue('42px', '49.28px', '62px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-195.121px, -58.6211px)', '0px', '0px')
             }}
           >
@@ -206,7 +206,7 @@ const Header = () => {
                 textAlign: getResponsiveValue('left', 'left', 'left'),
                 fontWeight: getResponsiveValue('normal', 'normal', 'normal'),
                 fontFamily: 'Noiretblanc',
-                fontSize: getResponsiveValue('40px', '56px', '56px')
+                fontSize: getResponsiveValue('40px', '30.52px', '56px')
               }}
             >
               THOUGHTFUL GIFTING
@@ -218,10 +218,10 @@ const Header = () => {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               animation: getResponsiveValue('fadeIn 0.5s', 'fadeIn 0.5s', 'fadeIn 0.5s'),
-              left: getResponsiveValue('157px', '569px', '703px'),
-              top: getResponsiveValue('267px', '154px', '150px'),
-              width: getResponsiveValue('224px', '508px', '508px'),
-              height: getResponsiveValue('17px', '57px', '57px'),
+              left: getResponsiveValue('157px', '362.89px', '703px'),
+              top: getResponsiveValue('267px', '119.25px', '150px'),
+              width: getResponsiveValue('224px', '403.86px', '508px'),
+              height: getResponsiveValue('17px', '45.32px', '57px'),
               transform: getResponsiveValue('scale(0.805, 0.805) translate(-199.36px, -44.2081px)', '0px', '0px')
             }}
           >
@@ -230,7 +230,7 @@ const Header = () => {
                 color: getResponsiveValue('#000000', '#000000', '#000000'),
                 fontWeight: getResponsiveValue('normal', 'normal', 'normal'),
                 fontFamily: 'Strings',
-                fontSize: getResponsiveValue('28px', '50px', '50px')
+                fontSize: getResponsiveValue('28px', '39.75px', '50px')
               }}
             >
               Elev8 Moments
@@ -244,13 +244,13 @@ const Header = () => {
               width: getResponsiveValue('1px', '1px', '1px'),
               height: getResponsiveValue('1px', '1px', '1px'),
               transform: 'scale(1, 1) translate(-0.0975px, 0px)',
-              top: getResponsiveValue('0px', '154.56px', '154.56px'),
-              left: getResponsiveValue('120px', '610.8px', '850.8px')
+              top: getResponsiveValue('0px', '122.88px', '154.56px'),
+              left: getResponsiveValue('120px', '676.39px', '850.8px')
             }}
           >
             <svg 
               style={{ 
-                width: getResponsiveValue('0px', '25.76px', '25.76px'),
+                width: getResponsiveValue('0px', '20.48px', '25.76px'),
                 height: getResponsiveValue('1px', '1px', '1px'),
                 verticalAlign: getResponsiveValue('top', 'top', 'top'),
                 overflow: getResponsiveValue('visible', 'visible', 'visible'),
