@@ -45,7 +45,7 @@ const ListOfOfferings: React.FC = () => {
         style={{ 
           position: 'relative',
           width: '100%',
-          height: getResponsiveValue('1084px', '840px', '840px'),
+          height: getResponsiveValue('1084px', '640px', '840px'),
           zIndex: 1 
         }}
       >
@@ -71,10 +71,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('47px', '-14px', '-14px'),
-                top: getResponsiveValue('179px', '195px', '195px'),
-                width: getResponsiveValue('226px', '406px', '406px'),
-                height: getResponsiveValue('222px', '556px', '556px')
+                left: getResponsiveValue('47px', '65px', '-14px'),
+                top: getResponsiveValue('179px', '125px', '195px'),
+                width: getResponsiveValue('226px', '260px', '406px'),
+                height: getResponsiveValue('222px', '356px', '556px')
               }}
             >
               <div
@@ -90,10 +90,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('61px', '-1px', '-1px'),
-                top: getResponsiveValue('192px', '209px', '209px'),
-                width: getResponsiveValue('199px', '381px', '381px'),
-                height: getResponsiveValue('196px', '525px', '525px')
+                left: getResponsiveValue('61px', '71px', '-1px'),
+                top: getResponsiveValue('192px', '134px', '209px'),
+                width: getResponsiveValue('199px', '244px', '381px'),
+                height: getResponsiveValue('196px', '336px', '525px')
               }}
             >
               <div
@@ -116,10 +116,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('33px', '439px', '439px'),
-                top: getResponsiveValue('971px', '720px', '720px'),
-                width: getResponsiveValue('255px', '241px', '241px'),
-                height: getResponsiveValue('54px', '49px', '49px')
+                left: getResponsiveValue('33px', '351px', '439px'),
+                top: getResponsiveValue('971px', '461px', '720px'),
+                width: getResponsiveValue('255px', '154px', '241px'),
+                height: getResponsiveValue('54px', '31px', '49px')
               }}
             >
               <div
@@ -142,10 +142,10 @@ const ListOfOfferings: React.FC = () => {
               rel="noopener noreferrer"
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('41px', '453px', '453px'),
-                top: getResponsiveValue('985px', '730px', '730px'),
-                width: getResponsiveValue('239px', '213px', '213px'),
-                height: getResponsiveValue('27px', '29px', '29px')
+                left: getResponsiveValue('41px', '361px', '453px'),
+                top: getResponsiveValue('985px', '467px', '730px'),
+                width: getResponsiveValue('239px', '136px', '213px'),
+                height: getResponsiveValue('27px', '19px', '29px')
               }}
             >
               <nav
@@ -154,7 +154,7 @@ const ListOfOfferings: React.FC = () => {
                   textTransform: 'uppercase',
                   lineHeight: '2.2',
                   letterSpacing: '0.1em',
-                  fontSize: getResponsiveValue('12px', '14px', '14px'),
+                  fontSize: getResponsiveValue('12px', '9px', '14px'),
                   textAlign: 'center',
                   fontFamily: 'Raleway',
                   fontWeight: 400,
@@ -169,10 +169,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('15px', '416px', '436px'),
-                top: getResponsiveValue('422px', '302px', '302px'),
-                width: getResponsiveValue('314px', '685px', '685px'),
-                height: getResponsiveValue('241px', '160px', '160px')
+                left: getResponsiveValue('15px', '351px', '436px'),
+                top: getResponsiveValue('422px', '193px', '302px'),
+                width: getResponsiveValue('314px', '408px', '685px'),
+                height: getResponsiveValue('241px', '102px', '160px')
               }}
             >
               <div
@@ -181,7 +181,7 @@ const ListOfOfferings: React.FC = () => {
                   textTransform: 'none',
                   lineHeight: getResponsiveValue('2', '1.8', '1.8'),
                   letterSpacing: '0em',
-                  fontSize: getResponsiveValue('13px', '16px', '16px'),
+                  fontSize: getResponsiveValue('13px', '10px', '16px'),
                   textAlign: 'left',
                   fontFamily: 'Raleway',
                   fontWeight: 400,
@@ -208,16 +208,16 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('88px', '327px', '327px'),
-                top: getResponsiveValue('62px', '145px', '145px'),
-                width: getResponsiveValue('211px', '589px', '589px'),
-                height: getResponsiveValue('62px', '89px', '89px')
+                left: getResponsiveValue('88px', '351px', '327px'),
+                top: getResponsiveValue('62px', '93px', '145px'),
+                width: getResponsiveValue('211px', '377px', '589px'),
+                height: getResponsiveValue('62px', '57px', '89px')
               }}
             >
               <p
                 style={{
                   color: 'rgba(249, 242, 236, 1)',
-                  fontSize: getResponsiveValue('45px', '94px', '94px'),
+                  fontSize: getResponsiveValue('45px', '60px', '94px'),
                   textAlign: getResponsiveValue('justify', 'center', 'center'),
                   fontFamily: 'Noiretblanc',
                   fontWeight: 400,
@@ -232,17 +232,17 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('38px', '361px', '361px'),
-                top: getResponsiveValue('11px', '58px', '58px'),
-                width: getResponsiveValue('284px', '411px', '411px'),
-                height: getResponsiveValue('69px', '89px', '89px'),
+                left: getResponsiveValue('38px', '351px', '361px'),
+                top: getResponsiveValue('11px', '37px', '58px'),
+                width: getResponsiveValue('284px', '263px', '411px'),
+                height: getResponsiveValue('69px', '57px', '89px'),
                 transform: 'rotate(355deg)'
               }}
             >
               <p
                 style={{
                   color: 'rgba(249, 242, 236, 1)',
-                  fontSize: getResponsiveValue('49px', '85px', '85px'),
+                  fontSize: getResponsiveValue('49px', '54px', '85px'),
                   fontFamily: 'Strings',
                   fontWeight: 400,
                   fontStyle: 'normal',
@@ -256,15 +256,15 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('38px', '682px', '682px'),
-                top: getResponsiveValue('98px', '113px', '113px'),
-                width: getResponsiveValue('44px', '108px', '108px'),
+                left: getResponsiveValue('38px', '537px', '682px'),
+                top: getResponsiveValue('98px', '72px', '113px'),
+                width: getResponsiveValue('44px', '69px', '108px'),
                 height: '1px'
               }}
             >
               <svg
                 style={{
-                  width: getResponsiveValue('44px', '108px', '108px'),
+                  width: getResponsiveValue('44px', '69px', '108px'),
                   height: '1px',
                   stroke: 'rgba(249, 242, 236, 1)',
                   transform: 'scaleX(1)',
@@ -294,10 +294,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('-186px', '473px', '473px'),
-                top: getResponsiveValue('132px', '259px', '259px'),
-                width: getResponsiveValue('692px', '296px', '296px'),
-                height: getResponsiveValue('17px', '19px', '19px')
+                left: getResponsiveValue('-186px', '351px', '473px'),
+                top: getResponsiveValue('132px', '166px', '259px'),
+                width: getResponsiveValue('692px', '189px', '296px'),
+                height: getResponsiveValue('17px', '12px', '19px')
               }}
             >
               <p
@@ -306,7 +306,7 @@ const ListOfOfferings: React.FC = () => {
                   textTransform: 'uppercase',
                   lineHeight: '1.8',
                   letterSpacing: '0.1em',
-                  fontSize: getResponsiveValue('12px', '14px', '14px'),
+                  fontSize: getResponsiveValue('12px', '9px', '14px'),
                   textAlign: 'center',
                   fontFamily: 'Montserrat',
                   fontWeight: 500,
@@ -321,10 +321,10 @@ const ListOfOfferings: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                left: getResponsiveValue('20px', '439px', '439px'),
-                top: getResponsiveValue('709px', '505px', '505px'),
-                width: getResponsiveValue('281px', '594px', '594px'),
-                height: getResponsiveValue('205px', '160px', '160px')
+                left: getResponsiveValue('20px', '351px', '439px'),
+                top: getResponsiveValue('709px', '323px', '505px'),
+                width: getResponsiveValue('281px', '380px', '594px'),
+                height: getResponsiveValue('205px', '102px', '160px')
               }}
             >
               <p
@@ -333,7 +333,7 @@ const ListOfOfferings: React.FC = () => {
                   textTransform: 'none',
                   lineHeight: '1.6',
                   letterSpacing: '0em',
-                  fontSize: getResponsiveValue('13px', '16px', '16px'),
+                  fontSize: getResponsiveValue('13px', '10px', '16px'),
                   textAlign: 'justify',
                   fontFamily: 'Raleway',
                   fontWeight: 400,
