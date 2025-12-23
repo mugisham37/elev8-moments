@@ -35,7 +35,7 @@ const EventDesignHeader: React.FC = () => {
         position: 'relative',
         width: '100%',
         zIndex: 2,
-        height: getResponsiveValue('659px', '659px', '659px')
+        height: getResponsiveValue('659px', '559px', '659px')
       }}
     >
       {/* Background container */}
@@ -83,16 +83,16 @@ const EventDesignHeader: React.FC = () => {
             style={{
               position: 'absolute',
               animation: getResponsiveValue('none', 'fadeIn 1s ease-in', 'fadeIn 1s ease-in'),
-              left: getResponsiveValue('-10px', '97px', '190px'),
-              top: getResponsiveValue('350px', '287px', '377px'),
-              width: getResponsiveValue('180px', '427px', '497px'),
+              left: getResponsiveValue('-10px', '121.6px', '190px'),
+              top: getResponsiveValue('350px', '241.28px', '377px'),
+              width: getResponsiveValue('180px', '318.08px', '497px'),
               height: getResponsiveValue('auto', '79px', '79px'),
               padding: getResponsiveValue('0 10px', '0', '0')
             }}
           >
             <div 
               style={{ 
-                transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-127.338px, -133.9px)', 'scale(0.709167, 0.709167) translate(-127.338px, -133.9px)') 
+                transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-81.496px, -85.696px)', 'scale(0.709167, 0.709167) translate(-127.338px, -133.9px)') 
               }}
             >
               <p 
@@ -104,7 +104,7 @@ const EventDesignHeader: React.FC = () => {
                   fontFamily: 'Raleway, sans-serif',
                   fontWeight: 'normal',
                   fontStyle: 'normal',
-                  fontSize: getResponsiveValue('12px', '16px', '23px'),
+                  fontSize: getResponsiveValue('12px', '14.72px', '23px'),
                   margin: 0
                 }}
               >
@@ -150,11 +150,11 @@ const EventDesignHeader: React.FC = () => {
             style={{
               position: 'absolute',
               animation: getResponsiveValue('none', 'fadeIn 1s ease-in', 'fadeIn 1s ease-in'),
-              left: getResponsiveValue('0px', '45px', '115px'),
-              top: getResponsiveValue('320px', '246px', '346px'),
-              width: getResponsiveValue('330px', '479px', '579px'),
+              left: getResponsiveValue('0px', '73.6px', '115px'),
+              top: getResponsiveValue('320px', '221.44px', '346px'),
+              width: getResponsiveValue('330px', '370.56px', '579px'),
               height: getResponsiveValue('50px', '61px', '61px'),
-              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-116.675px, -113.394px)', 'scale(0.709167, 0.709167) translate(-116.675px, -113.394px)')
+              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-74.672px, -72.572px)', 'scale(0.709167, 0.709167) translate(-116.675px, -113.394px)')
             }}
           >
             <p 
@@ -166,7 +166,7 @@ const EventDesignHeader: React.FC = () => {
                 fontFamily: 'Raleway, sans-serif',
                 fontWeight: 'normal',
                 fontStyle: 'normal',
-                fontSize: getResponsiveValue('11px', '15px', '20px'),
+                fontSize: getResponsiveValue('11px', '12.8px', '20px'),
                 margin: 0
               }}
             >
@@ -179,11 +179,11 @@ const EventDesignHeader: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              right: getResponsiveValue('-30px', '549px', '-159px'),
-              top: getResponsiveValue('0px', '41px', '41px'),
-              width: getResponsiveValue('380px', '486px', '686px'),
-              height: getResponsiveValue('250px', '541px', '791px'),
-              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-324.804px, -127.748px)', 'scale(0.709167, 0.709167) translate(-324.804px, -127.748px)')
+              right: getResponsiveValue('-30px', '-101.76px', '-159px'),
+              top: getResponsiveValue('0px', '26.24px', '41px'),
+              width: getResponsiveValue('380px', '439.04px', '686px'),
+              height: getResponsiveValue('250px', '506.24px', '791px'),
+              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-207.875px, -81.759px)', 'scale(0.709167, 0.709167) translate(-324.804px, -127.748px)')
             }}
           >
             <Image
@@ -201,11 +201,11 @@ const EventDesignHeader: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              right: getResponsiveValue('10px', '52px', '-320px'),
-              top: getResponsiveValue('350px', '280px', '380px'),
-              width: getResponsiveValue('130px', '303px', '403px'),
-              height: getResponsiveValue('180px', '446px', '596px'),
-              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-411.541px, -206.283px)', 'scale(0.709167, 0.709167) translate(-411.541px, -206.283px)'),
+              right: getResponsiveValue('10px', '-204.8px', '-320px'),
+              top: getResponsiveValue('350px', '243.2px', '380px'),
+              width: getResponsiveValue('130px', '257.92px', '403px'),
+              height: getResponsiveValue('180px', '381.44px', '596px'),
+              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-263.386px, -132.021px)', 'scale(0.709167, 0.709167) translate(-411.541px, -206.283px)'),
               backgroundColor: '#1e1e1e',
               display: 'flex',
               alignItems: 'center',
@@ -238,11 +238,11 @@ const EventDesignHeader: React.FC = () => {
             style={{
               position: 'absolute',
               animation: getResponsiveValue('none', 'fadeIn 1s ease-in', 'fadeIn 1s ease-in'),
-              left: getResponsiveValue('60px', '283px', '403px'),
-              top: getResponsiveValue('550px', '458px', '618px'),
-              width: getResponsiveValue('200px', '241px', '271px'),
-              height: getResponsiveValue('50px', '51px', '61px'),
-              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-165.478px, -198.286px)', 'scale(0.709167, 0.709167) translate(-165.478px, -198.286px)'),
+              left: getResponsiveValue('60px', '257.92px', '403px'),
+              top: getResponsiveValue('550px', '395.52px', '618px'),
+              width: getResponsiveValue('200px', '173.44px', '271px'),
+              height: getResponsiveValue('50px', '39.04px', '61px'),
+              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-105.906px, -126.903px)', 'scale(0.709167, 0.709167) translate(-165.478px, -198.286px)'),
               border: '1px solid #1e1e1e',
               backgroundColor: 'transparent',
               display: 'flex',
@@ -271,7 +271,7 @@ const EventDesignHeader: React.FC = () => {
                   fontFamily: 'Raleway, sans-serif',
                   fontWeight: 'normal',
                   fontStyle: 'normal',
-                  fontSize: getResponsiveValue('12px', '14px', '19px')
+                  fontSize: getResponsiveValue('12px', '12.16px', '19px')
                 }}
               >
                 CONTACT US
@@ -284,11 +284,11 @@ const EventDesignHeader: React.FC = () => {
             style={{
               position: 'absolute',
               animation: getResponsiveValue('none', 'fadeIn 1s ease-in', 'fadeIn 1s ease-in'),
-              left: getResponsiveValue('-60px', '51px', '110px'),
-              top: getResponsiveValue('270px', '184px', '254px'),
-              width: getResponsiveValue('380px', '473px', '593px'),
+              left: getResponsiveValue('-60px', '70.4px', '110px'),
+              top: getResponsiveValue('270px', '162.56px', '254px'),
+              width: getResponsiveValue('380px', '379.52px', '593px'),
               height: getResponsiveValue('0px', '62px', '62px'),
-              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-117.905px, -88.1727px)', 'scale(0.709167, 0.709167) translate(-117.905px, -88.1727px)')
+              transform: getResponsiveValue('none', 'scale(0.709167, 0.709167) translate(-75.459px, -56.431px)', 'scale(0.709167, 0.709167) translate(-117.905px, -88.1727px)')
             }}
           >
             <h1 
@@ -300,7 +300,7 @@ const EventDesignHeader: React.FC = () => {
                 fontWeight: getResponsiveValue(500, 400, 400),
                 textTransform: getResponsiveValue('none', 'none', 'none'),
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
-                fontSize: getResponsiveValue('45px', '55px', '85px'),
+                fontSize: getResponsiveValue('45px', '54.4px', '85px'),
                 textAlign: getResponsiveValue('right', 'center', 'center')
               }}
             >
