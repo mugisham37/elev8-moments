@@ -35,7 +35,7 @@ export default function EventSetup() {
     <div 
       style={{
         position: getResponsiveValue('relative', 'relative', 'relative'),
-        height: getResponsiveValue('589px', '746px', '746px')
+        height: getResponsiveValue('589px', '477px', '746px')
       }}
     >
       {/* Background */}
@@ -64,10 +64,10 @@ export default function EventSetup() {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('17px', '153px', '153px'),
-              top: getResponsiveValue('352px', '205px', '205px'),
-              width: getResponsiveValue('286px', '894px', '894px'),
-              height: getResponsiveValue('155px', '76px', '76px')
+              left: getResponsiveValue('17px', '98px', '153px'),
+              top: getResponsiveValue('352px', '131px', '205px'),
+              width: getResponsiveValue('286px', '572px', '894px'),
+              height: getResponsiveValue('155px', '49px', '76px')
             }}
           >
             <p 
@@ -79,7 +79,7 @@ export default function EventSetup() {
                 fontWeight: getResponsiveValue(300, 300, 300),
                 textTransform: getResponsiveValue('none', 'none', 'none'),
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
-                fontSize: getResponsiveValue('13px', '16px', '16px'),
+                fontSize: getResponsiveValue('13px', '12px', '16px'),
                 textAlign: getResponsiveValue('justify', 'center', 'center')
               }}
             >
@@ -92,10 +92,10 @@ export default function EventSetup() {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               opacity: getResponsiveValue(0.9, 0.9, 0.9),
-              left: getResponsiveValue('134px', '482px', '482px'),
-              top: getResponsiveValue('202px', '351px', '351px'),
-              width: getResponsiveValue('169px', '236px', '236px'),
-              height: getResponsiveValue('132px', '289px', '289px')
+              left: getResponsiveValue('134px', '309px', '482px'),
+              top: getResponsiveValue('202px', '225px', '351px'),
+              width: getResponsiveValue('169px', '151px', '236px'),
+              height: getResponsiveValue('132px', '185px', '289px')
             }}
           >
             <div 
@@ -118,10 +118,10 @@ export default function EventSetup() {
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
               opacity: getResponsiveValue(0.9, 0.9, 0.9),
-              left: getResponsiveValue('-17px', '115px', '115px'),
-              top: getResponsiveValue('117px', '327px', '327px'),
-              width: getResponsiveValue('133px', '339px', '339px'),
-              height: getResponsiveValue('217px', '333px', '333px')
+              left: getResponsiveValue('-17px', '74px', '115px'),
+              top: getResponsiveValue('117px', '209px', '327px'),
+              width: getResponsiveValue('133px', '217px', '339px'),
+              height: getResponsiveValue('217px', '213px', '333px')
             }}
           >
             <div 
@@ -144,10 +144,10 @@ export default function EventSetup() {
             <div 
               style={{
                 position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-                left: getResponsiveValue('0px', '747px', '747px'),
-                top: getResponsiveValue('0px', '324px', '324px'),
-                width: getResponsiveValue('0px', '339px', '339px'),
-                height: getResponsiveValue('0px', '336px', '336px')
+                left: getResponsiveValue('0px', '478px', '747px'),
+                top: getResponsiveValue('0px', '207px', '324px'),
+                width: getResponsiveValue('0px', '217px', '339px'),
+                height: getResponsiveValue('0px', '215px', '336px')
               }}
             >
               <div 
@@ -170,10 +170,10 @@ export default function EventSetup() {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('17px', '104px', '104px'),
-              top: getResponsiveValue('57px', '101px', '101px'),
-              width: getResponsiveValue('286px', '993px', '993px'),
-              height: getResponsiveValue('85px', '50px', '50px')
+              left: getResponsiveValue('17px', '67px', '104px'),
+              top: getResponsiveValue('57px', '65px', '101px'),
+              width: getResponsiveValue('286px', '635px', '993px'),
+              height: getResponsiveValue('85px', '32px', '50px')
             }}
           >
             <h2 
@@ -185,7 +185,7 @@ export default function EventSetup() {
                 fontWeight: getResponsiveValue(400, 400, 400),
                 textTransform: getResponsiveValue('none', 'none', 'none'),
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
-                fontSize: getResponsiveValue('40px', '55px', '55px'),
+                fontSize: getResponsiveValue('40px', '35px', '55px'),
                 textAlign: getResponsiveValue('right', 'center', 'center')
               }}
             >
@@ -197,10 +197,10 @@ export default function EventSetup() {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('141px', '150px', '150px'),
-              top: getResponsiveValue('154px', '164px', '164px'),
-              width: getResponsiveValue('162px', '900px', '900px'),
-              height: getResponsiveValue('32px', '22px', '22px')
+              left: getResponsiveValue('141px', '96px', '150px'),
+              top: getResponsiveValue('154px', '105px', '164px'),
+              width: getResponsiveValue('162px', '576px', '900px'),
+              height: getResponsiveValue('32px', '14px', '22px')
             }}
           >
             <p 
@@ -212,7 +212,7 @@ export default function EventSetup() {
                 fontWeight: getResponsiveValue(400, 400, 400),
                 textTransform: getResponsiveValue('none', 'none', 'none'),
                 fontStyle: getResponsiveValue('normal', 'normal', 'normal'),
-                fontSize: getResponsiveValue('11px', '16px', '16px'),
+                fontSize: getResponsiveValue('11px', '12px', '16px'),
                 textAlign: getResponsiveValue('right', 'center', 'center')
               }}
             >
