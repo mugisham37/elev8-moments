@@ -35,7 +35,7 @@ export default function Florals() {
         position: getResponsiveValue('relative', 'relative', 'relative'),
         width: getResponsiveValue('100%', '100%', '100%'),
         backgroundColor: getResponsiveValue('#314f39', '#314f39', '#314f39'),
-        height: getResponsiveValue('616px', '967px', '967px')
+        height: getResponsiveValue('616px', '619px', '967px')
       }}
     >
       <div 
@@ -51,10 +51,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('48px', '422px', '422px'),
-            top: getResponsiveValue('514px', '723px', '723px'),
-            width: getResponsiveValue('224px', '241px', '241px'),
-            height: getResponsiveValue('48px', '51px', '51px')
+            left: getResponsiveValue('48px', '270px', '422px'),
+            top: getResponsiveValue('514px', '463px', '723px'),
+            width: getResponsiveValue('224px', '154px', '241px'),
+            height: getResponsiveValue('48px', '33px', '51px')
           }}
         >
           <div 
@@ -78,10 +78,10 @@ export default function Florals() {
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
             transition: getResponsiveValue('opacity', 'opacity', 'opacity'),
             transitionDuration: getResponsiveValue('500ms', '500ms', '500ms'),
-            left: getResponsiveValue('71px', '411px', '411px'),
-            top: getResponsiveValue('519px', '728px', '728px'),
-            width: getResponsiveValue('160px', '236px', '236px'),
-            height: getResponsiveValue('32px', '41px', '41px')
+            left: getResponsiveValue('71px', '263px', '411px'),
+            top: getResponsiveValue('519px', '466px', '728px'),
+            width: getResponsiveValue('160px', '151px', '236px'),
+            height: getResponsiveValue('32px', '26px', '41px')
           }}
           onMouseEnter={(e) => e.currentTarget.style.opacity = '0.3'}
           onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
@@ -108,10 +108,10 @@ export default function Florals() {
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
             transition: getResponsiveValue('opacity', 'opacity', 'opacity'),
             transitionDuration: getResponsiveValue('500ms', '500ms', '500ms'),
-            left: getResponsiveValue('34px', '42px', '42px'),
-            top: getResponsiveValue('42px', '60px', '60px'),
-            width: getResponsiveValue('171px', '208px', '208px'),
-            height: getResponsiveValue('67px', '53px', '53px')
+            left: getResponsiveValue('34px', '27px', '42px'),
+            top: getResponsiveValue('42px', '38px', '60px'),
+            width: getResponsiveValue('171px', '133px', '208px'),
+            height: getResponsiveValue('67px', '34px', '53px')
           }}
           onMouseEnter={(e) => e.currentTarget.style.opacity = '0.2'}
           onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
@@ -137,10 +137,10 @@ export default function Florals() {
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
             opacity: getResponsiveValue(0.9, 0.9, 0.9),
-            left: getResponsiveValue('179px', '152px', '152px'),
-            top: getResponsiveValue('374px', '573px', '573px'),
-            width: getResponsiveValue('79px', '236px', '236px'),
-            height: getResponsiveValue('112px', '289px', '289px')
+            left: getResponsiveValue('179px', '97px', '152px'),
+            top: getResponsiveValue('374px', '367px', '573px'),
+            width: getResponsiveValue('79px', '151px', '236px'),
+            height: getResponsiveValue('112px', '185px', '289px')
           }}
         >
           <Image
@@ -158,10 +158,10 @@ export default function Florals() {
           <div 
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-              left: getResponsiveValue('0px', '335px', '335px'),
-              top: getResponsiveValue('0px', '325px', '325px'),
-              width: getResponsiveValue('0px', '350px', '350px'),
-              height: getResponsiveValue('0px', '387px', '387px')
+              left: getResponsiveValue('0px', '214px', '335px'),
+              top: getResponsiveValue('0px', '208px', '325px'),
+              width: getResponsiveValue('0px', '224px', '350px'),
+              height: getResponsiveValue('0px', '248px', '387px')
             }}
           >
             <div 
@@ -178,10 +178,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('30px', '348px', '348px'),
-            top: getResponsiveValue('288px', '256px', '256px'),
-            width: getResponsiveValue('129px', '315px', '315px'),
-            height: getResponsiveValue('172px', '442px', '442px')
+            left: getResponsiveValue('30px', '223px', '348px'),
+            top: getResponsiveValue('288px', '164px', '256px'),
+            width: getResponsiveValue('129px', '202px', '315px'),
+            height: getResponsiveValue('172px', '283px', '442px')
           }}
         >
           <Image
@@ -219,10 +219,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('56px', '721px', '721px'),
-            top: getResponsiveValue('120px', '441px', '441px'),
-            width: getResponsiveValue('162px', '325px', '325px'),
-            height: getResponsiveValue('205px', '444px', '444px')
+            left: getResponsiveValue('56px', '461px', '721px'),
+            top: getResponsiveValue('120px', '282px', '441px'),
+            width: getResponsiveValue('162px', '208px', '325px'),
+            height: getResponsiveValue('205px', '284px', '444px')
           }}
         >
           <Image
@@ -239,10 +239,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('193px', '638px', '638px'),
-            top: getResponsiveValue('53px', '72px', '72px'),
-            width: getResponsiveValue('115px', '233px', '233px'),
-            height: getResponsiveValue('150px', '311px', '311px')
+            left: getResponsiveValue('193px', '408px', '638px'),
+            top: getResponsiveValue('53px', '46px', '72px'),
+            width: getResponsiveValue('115px', '149px', '233px'),
+            height: getResponsiveValue('150px', '199px', '311px')
           }}
         >
           <div 
@@ -258,10 +258,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('196px', '647px', '647px'),
-            top: getResponsiveValue('59px', '100px', '100px'),
-            width: getResponsiveValue('104px', '195px', '195px'),
-            height: getResponsiveValue('139px', '271px', '271px')
+            left: getResponsiveValue('196px', '414px', '647px'),
+            top: getResponsiveValue('59px', '64px', '100px'),
+            width: getResponsiveValue('104px', '125px', '195px'),
+            height: getResponsiveValue('139px', '173px', '271px')
           }}
         >
           <Image
@@ -278,10 +278,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('226px', '31px', '31px'),
-            top: getResponsiveValue('263px', '110px', '110px'),
-            width: getResponsiveValue('121px', '339px', '339px'),
-            height: getResponsiveValue('148px', '367px', '367px')
+            left: getResponsiveValue('226px', '20px', '31px'),
+            top: getResponsiveValue('263px', '70px', '110px'),
+            width: getResponsiveValue('121px', '217px', '339px'),
+            height: getResponsiveValue('148px', '235px', '367px')
           }}
         >
           <div 
@@ -297,10 +297,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('232px', '55px', '55px'),
-            top: getResponsiveValue('263px', '129px', '129px'),
-            width: getResponsiveValue('109px', '339px', '339px'),
-            height: getResponsiveValue('148px', '336px', '336px')
+            left: getResponsiveValue('232px', '35px', '55px'),
+            top: getResponsiveValue('263px', '83px', '129px'),
+            width: getResponsiveValue('109px', '217px', '339px'),
+            height: getResponsiveValue('148px', '215px', '336px')
           }}
         >
           <Image
@@ -317,10 +317,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('-2px', '957px', '957px'),
-            top: getResponsiveValue('82px', '335px', '335px'),
-            width: getResponsiveValue('117px', '213px', '213px'),
-            height: getResponsiveValue('133px', '239px', '239px')
+            left: getResponsiveValue('-2px', '612px', '957px'),
+            top: getResponsiveValue('82px', '214px', '335px'),
+            width: getResponsiveValue('117px', '136px', '213px'),
+            height: getResponsiveValue('133px', '153px', '239px')
           }}
         >
           <div 
@@ -336,10 +336,10 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('3px', '968px', '968px'),
-            top: getResponsiveValue('84px', '308px', '308px'),
-            width: getResponsiveValue('106px', '190px', '190px'),
-            height: getResponsiveValue('127px', '292px', '292px')
+            left: getResponsiveValue('3px', '620px', '968px'),
+            top: getResponsiveValue('84px', '197px', '308px'),
+            width: getResponsiveValue('106px', '122px', '190px'),
+            height: getResponsiveValue('127px', '187px', '292px')
           }}
         >
           <Image
@@ -356,8 +356,8 @@ export default function Florals() {
         <div 
           style={{
             position: getResponsiveValue('absolute', 'absolute', 'absolute'),
-            left: getResponsiveValue('197px', '585px', '585px'),
-            top: getResponsiveValue('530px', '741px', '741px'),
+            left: getResponsiveValue('197px', '374px', '585px'),
+            top: getResponsiveValue('530px', '474px', '741px'),
             width: getResponsiveValue('15px', '15px', '15px'),
             height: getResponsiveValue('15px', '15px', '15px')
           }}
