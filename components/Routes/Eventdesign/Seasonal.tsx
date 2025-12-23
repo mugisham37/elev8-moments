@@ -36,7 +36,7 @@ const Seasonal: React.FC = () => {
       style={{ 
         position: 'relative',
         overflow: 'hidden',
-        height: getResponsiveValue('680.2px', '1398.8px', '991.98147px')
+        height: getResponsiveValue('680.2px', '598.8px', '991.98147px')
       }}
     >
       <div 
