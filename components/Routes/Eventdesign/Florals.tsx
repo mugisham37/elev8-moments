@@ -61,9 +61,9 @@ const Florals: React.FC = () => {
               position: 'absolute',
               border: '1px solid rgba(249,242,236,1)',
               backgroundColor: 'transparent',
-              left: getResponsiveValue('48px', '480px', '350px'),
+              left: getResponsiveValue('48px', '316px', '350px'),
               top: getResponsiveValue('547px', '644px', '644px'),
-              width: getResponsiveValue('224px', '241px', '241px'),
+              width: getResponsiveValue('224px', '217px', '241px'),
               height: getResponsiveValue('48px', '51px', '51px'),
               display: 'flex',
               alignItems: 'center',
@@ -103,9 +103,9 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '398px', '308px'),
-              top: getResponsiveValue('328px', '131px', '101px'),
-              width: getResponsiveValue('335px', '644px', '644px'),
+              left: getResponsiveValue('0px', '258px', '308px'),
+              top: getResponsiveValue('328px', '61px', '101px'),
+              width: getResponsiveValue('335px', '491px', '644px'),
               height: getResponsiveValue('110px', '76px', '76px'),
               transform: getResponsiveValue('0px', '0px', '0px')
             }}
@@ -130,9 +130,9 @@ const Florals: React.FC = () => {
             style={{
               position: 'absolute',
               transition: 'opacity 500ms',
-              left: getResponsiveValue('3px', '174px', '44px'),
-              top: getResponsiveValue('2px', '93px', '23px'),
-              width: getResponsiveValue('171px', '208px', '208px'),
+              left: getResponsiveValue('3px', '5px', '44px'),
+              top: getResponsiveValue('2px', '23px', '23px'),
+              width: getResponsiveValue('171px', '188px', '208px'),
               height: getResponsiveValue('67px', '53px', '53px'),
               transform: getResponsiveValue('0px', '0px', '0px')
             }}
@@ -147,7 +147,7 @@ const Florals: React.FC = () => {
                 fontWeight: 'normal',
                 margin: getResponsiveValue('0px', '0px', '0px'),
                 lineHeight: getResponsiveValue('1', '1.2', '1.2'),
-                fontSize: getResponsiveValue('92px', '85px', '125px')
+                fontSize: getResponsiveValue('92px', '113px', '125px')
               }}
             >
               Floral
@@ -158,23 +158,23 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('0px', '115px', '115px'),
+              left: getResponsiveValue('0px', '64px', '115px'),
               top: getResponsiveValue('127px', '264px', '264px'),
-              width: getResponsiveValue('320px', '736px', '736px'),
-              height: getResponsiveValue('148px', '339px', '339px'),
+              width: getResponsiveValue('320px', '664px', '736px'),
+              height: getResponsiveValue('148px', '306px', '339px'),
               display: 'flex',
               flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'center',
-              gap: getResponsiveValue('3px', '6px', '25px')
+              gap: getResponsiveValue('3px', '23px', '25px')
             }}
           >
             {/* Image 1 */}
             <div 
               style={{
                 opacity: getResponsiveValue('1', '1', '1'),
-                width: getResponsiveValue('109px', '339px', '339px'),
-                height: getResponsiveValue('148px', '336px', '336px'),
+                width: getResponsiveValue('109px', '306px', '339px'),
+                height: getResponsiveValue('148px', '303px', '336px'),
                 flexShrink: 0
               }}
             >
@@ -193,8 +193,8 @@ const Florals: React.FC = () => {
             <div 
               style={{
                 opacity: getResponsiveValue('0.9', '0.9', '0.9'),
-                width: getResponsiveValue('114px', '236px', '236px'),
-                height: getResponsiveValue('148px', '289px', '289px'),
+                width: getResponsiveValue('114px', '213px', '236px'),
+                height: getResponsiveValue('148px', '261px', '289px'),
                 flexShrink: 0
               }}
             >
@@ -214,8 +214,8 @@ const Florals: React.FC = () => {
             <div 
               style={{
                 opacity: getResponsiveValue('0.9', '0.9', '0.9'),
-                width: getResponsiveValue('111px', '155px', '305px'),
-                height: getResponsiveValue('148px', '333px', '333px'),
+                width: getResponsiveValue('111px', '275px', '305px'),
+                height: getResponsiveValue('148px', '301px', '333px'),
                 flexShrink: 0
               }}
             >
@@ -236,9 +236,9 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('173px', '230px', '140px'),
+              left: getResponsiveValue('173px', '86px', '140px'),
               top: getResponsiveValue('65px', '176px', '176px'),
-              width: getResponsiveValue('175px', '90px', '90px'),
+              width: getResponsiveValue('175px', '81px', '90px'),
               height: getResponsiveValue('44px', '22px', '22px'),
               transform: getResponsiveValue('0px', '0px', '0px')
             }}
@@ -251,7 +251,7 @@ const Florals: React.FC = () => {
                 fontFamily: 'noiretblanc',
                 fontWeight: 'normal',
                 margin: getResponsiveValue('0px', '0px', '0px'),
-                fontSize: getResponsiveValue('30px', '20px', '30px'),
+                fontSize: getResponsiveValue('30px', '27px', '30px'),
                 textAlign: getResponsiveValue('center', 'left', 'left') as 'center' | 'left'
               }}
             >
@@ -263,9 +263,9 @@ const Florals: React.FC = () => {
           <div 
             style={{
               position: 'absolute',
-              left: getResponsiveValue('-10px', '398px', '308px'),
-              top: getResponsiveValue('100px', '97px', '217px'),
-              width: getResponsiveValue('475px', '581px', '581px'),
+              left: getResponsiveValue('-10px', '258px', '308px'),
+              top: getResponsiveValue('100px', '227px', '217px'),
+              width: getResponsiveValue('475px', '524px', '581px'),
               height: getResponsiveValue('36px', '22px', '22px'),
               transform: getResponsiveValue('0px', '0px', '0px')
             }}
@@ -279,7 +279,7 @@ const Florals: React.FC = () => {
                 fontFamily: 'raleway',
                 fontWeight: 'normal',
                 margin: getResponsiveValue('0px', '0px', '0px'),
-                fontSize: getResponsiveValue('13px', '16px', '22px')
+                fontSize: getResponsiveValue('13px', '17px', '22px')
               }}
             >
               ELEVATE YOUR SPACE. ONE BLOOM AT A TIME.<br />
