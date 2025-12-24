@@ -108,7 +108,7 @@ const Legal = () => {
             onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'}
             onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}
           >
-            Website Designed With Love By Indie Haus Design Co.
+            Website Designed With Love By Moses Mugisha
           </p>
         </a>
 

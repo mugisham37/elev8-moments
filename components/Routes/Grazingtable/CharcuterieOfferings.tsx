@@ -201,7 +201,7 @@ const CharcuterieOfferings: React.FC = () => {
 
           {/* Icon Element 6 - Arrow Icon */}
           <a 
-            href="/traditional-boards" 
+            href="/experience" 
             style={{
               position: 'absolute',
               left: getResponsiveValue('251px', '442px', '690px'),
@@ -246,7 +246,7 @@ const CharcuterieOfferings: React.FC = () => {
 
           {/* Icon Element 8 - Arrow Icon */}
           <a 
-            href="#/" 
+            href="/experience" 
             style={{
               position: 'absolute',
               left: getResponsiveValue('252px', '454px', '709px'),
@@ -439,7 +439,7 @@ const CharcuterieOfferings: React.FC = () => {
 
           {/* Icon Element 16 - Arrow Icon */}
           <a 
-            href="#/" 
+            href="/experience" 
             style={{
               position: 'absolute',
               left: getResponsiveValue('251px', '463px', '723px'),
@@ -574,7 +574,7 @@ const CharcuterieOfferings: React.FC = () => {
 
           {/* Icon Element 22 - Arrow Icon */}
           <a 
-            href="#/" 
+            href="/experience" 
             style={{
               position: 'absolute',
               left: getResponsiveValue('252px', '444px', '694px'),
