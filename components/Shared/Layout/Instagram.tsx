@@ -212,7 +212,7 @@ const Instagram = () => {
 
           {/* "Social" text (instagram_4) */}
           <a 
-            href="https://www.instagram.com/glamhausdesignco/" 
+            href="https://www.instagram.com/elev8moments/" 
             target="_blank"
             rel="noopener noreferrer"
             style={{ 
@@ -302,7 +302,7 @@ const Instagram = () => {
 
           {/* "Let's Get" text (instagram_7) */}
           <a 
-            href="https://www.instagram.com/glamhausdesignco/" 
+            href="https://www.instagram.com/elev8moments/" 
             target="_blank"
             rel="noopener noreferrer"
             style={{ 
