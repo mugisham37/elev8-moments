@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Button Text */}
           <a
-            href="/experience"
+            href="https://www.instagram.com/elev8moments/" 
             target="_self"
             style={{
               position: 'absolute',

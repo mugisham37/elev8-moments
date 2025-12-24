@@ -137,7 +137,7 @@ const ListOfOfferings: React.FC = () => {
 
             {/* Element 3: Button Link */}
             <a
-              href="https://www.honeybook.com/widget/glam_haus_event_charcuterie_co_229113/cf_id/62f168cacd6a040d96949f20"
+               href="https://www.instagram.com/elev8moments/" 
               target="_blank"
               rel="noopener noreferrer"
               style={{

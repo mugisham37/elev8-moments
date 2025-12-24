@@ -71,7 +71,7 @@ export default function Florals() {
 
         {/* ORDER NOW link */}
         <a
-          href="https://www.honeybook.com/widget/glam_haus_event_charcuterie_co_229113/cf_id/6459d2917797993706826276"
+          href="https://www.instagram.com/elev8moments/" 
           target="_blank"
           rel="noopener noreferrer"
           style={{

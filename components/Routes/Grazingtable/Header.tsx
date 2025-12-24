@@ -268,7 +268,7 @@ export default function Header() {
 
             {/* Button Text/Link */}
             <a
-              href="mailto:hello@elev8moments.com"
+              href="https://www.instagram.com/elev8moments/" 
               target="_self"
               style={{
                 position: 'absolute',

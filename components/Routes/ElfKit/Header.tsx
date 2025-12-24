@@ -154,7 +154,7 @@ const Header = () => {
 
           {/* header_3_4: CTA button - Combined with proper flex layout */}
           <a 
-            href="mailto:hello@elev8moments.com"
+            href="https://www.instagram.com/elev8moments/" 
             target="_self"
             style={{
               position: getResponsiveValue('absolute', 'absolute', 'absolute'),

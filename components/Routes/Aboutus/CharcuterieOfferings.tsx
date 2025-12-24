@@ -134,13 +134,12 @@ const CharcuterieOfferings: React.FC = () => {
             </div>
           )}
 
-          {/* Traditional Boards Link */}
-          <Link 
-            href="/traditional-boards"
+          {/* Traditional Boards Text */}
+          <div 
             style={{
               position: 'absolute',
               left: getResponsiveValue('91px', '225.63px', '233.696px'),
-              top: getResponsiveValue('188px', '106px', '117px'),
+              top: getResponsiveValue('188px', '106px', '177px'),
               width: getResponsiveValue('202px', '117px', '258px'),
               height: getResponsiveValue('22px', '19px', '41px'),
               transform: 'scale(0.805)'
@@ -160,7 +159,7 @@ const CharcuterieOfferings: React.FC = () => {
             >
               TRADITIONAL&nbsp;<br />BOARDS + BOXES<br />
             </p>
-          </Link>
+          </div>
 
           {/* Divider Line 1 */}
           <div 

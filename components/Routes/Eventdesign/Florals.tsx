@@ -72,7 +72,7 @@ const Florals: React.FC = () => {
           >
             {/* Button Link */}
             <a
-              href="mailto:glamhausdesignco@gmail.com"
+              href="https://www.instagram.com/elev8moments/" 
               target="_self"
               style={{
                 transition: 'opacity 500ms',

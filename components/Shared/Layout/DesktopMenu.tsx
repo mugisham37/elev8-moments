@@ -47,22 +47,6 @@ const DesktopMenu = () => {
               </svg>
             </a>
             
-            <a 
-              href="https://www.instagram.com/elev8moments/" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors duration-300"
-              style={{ 
-                color: 'rgba(249, 242, 236, 1)' 
-              }}
-              onMouseEnter={(e) => e.currentTarget.style.color = 'rgba(207, 218, 199, 1)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(249, 242, 236, 1)'}
-            >
-              <svg className="w-5 h-5" viewBox="0 0 512 512" fill="currentColor">
-                <circle cx="255.25" cy="256.21" r="70.68"></circle>
-                <path d="M338,54.63H174c-62.72,0-114,51.31-114,114V343.33c0,62.73,51.32,114,114,114H338c62.72,0,114-51.31,114-114V168.67C452,105.94,400.68,54.63,338,54.63ZM255.77,364.07A107.95,107.95,0,1,1,363.71,256.13,107.95,107.95,0,0,1,255.77,364.07Zm109.67-192A25.56,25.56,0,1,1,391,146.5,25.56,25.56,0,0,1,365.44,172.06Z"></path>
-              </svg>
-            </a>
           </div>
 
           {/* Navigation Links - Center */}

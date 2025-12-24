@@ -229,7 +229,7 @@ const MainHeader = () => {
 
             {/* Order button - child of dark box */}
             <a
-              href="/experiences"
+              href="https://www.instagram.com/elev8moments/" 
               target="_self"
               style={{
                 width: getResponsiveValue('224px', '158px', '247px'),

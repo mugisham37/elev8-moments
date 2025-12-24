@@ -252,7 +252,7 @@ const EventDesignHeader: React.FC = () => {
           >
             {/* Contact Us link */}
             <a
-              href="mailto:glamhausdesignco@gmail.com"
+              href="https://www.instagram.com/elev8moments/" 
               target="_self"
               style={{
                 textDecoration: 'none',

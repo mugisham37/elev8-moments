@@ -108,7 +108,7 @@ const FruitBoards: React.FC = () => {
             position: 'absolute'
           }}>
             <a 
-              href="/experiences" 
+              href="/experience" 
               target="_self"
               style={{
                 position: 'absolute',

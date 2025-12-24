@@ -666,7 +666,7 @@ const CharcuterieOfferings: React.FC = () => {
 
           {/* Button Element 26 - BOOK EXPERIENCE Text */}
           <a 
-            href="mailto:hello@elev8moments.com"
+            href="https://www.instagram.com/elev8moments/" 
             target="_self"
             style={{
               position: 'absolute',
