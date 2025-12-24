@@ -162,7 +162,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 41.7013px)' }}
           >
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.1] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
-              EXPERIENCES<br />+ GIFTING<br />
+              EXPERIENCES
             </p>
           </Link>
 
@@ -197,7 +197,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             ></div>
           </Link>
 
-          {/* Grazing Tables Text - mobile-pop-up-menu_15 */}
+          {/* About Us Text - mobile-pop-up-menu_15 */}
           <Link
             href="/aboutus"
             data-sid="mobile-pop-up-menu_15"
@@ -249,7 +249,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             style={{ transform: 'scale(1.20312, 1.20312) translate(39.0844px, 73.1883px)' }}
           >
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
-              ELF KITS
+              GIFTING
             </p>
           </Link>
 
