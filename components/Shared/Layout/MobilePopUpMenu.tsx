@@ -2,6 +2,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 
 interface MobilePopUpMenuProps {
   isOpen?: boolean;
@@ -44,9 +45,8 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
           </div>
 
           {/* ELEV8 MOMENTS Logo Link - mobile-pop-up-menu_2 */}
-          <a
-            href="#/"
-            target="_self"
+          <Link
+            href="/"
             data-sid="mobile-pop-up-menu_2"
             className="absolute left-[45px] top-[2px] w-[231px] h-[73px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.0974px, 6.5px)' }}
@@ -54,7 +54,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-[37px] text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Noiretblanc' }}>
               ELEV8 MOMENTS
             </p>
-          </a>
+          </Link>
 
           {/* Decorative Line Right - mobile-pop-up-menu_3 */}
           <div
@@ -120,9 +120,8 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
           </div>
 
           {/* Elf Kits Image - mobile-pop-up-menu_8 */}
-          <a
-            href="/elf-kits"
-            target="_self"
+          <Link
+            href="/gifting"
             data-sid="mobile-pop-up-menu_8"
             className="absolute left-[180px] top-[286px] w-[102px] h-[140px] md:left-[475px] md:top-[60px] md:w-[250px] md:h-[280px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(39px, 60.1039px)' }}
@@ -131,7 +130,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
               className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-[length:100%] bg-[position:30%_0%]"
               style={{ backgroundImage: 'url("/images/28.jpg")' }}
             ></div>
-          </a>
+          </Link>
 
           {/* Background Box - mobile-pop-up-menu_9 */}
           <div
@@ -143,9 +142,8 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
           </div>
 
           {/* Charcuterie Boards Image - mobile-pop-up-menu_10 */}
-          <a
-            href="/mobile-boards-menu"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_10"
             className="absolute left-[37px] top-[89px] w-[102px] h-[140px] md:left-[475px] md:top-[60px] md:w-[250px] md:h-[280px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 26.8442px)' }}
@@ -154,12 +152,11 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
               className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-[length:120%] bg-[position:30%_50%]"
               style={{ backgroundImage: 'url("/images/29.jpg")' }}
             ></div>
-          </a>
+          </Link>
 
           {/* Charcuterie Boards Text - mobile-pop-up-menu_11 */}
-          <a
-            href="/mobile-boards-menu"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_11"
             className="absolute left-[26px] top-[232px] w-[124px] h-[30px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 41.7013px)' }}
@@ -167,7 +164,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.1] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               EXPERIENCES<br />+ GIFTING<br />
             </p>
-          </a>
+          </Link>
 
           {/* Border Box - mobile-pop-up-menu_12 */}
           <div
@@ -188,9 +185,8 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
           </div>
 
           {/* Grazing Tables Image - mobile-pop-up-menu_14 */}
-          <a
-            href="/grazing-tables"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_14"
             className="absolute left-[180px] top-[90px] w-[102px] h-[140px] md:left-[475px] md:top-[60px] md:w-[250px] md:h-[280px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(39px, 27.013px)' }}
@@ -199,12 +195,11 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
               className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-[length:140%] bg-[position:40%_90%]"
               style={{ backgroundImage: 'url("/images/30.jpg")' }}
             ></div>
-          </a>
+          </Link>
 
           {/* Grazing Tables Text - mobile-pop-up-menu_15 */}
-          <a
-            href="/grazing-tables"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_15"
             className="absolute left-[186px] top-[232px] w-[91px] h-[30px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(39.0844px, 41.7013px)' }}
@@ -212,7 +207,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.1] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               GRAZING<br />TABLES
             </p>
-          </a>
+          </Link>
 
           {/* Border Box - mobile-pop-up-menu_16 */}
           <div
@@ -224,20 +219,18 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
           </div>
 
           {/* Background Box - mobile-pop-up-menu_17 */}
-          <a
-            href="/event-design"
-            target="_self"
+          <Link
+            href="/eventdesign"
             data-sid="mobile-pop-up-menu_17"
             className="absolute left-[37px] top-[405px] w-[102px] h-[56px] md:left-[360px] md:top-[120px] md:w-[480px] md:h-[160px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 73.1039px)' }}
           >
             <div className="bg-[rgb(249,242,236)]"></div>
-          </a>
+          </Link>
 
           {/* Event Design Image - mobile-pop-up-menu_18 */}
-          <a
-            href="/event-design"
-            target="_self"
+          <Link
+            href="/eventdesign"
             data-sid="mobile-pop-up-menu_18"
             className="absolute left-[37px] top-[286px] w-[102px] h-[140px] md:left-[475px] md:top-[60px] md:w-[250px] md:h-[280px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 60.1039px)' }}
@@ -246,12 +239,11 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
               className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover bg-[position:60%_60%]"
               style={{ backgroundImage: 'url("/images/31.jpg")' }}
             ></div>
-          </a>
+          </Link>
 
           {/* Elf Kits Text - mobile-pop-up-menu_19 */}
-          <a
-            href="/elf-kits"
-            target="_self"
+          <Link
+            href="/gifting"
             data-sid="mobile-pop-up-menu_19"
             className="absolute left-[177px] top-[425px] w-[109px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(39.0844px, 73.1883px)' }}
@@ -259,12 +251,11 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               ELF KITS
             </p>
-          </a>
+          </Link>
 
           {/* Event Design Text - mobile-pop-up-menu_20 */}
-          <a
-            href="/event-design"
-            target="_self"
+          <Link
+            href="/eventdesign"
             data-sid="mobile-pop-up-menu_20"
             className="absolute left-[32px] top-[426px] w-[112px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(14.8571px, 73.3571px)' }}
@@ -272,34 +263,31 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               EVENT DESIGN
             </p>
-          </a>
+          </Link>
 
           {/* Request Order Button Border - mobile-pop-up-menu_21 */}
-          <a
-            href="/experiences"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_21"
             className="absolute left-[48px] top-[512px] w-[224px] h-[38px] md:left-[360px] md:top-[120px] md:w-[480px] md:h-[160px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.013px, 89.6494px)' }}
           >
             <div className="border border-[rgb(30,30,30)] border-solid bg-transparent"></div>
-          </a>
+          </Link>
 
           {/* About Us Button Border - mobile-pop-up-menu_22 */}
-          <a
-            href="/about-us"
-            target="_self"
+          <Link
+            href="/aboutus"
             data-sid="mobile-pop-up-menu_22"
             className="absolute left-[48px] top-[463px] w-[224px] h-[38px] md:left-[360px] md:top-[120px] md:w-[480px] md:h-[160px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.013px, 81.3766px)' }}
           >
             <div className="border border-[rgb(30,30,30)] border-solid bg-transparent"></div>
-          </a>
+          </Link>
 
           {/* Request Order Button Text - mobile-pop-up-menu_23 */}
-          <a
-            href="/experiences"
-            target="_self"
+          <Link
+            href="/experience"
             data-sid="mobile-pop-up-menu_23"
             className="absolute left-[53px] top-[520px] w-[215px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.0974px, 89.2273px)' }}
@@ -307,12 +295,11 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               REQUEST AN ORDER<br />
             </p>
-          </a>
+          </Link>
 
           {/* About Us Button Text - mobile-pop-up-menu_24 */}
-          <a
-            href="/about-us"
-            target="_self"
+          <Link
+            href="/aboutus"
             data-sid="mobile-pop-up-menu_24"
             className="absolute left-[59px] top-[472px] w-[204px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.1818px, 81.1234px)' }}
@@ -320,7 +307,7 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               ABOUT US
             </p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
