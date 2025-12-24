@@ -27,14 +27,14 @@ This implementation plan converts the navigation links optimization design into 
     - **Property 1: Valid route navigation**
     - **Validates: Requirements 1.1**
 
-- [ ] 3. Standardize DesktopMenu.tsx social media links
-  - [ ] 3.1 Replace Facebook link with Instagram
+- [x] 3. Standardize DesktopMenu.tsx social media links
+  - [x] 3.1 Replace Facebook link with Instagram
     - Update Facebook href to `https://www.instagram.com/elev8moments/`
     - Change Facebook icon to Instagram icon (reuse existing Instagram SVG)
     - Maintain all hover effects and styling
     - _Requirements: 4.1, 4.2, 8.1_
 
-  - [ ] 3.2 Verify all navigation links are correct
+  - [x] 3.2 Verify all navigation links are correct
     - Confirm all internal navigation uses existing routes
     - Ensure proper Link component usage
     - _Requirements: 1.1, 10.1_
