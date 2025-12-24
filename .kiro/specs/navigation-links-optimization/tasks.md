@@ -71,14 +71,14 @@ This implementation plan converts the navigation links optimization design into 
     - **Property 2: Consistent mobile-desktop navigation**
     - **Validates: Requirements 2.1, 2.2**
 
-- [ ] 6. Update Footer.tsx navigation links
-  - [ ] 6.1 Fix inconsistent route naming
+- [x] 6. Update Footer.tsx navigation links
+  - [x] 6.1 Fix inconsistent route naming
     - Change `href="/experiences"` to `href="/experience"`
     - Change `href="#/"` to `href="/"`
     - Maintain all responsive positioning and styling
     - _Requirements: 1.1, 8.1_
 
-  - [ ] 6.2 Verify email contact functionality
+  - [x] 6.2 Verify email contact functionality
     - Confirm `mailto:hello@elev8moments.com` links work correctly
     - Test email client opening behavior
     - _Requirements: 7.1, 7.2_

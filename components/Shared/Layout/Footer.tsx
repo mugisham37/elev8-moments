@@ -60,7 +60,7 @@ export default function Footer() {
         >
           {/* Button Background */}
           <a
-            href="/experiences"
+            href="/experience"
             target="_self"
             style={{
               position: 'absolute',
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Button Text */}
           <a
-            href="/experiences"
+            href="/experience"
             target="_self"
             style={{
               position: 'absolute',
@@ -279,7 +279,7 @@ export default function Footer() {
 
           {/* EXPERIENCES Link */}
           <a
-            href="/experiences"
+            href="/experience"
             target="_self"
             style={{
               position: 'absolute',
@@ -366,7 +366,7 @@ export default function Footer() {
 
           {/* home Link */}
           <a
-            href="#/"
+            href="/"
             target="_self"
             style={{
               position: 'absolute',
