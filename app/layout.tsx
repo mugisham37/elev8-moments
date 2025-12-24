@@ -100,14 +100,17 @@ export default function RootLayout({
         <Script
           src="https://lib.showit.co/widgets/sliding-gallery/2.0.4/gallery.js"
           strategy="afterInteractive"
+          onError={(e: Error) => console.warn('Showit gallery script not available:', e)}
         />
         <Script
           src="https://lib.showit.co/engine/2.2.6/showit-lib.min.js"
           strategy="afterInteractive"
+          onError={(e: Error) => console.warn('Showit lib script not available:', e)}
         />
         <Script
           src="https://lib.showit.co/engine/2.2.6/showit.min.js"
           strategy="afterInteractive"
+          onError={(e: Error) => console.warn('Showit main script not available:', e)}
         />
 
         {/* Showit Init Data - Loaded from public JSON file */}
@@ -124,9 +127,11 @@ export default function RootLayout({
                   script.type = 'application/json';
                   script.textContent = JSON.stringify(data);
                   document.head.appendChild(script);
-                  window.showitInitData = data;
+                  if (typeof window !== 'undefined') {
+                    window.showitInitData = data;
+                  }
                 })
-                .catch(e => console.error('Failed to load Showit init data:', e));
+                .catch(e => console.warn('Showit init data not available:', e));
             `
           }}
         />
@@ -135,6 +140,7 @@ export default function RootLayout({
         <Script
           src="/showit-config.js"
           strategy="afterInteractive"
+          onError={(e: Error) => console.warn('Showit config not available:', e)}
         />
 
       </body>
