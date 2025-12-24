@@ -199,13 +199,13 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
 
           {/* Grazing Tables Text - mobile-pop-up-menu_15 */}
           <Link
-            href="/experience"
+            href="/aboutus"
             data-sid="mobile-pop-up-menu_15"
             className="absolute left-[186px] top-[232px] w-[91px] h-[30px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(39.0844px, 41.7013px)' }}
           >
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.1] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
-              GRAZING<br />TABLES
+              ABOUT US
             </p>
           </Link>
 
@@ -275,37 +275,15 @@ const MobilePopUpMenu: React.FC<MobilePopUpMenuProps> = ({ isOpen = false, onClo
             <div className="border border-[rgb(30,30,30)] border-solid bg-transparent"></div>
           </Link>
 
-          {/* About Us Button Border - mobile-pop-up-menu_22 */}
-          <Link
-            href="/aboutus"
-            data-sid="mobile-pop-up-menu_22"
-            className="absolute left-[48px] top-[463px] w-[224px] h-[38px] md:left-[360px] md:top-[120px] md:w-[480px] md:h-[160px]"
-            style={{ transform: 'scale(1.20312, 1.20312) translate(27.013px, 81.3766px)' }}
-          >
-            <div className="border border-[rgb(30,30,30)] border-solid bg-transparent"></div>
-          </Link>
-
           {/* Request Order Button Text - mobile-pop-up-menu_23 */}
           <Link
-            href="/experience"
+            href="https://www.instagram.com/elev8moments/"
             data-sid="mobile-pop-up-menu_23"
             className="absolute left-[53px] top-[520px] w-[215px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
             style={{ transform: 'scale(1.20312, 1.20312) translate(27.0974px, 89.2273px)' }}
           >
             <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
               REQUEST AN ORDER<br />
-            </p>
-          </Link>
-
-          {/* About Us Button Text - mobile-pop-up-menu_24 */}
-          <Link
-            href="/aboutus"
-            data-sid="mobile-pop-up-menu_24"
-            className="absolute left-[59px] top-[472px] w-[204px] h-[17px] md:left-[543px] md:top-[190px] md:w-[113.39999999999999px] md:h-[21px]"
-            style={{ transform: 'scale(1.20312, 1.20312) translate(27.1818px, 81.1234px)' }}
-          >
-            <p className="text-center font-normal text-[rgb(30,30,30)] leading-[1.8] tracking-[0em] text-[12px] md:text-[16px] md:leading-[1.4]" style={{ fontFamily: 'Montserrat' }}>
-              ABOUT US
             </p>
           </Link>
         </div>
