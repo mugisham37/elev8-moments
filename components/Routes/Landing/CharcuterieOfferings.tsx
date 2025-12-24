@@ -135,7 +135,7 @@ const CharcuterieOfferings = () => {
           {(screenSize === 'tablet' || screenSize === 'desktop') && (
             <div>
               <a 
-                href="/experiences" 
+                href="/experience" 
                 target="_self" 
                 style={{
                   position: 'absolute',
@@ -164,7 +164,7 @@ const CharcuterieOfferings = () => {
           {screenSize === 'mobile' && (
             <div>
               <a 
-                href="/experiences" 
+                href="/experience" 
                 target="_self" 
                 style={{
                   position: 'absolute',
@@ -253,7 +253,7 @@ const CharcuterieOfferings = () => {
 
           {/* ===== ARROW LINK TO EXPERIENCES - ALL SCREEN SIZES ===== */}
           <a 
-            href="/experiences" 
+            href="/experience" 
             target="_self" 
             style={{
               position: 'absolute',
@@ -327,10 +327,10 @@ const CharcuterieOfferings = () => {
             </div>
           </a>
 
-          {/* ===== 'GRAZING TABLES' HEADING LINK - ALL SCREEN SIZES ===== */}
+          {/* ===== 'THOUGHTFUL GIFTING' HEADING LINK - ALL SCREEN SIZES ===== */}
           <div>
             <a 
-              href="/grazing-tables" 
+              href="/gifting" 
               target="_self" 
               style={{
                 position: 'absolute',

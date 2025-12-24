@@ -88,14 +88,14 @@ This implementation plan converts the navigation links optimization design into 
     - Test email links open email client
     - _Requirements: 1.1, 7.1_
 
-- [ ] 7. Fix landing page navigation (CharcuterieOfferings.tsx)
-  - [ ] 7.1 Update experiences link
+- [x] 7. Fix landing page navigation (CharcuterieOfferings.tsx)
+  - [x] 7.1 Update experiences link
     - Change `href="/experiences"` to `href="/experience"`
     - Maintain arrow icon functionality and styling
     - Preserve all responsive behavior
     - _Requirements: 1.1, 9.1, 8.1_
 
-  - [ ] 7.2 Verify gifting section links
+  - [x] 7.2 Verify gifting section links
     - Confirm `href="/gifting"` is correct
     - Maintain arrow icon functionality
     - _Requirements: 1.1, 9.2_
