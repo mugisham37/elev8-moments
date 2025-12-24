@@ -33,6 +33,7 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://elev8moments.com'),
   title: 'Curated Experiences + Thoughtful Gifting | Elev8 Moments | Kigali, Rwanda',
   description: "Kigali's premier experience curation and thoughtful gifting specialists. We create intentional experiences, soulful workshops, and meaningful gifts that transform ordinary moments into extraordinary memories. From creative workshops like Bloom & Bond to corporate retreats and Visit Rwanda experiences, our curated offerings bring connection and joy to every occasion in Rwanda.",
   openGraph: {
@@ -100,17 +101,14 @@ export default function RootLayout({
         <Script
           src="https://lib.showit.co/widgets/sliding-gallery/2.0.4/gallery.js"
           strategy="afterInteractive"
-          onError={(e: Error) => console.warn('Showit gallery script not available:', e)}
         />
         <Script
           src="https://lib.showit.co/engine/2.2.6/showit-lib.min.js"
           strategy="afterInteractive"
-          onError={(e: Error) => console.warn('Showit lib script not available:', e)}
         />
         <Script
           src="https://lib.showit.co/engine/2.2.6/showit.min.js"
           strategy="afterInteractive"
-          onError={(e: Error) => console.warn('Showit main script not available:', e)}
         />
 
         {/* Showit Init Data - Loaded from public JSON file */}
@@ -140,7 +138,6 @@ export default function RootLayout({
         <Script
           src="/showit-config.js"
           strategy="afterInteractive"
-          onError={(e: Error) => console.warn('Showit config not available:', e)}
         />
 
       </body>
