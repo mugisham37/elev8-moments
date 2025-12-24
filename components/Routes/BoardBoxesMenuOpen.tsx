@@ -84,7 +84,7 @@ const BoardBoxesMenuOpen = () => {
 
           {/* Element 1 - Men's Boards Link */}
           <a 
-            href="/mens-boards" 
+            href="/experience" 
             target="_self" 
             style={{ 
               position: 'absolute',
@@ -113,7 +113,7 @@ const BoardBoxesMenuOpen = () => {
 
           {/* Element 2 - Traditional Boards Link */}
           <a 
-            href="/traditional-boards" 
+            href="/experience" 
             target="_self" 
             style={{ 
               position: 'absolute',
@@ -141,7 +141,7 @@ const BoardBoxesMenuOpen = () => {
 
           {/* Element 3 - Custom Boards Link */}
           <a 
-            href="/custom-boards" 
+            href="/experience" 
             target="_self" 
             style={{ 
               position: 'absolute',
@@ -169,7 +169,7 @@ const BoardBoxesMenuOpen = () => {
 
           {/* Element 4 - Holiday Boards Link */}
           <a 
-            href="/holiday-boards" 
+            href="/experience" 
             target="_self" 
             style={{ 
               position: 'absolute',
