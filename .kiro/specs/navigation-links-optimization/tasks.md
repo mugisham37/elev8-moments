@@ -12,13 +12,13 @@ This implementation plan converts the navigation links optimization design into 
   - Create utility functions for route standardization
   - _Requirements: 1.1, 1.2, 10.1_
 
-- [ ] 2. Fix MainMenu.tsx navigation links
-  - [ ] 2.1 Update experiences link to use correct route
+- [x] 2. Fix MainMenu.tsx navigation links
+  - [x] 2.1 Update experiences link to use correct route
     - Change `href="/experiences"` to `href="/experience"`
     - Maintain all existing styling and responsive behavior
     - _Requirements: 1.1, 8.1_
 
-  - [ ] 2.2 Fix placeholder home link
+  - [x] 2.2 Fix placeholder home link
     - Change `href="#/"` to `href="/"`
     - Preserve Link component usage and styling
     - _Requirements: 1.1, 8.1_

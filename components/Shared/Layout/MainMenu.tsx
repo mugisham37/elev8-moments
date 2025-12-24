@@ -216,7 +216,7 @@ const MainMenu: React.FC = () => {
           {/* Element 5: Link - "view our experiences" - Tablet and Desktop */}
           {(isTablet || isDesktop) && (
             <Link 
-              href="/experiences" 
+              href="/experience" 
               target="_self"
               style={{
                 position: 'absolute',
@@ -342,7 +342,7 @@ const MainMenu: React.FC = () => {
           {/* Element 9: Link - "ELEV8 MOMENTS" - Tablet and Desktop */}
           {(isTablet || isDesktop) && (
             <Link 
-              href="#/" 
+              href="/" 
               target="_self"
               style={{
                 position: 'absolute',
@@ -371,7 +371,7 @@ const MainMenu: React.FC = () => {
           {/* Element 10: Link - "ELEV8 MOMENTS" - Mobile Only */}
           {isMobile && (
             <Link 
-              href="#/" 
+              href="/" 
               target="_self"
               style={{ 
                 position: 'absolute',
